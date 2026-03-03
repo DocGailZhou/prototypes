@@ -110,8 +110,31 @@ class InventoryDataGenerator:
                             
         if sales_data:
             combined_sales = pd.concat(sales_data, ignore_index=True)
-            print(f"📈 Total sales line items: {len(combined_sales)}")
-            return combined_sales
+            
+            # Filter sales data to match inventory date range
+            if 'OrderDate' in combined_sales.columns:
+                combined_sales['OrderDate'] = pd.to_datetime(combined_sales['OrderDate'])
+                
+                # Convert date boundaries to pandas timestamps for comparison
+                start_ts = pd.Timestamp(self.start_date)
+                end_ts = pd.Timestamp(self.end_date)
+                
+                # Only include sales within the inventory analysis period
+                date_filtered = combined_sales[
+                    (combined_sales['OrderDate'] >= start_ts) & 
+                    (combined_sales['OrderDate'] <= end_ts)
+                ]
+                
+                if len(date_filtered) > 0:
+                    print(f"📈 Total sales line items: {len(combined_sales)}")
+                    print(f"📊 Sales within analysis period ({self.start_date} to {self.end_date}): {len(date_filtered)}")
+                    return date_filtered
+                else:
+                    print(f"⚠️  No sales data within analysis period ({self.start_date} to {self.end_date})")
+                    return combined_sales  # Fallback to all data if filtering results in empty set
+            else:
+                print(f"📈 Total sales line items: {len(combined_sales)} (no date filtering - OrderDate column missing)")
+                return combined_sales
         else:
             print("⚠️  No sales data found - will use default patterns")
             return pd.DataFrame()
@@ -628,6 +651,147 @@ class InventoryDataGenerator:
         
         return df_transactions
         
+    def generate_demand_forecast_table(self):
+        """Generate demand forecasts based on sales velocity and seasonal patterns."""
+        
+        print("📈 Generating demand forecasts...")
+        
+        # Get sales velocity analysis
+        velocity_data = self._analyze_sales_velocity()
+        
+        forecast_data = []
+        forecast_id = 1
+        
+        # Get product list
+        all_products = []
+        
+        # Check if products_data is a DataFrame or empty
+        if isinstance(self.products_data, pd.DataFrame) and not self.products_data.empty:
+            for _, product in self.products_data.iterrows():
+                all_products.append({
+                    'ProductID': product.get('ProductID', product.get('Id', forecast_id * 100)),
+                    'ProductName': product.get('ProductName', product.get('Name', f'Product {forecast_id}')),
+                    'ProductCategory': product.get('Category', product.get('ProductCategory', 'General'))
+                })
+                
+        if not all_products:
+            print("⚠️  No product data available for forecasting")
+            return pd.DataFrame()
+        
+        # Generate forecasts for each product
+        for product in all_products:
+            product_id = product['ProductID']
+            
+            # Get historical data or use defaults
+            if product_id in velocity_data:
+                baseline_demand = int(velocity_data[product_id]['monthly_sales'])
+                confidence = random.uniform(75, 95)  # Higher confidence for products with sales history
+            else:
+                baseline_demand = random.randint(5, 50)  # Default for new products
+                confidence = random.uniform(60, 80)   # Lower confidence for new products
+            
+            # Seasonal patterns by category
+            seasonal_multipliers = {
+                'Camping': [0.7, 0.8, 1.2, 1.4, 1.5, 1.3, 1.2, 1.1, 1.0, 0.9, 0.8, 0.7],  # Peak spring/summer
+                'Kitchen': [1.0, 0.9, 1.0, 1.1, 1.0, 0.9, 0.8, 0.9, 1.0, 1.2, 1.4, 1.6],  # Peak holidays
+                'Ski': [1.6, 1.5, 1.3, 0.8, 0.6, 0.5, 0.4, 0.5, 0.7, 1.0, 1.2, 1.4],     # Peak winter
+                'General': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  # Flat demand
+            }
+            
+            category = product['ProductCategory']
+            if category not in seasonal_multipliers:
+                category = 'General'
+                
+            # Generate 3 months of FUTURE forecasts (beyond historical data)
+            # Use historical period (start_date to end_date) for analysis
+            # Generate forecasts starting AFTER the historical period
+            forecast_start_date = self.end_date + timedelta(days=1)  # Day after historical data ends
+            
+            for month_offset in range(3):  # Only 3 months forward
+                forecast_date = forecast_start_date + timedelta(days=30 * month_offset)
+                
+                # Get seasonal multiplier for this month
+                month_index = (forecast_date.month - 1) % 12
+                seasonal_mult = seasonal_multipliers[category][month_index]
+                
+                # Add trend and randomness
+                trend_factor = random.uniform(0.95, 1.05)  # Small trend variation
+                predicted_demand = max(1, int(baseline_demand * seasonal_mult * trend_factor))
+                
+                # Determine trend direction
+                if seasonal_mult > 1.1:
+                    trend_dir = "Growing"
+                elif seasonal_mult < 0.9:
+                    trend_dir = "Declining"
+                else:
+                    trend_dir = "Stable"
+                
+                # Monthly forecast
+                forecast_record = {
+                    'ForecastID': forecast_id,
+                    'ProductID': product_id,
+                    'ProductName': product['ProductName'],
+                    'ProductCategory': product['ProductCategory'],
+                    'ForecastDate': forecast_date,
+                    'ForecastPeriod': 'Monthly',
+                    'PredictedDemand': predicted_demand,
+                    'ConfidenceLevel': round(confidence, 2),
+                    'SeasonalMultiplier': round(seasonal_mult, 2),
+                    'TrendDirection': trend_dir,
+                    'BaselineDemand': baseline_demand,
+                    'MethodUsed': 'Sales Velocity + Seasonal',
+                    'ForecastHorizon': 30,
+                    'ActualDemand': None,  # Will be filled as time progresses
+                    'AccuracyScore': None,  # Will be calculated later
+                    'CreatedBy': 'system',
+                    'CreatedDate': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                }
+                
+                forecast_data.append(forecast_record)
+                forecast_id += 1
+                
+                # Add weekly forecasts for next 4 weeks (more granular short-term)
+                if month_offset < 1:  # Only for first month of forecast period
+                    for week in range(4):  # 4 weeks per month
+                        week_date = forecast_date + timedelta(days=7 * week)
+                        weekly_demand = max(1, int(predicted_demand / 4.3))  # Approximate weekly from monthly
+                        
+                        weekly_record = {
+                            'ForecastID': forecast_id,
+                            'ProductID': product_id,
+                            'ProductName': product['ProductName'],
+                            'ProductCategory': product['ProductCategory'],
+                            'ForecastDate': week_date,
+                            'ForecastPeriod': 'Weekly',
+                            'PredictedDemand': weekly_demand,
+                            'ConfidenceLevel': round(confidence + random.uniform(-5, 5), 2),
+                            'SeasonalMultiplier': round(seasonal_mult, 2),
+                            'TrendDirection': trend_dir,
+                            'BaselineDemand': baseline_demand,
+                            'MethodUsed': 'Sales Velocity + Seasonal',
+                            'ForecastHorizon': 7,
+                            'ActualDemand': None,
+                            'AccuracyScore': None,
+                            'CreatedBy': 'system',
+                            'CreatedDate': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                        }
+                        
+                        forecast_data.append(weekly_record)
+                        forecast_id += 1
+        
+        # Create DataFrame and save
+        df_forecast = pd.DataFrame(forecast_data)
+        
+        # Save to CSV
+        output_file = self.inventory_output / "DemandForecast.csv"
+        df_forecast.to_csv(output_file, index=False)
+        
+        print(f"✅ Generated {len(df_forecast)} demand forecasts ({len(all_products)} products × 3-7 periods)")
+        print(f"💾 Saved to: {output_file}")
+        print(f"🔮 Forecast Period: {forecast_start_date.strftime('%Y-%m-%d')} → {(forecast_start_date + timedelta(days=90)).strftime('%Y-%m-%d')} (3 months ahead)")
+        
+        return df_forecast
+        
     def generate_all_inventory_data(self, num_orders=25, num_transactions=150):
         """Generate all inventory-related data tables."""
         
@@ -639,12 +803,14 @@ class InventoryDataGenerator:
         df_purchase_orders = self.generate_purchase_orders_table(df_inventory, num_orders)
         df_po_items = self.generate_purchase_order_items_table(df_purchase_orders)
         df_transactions = self.generate_inventory_transactions_table(df_inventory, df_po_items, num_transactions)
+        df_forecasts = self.generate_demand_forecast_table()
         
         print("\n📊 Generation Summary:")
         print(f"   Inventory: {len(df_inventory)} records")
         print(f"   PurchaseOrders: {len(df_purchase_orders)} records")
         print(f"   PurchaseOrderItems: {len(df_po_items)} records")
         print(f"   InventoryTransactions: {len(df_transactions)} records")
+        print(f"   DemandForecast: {len(df_forecasts)} records")
         
         print(f"\n💾 All files saved to: {self.inventory_output}")
         
@@ -652,7 +818,8 @@ class InventoryDataGenerator:
             'inventory': df_inventory,
             'purchase_orders': df_purchase_orders,
             'purchase_order_items': df_po_items,
-            'inventory_transactions': df_transactions
+            'inventory_transactions': df_transactions,
+            'demand_forecasts': df_forecasts
         }
 
 

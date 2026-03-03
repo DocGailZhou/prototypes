@@ -11,7 +11,7 @@ Generates realistic sales and finance data for three product categories:
 Each generates: Orders, OrderLines, OrderPayments, Invoices, Payments, Accounts
 
 Usage:
-  python main_generate_sales.py                                    # Default: 6 years of data, all domains
+  python main_generate_sales.py                                    # Default: 1 year of data, all domains
   python main_generate_sales.py -s 2025-01-01 -e 2025-12-31      # Custom date range, all domains
   python main_generate_sales.py --start-date 2024-01-01 --camping-only  # Camping domain only
   python main_generate_sales.py --help                            # Show all options
@@ -87,7 +87,7 @@ Business Growth Features (--enable-growth):
     parser.add_argument(
         '-s', '--start-date',
         type=str,
-        help='Start date (YYYY-MM-DD). Default: 6 years ago from today'
+        help='Start date (YYYY-MM-DD). Default: 1 year ago from today'
     )
     
     parser.add_argument(
@@ -528,10 +528,12 @@ def main():
     
     args = parse_arguments()
     
-    # Set date range with defaults (6 years of data ending today)
+    # Set date range with defaults (1 year of data ending today if not specified)
+    # Use today's date as default end date when user doesn't specify one
+    # Use specified end date when user provides -e option
     today = datetime.now()
-    DEFAULT_START_DATE = datetime(today.year - 6, today.month, today.day)  # 6 years ago from today
-    DEFAULT_END_DATE = today  # Today
+    DEFAULT_START_DATE = datetime(today.year - 1, today.month, today.day)  # 1 year ago from today (consistent with supply chain)
+    DEFAULT_END_DATE = today  # Today's date when no end date specified
     
     if args.start_date:
         start_date = parse_date(args.start_date)

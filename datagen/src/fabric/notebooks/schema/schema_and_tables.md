@@ -6,7 +6,7 @@ This document provides a comprehensive overview of all database schemas and tabl
 
 - **Total Notebooks**: 6
 - **Total Schemas**: 5
-- **Total Tables**: 20
+- **Total Tables**: 21
 
 ---
 
@@ -31,6 +31,7 @@ This document provides a comprehensive overview of all database schemas and tabl
 | model_inventory.ipynb | supplychain | InventoryTransactions | Inventory movement audit trail |
 | model_inventory.ipynb | supplychain | PurchaseOrders | Purchase order headers |
 | model_inventory.ipynb | supplychain | PurchaseOrderItems | Purchase order line items |
+| model_inventory.ipynb | supplychain | DemandForecast | Predictive analytics and demand forecasting |
 | model_suppliers.ipynb | supplychain | Suppliers | Supplier master data |
 | model_suppliers.ipynb | supplychain | ProductSuppliers | Product-supplier relationship mapping |
 | model_suppliers.ipynb | supplychain | SupplyChainEvents | Disruption events and impacts |
@@ -45,7 +46,7 @@ This document provides a comprehensive overview of all database schemas and tabl
 | product | 2 | model_product.ipynb |
 | sales | 3 | model_sales.ipynb |
 | finance | 3 | model_finance.ipynb |
-| supplychain | 7 | model_inventory.ipynb, model_suppliers.ipynb |
+| supplychain | 8 | model_inventory.ipynb, model_suppliers.ipynb |
 
 ---
 
@@ -62,6 +63,7 @@ This document provides a comprehensive overview of all database schemas and tabl
 - **Procurement**: 2 tables for purchase orders and line items
 - **Supplier Management**: 2 tables for suppliers and product relationships  
 - **Risk Management**: 1 table for disruptions and impacts
+- **Demand Planning**: 1 table for predictive analytics and forecasting
 
 ---
 

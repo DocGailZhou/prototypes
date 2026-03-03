@@ -15,7 +15,7 @@ import argparse
 import sys
 import shutil
 import os
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from pathlib import Path
 import pandas as pd
 try:
@@ -56,7 +56,8 @@ def generate_summary_report(results, args, start_time, end_time):
             'inventory': len(inventory_results['inventory']),
             'purchase_orders': len(inventory_results['purchase_orders']),
             'purchase_order_items': len(inventory_results['purchase_order_items']),
-            'inventory_transactions': len(inventory_results['inventory_transactions'])
+            'inventory_transactions': len(inventory_results['inventory_transactions']),
+            'demand_forecasts': len(inventory_results.get('demand_forecasts', []))
         }
         total_records += sum(inventory_totals.values())
     
@@ -117,6 +118,7 @@ def generate_summary_report(results, args, start_time, end_time):
 - **Purchase Orders**: {inventory_totals.get('purchase_orders', 0)} procurement orders  
 - **PO Line Items**: {inventory_totals.get('purchase_order_items', 0)} order details
 - **Inventory Transactions**: {inventory_totals.get('inventory_transactions', 0)} movement records
+- **Demand Forecasts**: {inventory_totals.get('demand_forecasts', 0)} predictive analytics records
 - **Supply Chain Events**: {supplier_totals.get('supply_chain_events', 0)} disruption scenarios
 
 ### **Supplier Network**
@@ -203,6 +205,7 @@ def generate_summary_report(results, args, start_time, end_time):
 - `InventoryTransactions.csv` - {inventory_totals.get('inventory_transactions', 0)} complete movement audit trail
 - `PurchaseOrders.csv` - {inventory_totals.get('purchase_orders', 0)} procurement orders with supplier details  
 - `PurchaseOrderItems.csv` - {inventory_totals.get('purchase_order_items', 0)} line items with specifications
+- `DemandForecast.csv` - {inventory_totals.get('demand_forecasts', 0)} predictive analytics with seasonal patterns
 
 ## 🚀 Next Steps
 
@@ -307,48 +310,89 @@ def generate_graph(results, args):
         fig.suptitle(f'📊 Supply Chain Business Dashboard\n{args.start_date} to {args.end_date}', 
                      fontsize=18, fontweight='bold', y=0.96)
         
-        # Graph 1: Monthly Inventory Flow Trends (Much More Intuitive)
+        # Graph 1: Demand Forecast vs Recent Sales Reality
+        demand_forecast_file = inventory_path / "DemandForecast.csv"
         inventory_transactions_file = inventory_path / "InventoryTransactions.csv"
-        if inventory_transactions_file.exists():
+        
+        if demand_forecast_file.exists() and inventory_transactions_file.exists():
+            # Load historical sales data (outflow = sales)
             df_transactions = pd.read_csv(inventory_transactions_file)
             df_transactions['TransactionDate'] = pd.to_datetime(df_transactions['TransactionDate'])
+            df_sales = df_transactions[df_transactions['Quantity'] < 0].copy()
+            df_sales['SalesQuantity'] = df_sales['Quantity'].abs()
+            df_sales['Month'] = df_sales['TransactionDate'].dt.to_period('M')
             
-            # Create monthly flow analysis (inflow vs outflow)
-            df_transactions['Month'] = df_transactions['TransactionDate'].dt.to_period('M')
-            df_transactions['Flow'] = df_transactions['Quantity']  # Positive = inflow, Negative = outflow
+            # Load demand forecast data
+            df_forecast = pd.read_csv(demand_forecast_file)
+            df_forecast['ForecastDate'] = pd.to_datetime(df_forecast['ForecastDate'])
+            df_forecast['Month'] = df_forecast['ForecastDate'].dt.to_period('M')
             
-            # Separate inflow and outflow for clear visualization
-            inflow_data = df_transactions[df_transactions['Flow'] > 0].groupby('Month')['Flow'].sum().reindex(
-                pd.period_range(df_transactions['Month'].min(), df_transactions['Month'].max(), freq='M'), fill_value=0
-            )
-            outflow_data = df_transactions[df_transactions['Flow'] < 0].groupby('Month')['Flow'].sum().abs().reindex(
-                pd.period_range(df_transactions['Month'].min(), df_transactions['Month'].max(), freq='M'), fill_value=0
-            )
+            # Get the transition point (use specified end_date, not data max)
+            end_date_obj = datetime.strptime(args.end_date, '%Y-%m-%d')
+            last_historical_month = pd.Timestamp(end_date_obj).to_period('M')
             
-            months = [str(x) for x in inflow_data.index]
+            # Get 3 months of historical sales leading up to transition
+            all_historical_months = df_sales['Month'].unique()
+            all_historical_months = sorted([m for m in all_historical_months])
+            recent_months = all_historical_months[-3:] if len(all_historical_months) >= 3 else all_historical_months
             
-            # Create stacked area chart for better visual impact
-            ax1.fill_between(range(len(months)), 0, inflow_data.values, 
-                           color='#2E8B57', alpha=0.8, label='📈 Stock Received', linewidth=2)
-            ax1.fill_between(range(len(months)), 0, -outflow_data.values, 
-                           color='#DC143C', alpha=0.8, label='📉 Stock Shipped', linewidth=2)
+            # Get monthly sales data for recent months
+            historical_sales = df_sales.groupby('Month')['SalesQuantity'].sum()
+            historical_data = [historical_sales.get(m, 0) for m in recent_months]
             
-            # Add net flow line for business insight
-            net_flow = inflow_data.values - outflow_data.values
-            ax1.plot(range(len(months)), net_flow, color='#FFD700', linewidth=3, 
-                    marker='o', markersize=6, label='💰 Net Inventory Change')
+            # Get monthly forecasts (aggregate weekly to monthly for comparison)
+            monthly_forecasts = df_forecast.groupby('Month')['PredictedDemand'].sum()
+            forecast_months = sorted(monthly_forecasts.index)
+            forecast_data = [monthly_forecasts.get(m, 0) for m in forecast_months[:3]]  # Next 3 months
             
-            ax1.axhline(y=0, color='black', linestyle='-', alpha=0.3, linewidth=1)
-            ax1.set_title('📦 Monthly Inventory Flow Analysis', fontsize=14, fontweight='bold', pad=20)
+            # Create continuous timeline without gaps
+            all_months = recent_months + forecast_months[:3]
+            month_labels = [str(m) for m in all_months]
+            x_positions = range(len(all_months))
+            
+            # Combine all data into single continuous arrays for seamless visualization
+            all_data = historical_data + forecast_data
+            all_colors = ['#2E8B57'] * len(historical_data) + ['#4169E1'] * len(forecast_data)
+            
+            # Create single continuous area chart
+            if all_data:
+                # Plot all data as one continuous area
+                ax1.fill_between(x_positions, 0, all_data, 
+                               color='#2E8B57', alpha=0.8, 
+                               label='📊 Business Timeline')
+                
+                # Overlay forecast area with different color
+                if len(forecast_data) > 0:
+                    forecast_start_idx = len(historical_data)
+                    forecast_positions = list(range(forecast_start_idx, len(all_data)))
+                    ax1.fill_between(forecast_positions, 0, forecast_data, 
+                                   color='#4169E1', alpha=0.6, 
+                                   label='🔮 Demand Forecast')
+                    
+                    # Add transition marker at the boundary  
+                    transition_point = len(historical_data) - 0.5
+                    ax1.axvline(x=transition_point, color='red', linestyle=':', alpha=0.7, linewidth=2)
+                    max_value = max(all_data)
+                    ax1.text(transition_point, max_value * 0.9, 
+                            'Today →', ha='center', va='bottom', fontweight='bold', 
+                            bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8))
+                    
+                # Add labels for historical section
+                ax1.text(len(historical_data)/2 - 0.5, max(all_data) * 0.7, 
+                        'Actual Sales\n(Historical)', ha='center', va='center', 
+                        fontweight='bold', color='white',
+                        bbox=dict(boxstyle='round,pad=0.5', facecolor='#2E8B57', alpha=0.8))
+            
+            ax1.set_title('🔮 Demand Forecast vs Recent Sales Reality', fontsize=14, fontweight='bold', pad=20)
             ax1.set_ylabel('Units (Thousands)', fontsize=12)
             ax1.set_xlabel('Month', fontsize=12)
             
-            # Format y-axis to show thousands
+            # Format y-axis to show thousands  
             ax1.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'{x/1000:.0f}K'))
             
-            # Better x-axis labels
-            ax1.set_xticks(range(0, len(months), max(1, len(months)//6)))
-            ax1.set_xticklabels([months[i] for i in range(0, len(months), max(1, len(months)//6))], rotation=45)
+            # Set x-axis labels for continuous timeline
+            ax1.set_xticks(x_positions)
+            ax1.set_xticklabels(month_labels, rotation=45)
             
             ax1.legend(loc='upper left', fontsize=11)
             ax1.grid(True, alpha=0.2)
@@ -682,8 +726,8 @@ Examples:
     parser.add_argument(
         '-s', '--start-date',
         type=str,
-        default='2025-01-01',
-        help='Start date for analysis (YYYY-MM-DD, default: 2025-01-01)'
+        default=(date.today() - timedelta(days=365)).strftime('%Y-%m-%d'),  # 1 year ago from today
+        help='Start date for analysis (YYYY-MM-DD, default: 1 year ago from today)'
     )
     
     parser.add_argument(

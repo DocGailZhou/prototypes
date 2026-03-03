@@ -19,40 +19,22 @@ Each domain produces **6 CSV files**: Orders, OrderLines, OrderPayments (Sales) 
 # Install dependencies
 pip install -r requirements.txt
 
-# Practical example
-python main_generate_sales.py -s 2025-01-01 -e 2026-03-02 --enable-growth --copydata --graph
+# Recommended: Full featured example
+python main_generate_sales.py -s 2025-01-01 -e 2026-03-31 --enable-growth --copydata --graph
 
-# Default: Generate 6 years of data up to execution date (recommended)
+# Default: Generate 1 year of data (today back 1 year)
 python main_generate_sales.py
 
-# Generate a growth story
-python main_generate_sales.py  --enable-growth 
-
-# Generate data for specific date range
-python main_generate_sales.py -s 2025-01-01 -e 2026-01-19
-
-# Generate all data for a single year
-python main_generate_sales.py -s 2025-01-01 -e 2025-12-31
-
-# Generate only camping data for specific period
-python main_generate_sales.py -s 2024-06-01 -e 2024-12-31 --camping-only
-
-# Generate data with business growth simulation
-python main_generate_sales.py --enable-growth
-
-# Generate data with infrastructure copy
-python main_generate_sales.py --copydata
-
-
-# Generate revenue trend graph
-python main_generate_sales.py --graph
-
-# Combine growth patterns with graphing
-python main_generate_sales.py --enable-growth --graph
+# Single domain only
+python main_generate_sales.py --camping-only
 ```
 
-**Default**: When no dates are specified, automatically generates 6 years of data (from 6 years ago to today's execution date).  
+**Default**: When no dates are specified, automatically generates 1 year of data (from 1 year ago to today's execution date).  
 **Note**: Use `--copydata` flag to copy generated data to `../../infra/data/` for infrastructure deployment.
+
+
+
+
 
 ## 📋 Command Options
 
@@ -198,94 +180,6 @@ The system uses a **two-level hierarchy** matching the database schema:
 
 **Ski generator**: Standard patterns (growth enhancement baseline for comparison)
 
-## �🛠️ Examples
-
-### **Production-Scale Testing**
-```bash
-# Recommended: Comprehensive 6-year dataset (auto-calculates dates to today)
-python main_generate_sales.py
-
-# Full year for analytics (example)
-python main_generate_sales.py -s 2025-01-01 -e 2025-12-31
-```
-
-### **Domain-Specific Testing**
-```bash
-# Test camping seasonality (spring season)
-python main_generate_sales.py -s 2025-03-01 -e 2025-05-31 --camping-only
-
-# Kitchen holiday patterns  
-python main_generate_sales.py -s 2024-11-01 -e 2024-12-31 --kitchen-only
-
-# Ski peak season
-python main_generate_sales.py -s 2024-12-01 -e 2025-02-28 --ski-only
-```
-
-### **Business Growth Testing**
-```bash
-# Test complete growth cycle with analytics
-python main_generate_sales.py -s 2025-01-01 -e 2025-12-31 --enable-growth
-
-# Growth patterns for camping only
-python main_generate_sales.py -s 2025-01-01 -e 2025-12-31 --enable-growth --camping-only
-
-# Test market events (Black Friday impact)
-python main_generate_sales.py -s 2025-11-20 -e 2025-12-05 --enable-growth
-
-# Compare growth vs standard patterns
-python main_generate_sales.py -s 2025-01-01 -e 2025-06-30  # Standard
-python main_generate_sales.py -s 2025-01-01 -e 2025-06-30 --enable-growth  # Growth
-```
-
-### **Revenue Trend Graphing**
-```bash
-# Generate and view revenue trends for all domains
-python main_generate_sales.py --graph
-
-# Graph specific domain with growth patterns
-python main_generate_sales.py --enable-growth --graph --camping-only
-
-# Generate comprehensive growth analysis with visualization
-python main_generate_sales.py -s 2025-01-01 -e 2025-12-31 --enable-growth --graph
-```
-
-## 📊 Understanding the Output
-
-### **Sales Files (per domain)**
-- **Order_Samples_[Domain].csv**: Main orders with totals, customer, status
-- **OrderLine_Samples_[Domain].csv**: Product line items with quantities  
-- **OrderPayment_[Domain].csv**: Payment methods and amounts
-
-### **Finance Files (per domain)**  
-- **Invoice_Samples_[Domain].csv**: Invoices (generated day after order)
-- **Payment_Samples_[Domain].csv**: Payments (immediate - eCommerce model)
-- **Account_Samples_[Domain].csv**: Customer accounts (zero balance)
-
-### **Key Relationships**
-```
-Customer → Order → OrderLine → Products
-           ↓
-        Invoice → Payment
-           ↓
-        Account (Receivables)
-```
-
-## 🔧 Domain Utilities
-
-### **ProductCategory Generation**
-```bash
-# Extract categories from products and create platform-specific files
-python utils/create_category_from_product.py
-```
-**Output**: ProductCategory_Samples_Camping.csv, ProductCategory_Samples_Kitchen.csv, ProductCategory_Samples_Ski.csv
-
-### **File Consolidation**
-```bash
-# Combine all Product and ProductCategory files
-python utils/consolidate_product_domain_input.py
-```
-**Output**: Product_Samples_Combined.csv, ProductCategory_Samples_Combined.csv
-
 ## 🎯 Key Features
 
 ### **Revenue Trend Visualization**
@@ -323,61 +217,3 @@ infra/data/
 ├── shared/           # All input files (backward compatibility)
 └── sample_sales_data_summary.md  # Generation statistics & analytics
 ```
-
-### **100% Schema Compliance**
-- All CSV files match Microsoft Fabric Delta Lake schemas exactly
-- CreatedBy field populated with "SampleGen"
-- No deprecated fields (PaymentNumber removed)
-- Proper foreign key relationships maintained
-
-### **Platform Independence**  
-- Directory structure: `sample_[domain]` (not platform-specific)
-- File naming: `*_Samples_[Domain].csv` (consistent across all domains)
-- Business logic separated from deployment platform
-
-### **Hierarchical Customer System**
-- **CustomerTypeId**: Individual | Business | Government
-- **CustomerRelationshipTypeId**: Specific tier within type
-- Extensible design for new customer types
-
-## ⚠️ Important Notes
-
-### **Data Consistency**
-- **Same 513 customers** across all domains
-- **Unique order numbering**: F100000+ (Camping), D200000+ (Kitchen), S300000+ (Ski)
-- **Realistic FK relationships** between all tables
-
-### **Performance**
-- **Small datasets** (1 week): ~30 seconds + file copying
-- **Large datasets** (1+ years): ~2-5 minutes + file copying
-- **Generated volume**: Realistic business data with proper relationships
-
-## 📈 Use Cases
-
-### **Business Intelligence**
-- Multi-domain revenue analysis and trends
-- Customer segmentation across product categories
-- Seasonal pattern analysis and forecasting
-
-### **Data Engineering**
-- Microsoft Fabric lakehouse testing
-- ETL pipeline development and validation
-- Delta Lake schema compliance testing
-
-### **Analytics & Machine Learning**
-- Customer lifetime value modeling
-- Demand forecasting across seasons
-- Cross-domain purchase behavior analysis
-
-## 🎯 Best Practices
-
-1. **Start with consolidated files**: Use `utils/` to generate and consolidate input files first
-2. **Test incrementally**: Start with short date ranges before large datasets
-3. **Use domain filters**: Generate single domains for focused testing
-4. **Infrastructure ready**: Use `--copydata` to organize generated data in `infra/data/` for deployment
-5. **Verify schema compliance**: All outputs are Microsoft Fabric ready
-6. **Plan for scale**: Large date ranges generate substantial data volumes
-
----
-
-**Enterprise Ready**: This system generates schema-compliant data with automated infrastructure deployment, suitable for Microsoft Fabric, Azure Databricks, and Snowflake environments. All data maintains referential integrity and realistic business patterns.

@@ -8,9 +8,10 @@ Generates comprehensive supply chain data with sales integration and professiona
 
 - **📦 Supplier Management** → 5 suppliers with procurement events  
 - **📊 Inventory Intelligence** → Sales-driven inventory levels and purchase orders
-- **📈 Analytics Dashboard** → Professional 4-chart PNG visualization
+- **� Demand Forecasting** → 3-month forward-looking demand predictions with confidence scoring
+- **📈 Analytics Dashboard** → Professional 4-chart PNG with forecast vs reality visualization
 
-**Output**: 8 CSV files + analytics dashboard (supply_chain_data.png) + summary report
+**Output**: 9 CSV files + analytics dashboard (supply_chain_data.png) + summary report
 
 **Optional**: Use `--copydata` to copy all generated data to `../../infra/data/` for infrastructure deployment.
 
@@ -23,25 +24,17 @@ Generates comprehensive supply chain data with sales integration and professiona
 ## 🚀 Quick Start
 
 ```bash
-# Custom timeline - with custom start date and end date (recommended)
-python main_generate_supplychain.py --graph -s 2025-12-01 -e 2026-03-02 --num-orders 50 --num-transactions 800
+# Recommended: Complete with analytics dashboard
+python main_generate_supplychain.py --graph --copydata -s 2025-12-01 -e 2026-03-31 --num-orders 50 --num-transactions 800
 
-# Complete supply chain data with a default start date 2025-01-01, and today's date as ending date
+# Default: Generate 1 year of data (today back 1 year)  
 python main_generate_supplychain.py --graph
-
-# Production scale
-python main_generate_supplychain.py --graph --num-orders 50 --num-transactions 800
-
-# Production scale with data copy to infra
-python main_generate_supplychain.py --graph --copydata --num-orders 50 --num-transactions 800
-
-# Basic generation with infrastructure copy
-python main_generate_supplychain.py --copydata
 
 # Development testing
 python main_generate_supplychain.py --graph --num-orders 10 --num-transactions 50
 ```
 
+**Default**: When no dates are specified, automatically generates 1 year of data (from 1 year ago to today's execution date).  
 **Note**: Use `--copydata` flag to copy generated data to `../../infra/data/` for infrastructure deployment.
 
 ## ⚙️ Default Behavior
@@ -50,9 +43,9 @@ python main_generate_supplychain.py --graph --num-orders 10 --num-transactions 5
 
 | Setting | Default Value | Description |
 |---------|---------------|-------------|
-| **Start Date** | `2025-01-01` | Fixed starting point |
-| **End Date** | **Today** (`2026-03-02`) | Automatically uses current date |
-| **Timeline** | **425 days** | Complete business period coverage |
+| **Start Date** | **1 year ago** | Automatically calculated from today's date |
+| **End Date** | **Today** (`2026-03-03`) | Automatically uses current date |
+| **Timeline** | **365 days** | Complete business year coverage |
 | **Transactions** | **Auto-scaled** | Analyzes 56,457+ sales records and scales to 6,375 transactions |
 
 **Simple Command**: `python main_generate_supplychain.py --graph`
@@ -74,7 +67,7 @@ python main_generate_supplychain.py --graph --num-orders 10 --num-transactions 5
 ```
 output/
 ├── suppliers/     # Suppliers, ProductSuppliers, SupplyChainEvents  
-├── inventory/     # Inventory, PurchaseOrders, PurchaseOrderItems, InventoryTransactions
+├── inventory/     # Inventory, PurchaseOrders, PurchaseOrderItems, InventoryTransactions, DemandForecast
 ├── supply_chain_data.png           # Analytics dashboard
 └── sample_supplychain_data_summary.md   # Business report
 ```
@@ -83,7 +76,7 @@ output/
 ```
 infra/data/
 ├── suppliers/     # Organized supplier files + suppliers.json config
-├── inventory/     # Organized inventory files
+├── inventory/     # Organized inventory files including demand forecasts
 └── sample_supplychain_data_summary.md   # Business report
 ```
 
@@ -98,14 +91,19 @@ infra/data/
 ## 📊 Data Output
 
 **Supplier Management** (3 CSV files + config): Suppliers, ProductSuppliers, SupplyChainEvents + suppliers.json
-**Inventory Management** (4 files): InventoryLevels, PurchaseOrders, PurchaseOrderLines, InventoryTransactions  
-**Analytics**: 4-chart dashboard with warehouse capacity, supplier performance, inventory health
+**Inventory Management** (5 files): Inventory, PurchaseOrders, PurchaseOrderItems, InventoryTransactions, DemandForecast  
+**Analytics**: 4-chart dashboard featuring:
+- **🔮 Demand Forecast vs Recent Sales Reality** - Shows 3-month transition from actual sales to predicted demand
+- **🏭 Warehouse Capacity Utilization** - Real-time capacity monitoring with risk zones  
+- **📊 Inventory Health Status** - Actionable stock level insights by category
+- **🎯 Supplier Performance Matrix** - Reliability vs risk analysis for procurement decisions
 
 ## 🎯 Use Cases
 
 - **Supply Chain Analytics**: Supplier performance, inventory optimization, lead time analysis
-- **Business Intelligence**: Cost analysis, demand forecasting, supplier management
-- **Data Engineering**: Fabric lakehouse testing, ETL development, system integration
+- **Demand Forecasting**: 3-month forward-looking predictions with seasonal patterns and confidence scoring
+- **Business Intelligence**: Cost analysis, predictive analytics, supplier risk management
+- **Data Engineering**: Fabric lakehouse testing, ETL development, system integration with forecasting models
 
 ## 🎯 Best Practices
 
