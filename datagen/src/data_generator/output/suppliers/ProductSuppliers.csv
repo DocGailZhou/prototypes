@@ -1,8 +1,0 @@
-ProductSupplierID,ProductID,ProductName,ProductCategory,SupplierID,SupplierName,SupplierProductCode,WholesaleCost,MinOrderQuantity,MaxOrderQuantity,LeadTimeDays,Status,CreatedBy,CreatedDate
-1,1553,Adventure Dining Table,General,4,Worldwide Importers,WOR-1553,55.74,50,500.0,32,Active,system,2026-01-11 12:44:55
-2,1563,CompactCook Camping Stove,General,4,Worldwide Importers,WOR-1563,31.36,1,,24,Active,system,2025-10-10 12:44:55
-3,2012,Espresso Machine,General,4,Worldwide Importers,WOR-2012,223.22,25,,30,Active,system,2025-12-05 12:44:55
-4,2081,Food Storage Set,General,4,Worldwide Importers,WOR-2081,134.37,10,,33,Active,system,2025-12-19 12:44:55
-5,2121,Bamboo Cutting Board Set,General,4,Worldwide Importers,WOR-2121,30.18,10,,33,Active,system,2025-11-19 12:44:55
-6,3022,Backcountry Explorer XC Skis - 190cm,General,4,Worldwide Importers,WOR-3022,191.82,10,,25,Active,system,2025-12-02 12:44:55
-7,3102,Winter Hiking Boots - Waterproof,General,4,Worldwide Importers,WOR-3102,306.61,50,,31,Active,system,2025-09-28 12:44:55
