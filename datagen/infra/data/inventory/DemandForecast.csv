@@ -1,421 +1,421 @@
 ForecastID,ProductID,ProductName,ProductCategory,ForecastDate,ForecastPeriod,PredictedDemand,ConfidenceLevel,SeasonalMultiplier,TrendDirection,BaselineDemand,MethodUsed,ForecastHorizon,ActualDemand,AccuracyScore,CreatedBy,CreatedDate
-1,1521,Adventurer Pro Backpack,General,2026-04-01,Monthly,174,81.45,1.0,Stable,178,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-2,1521,Adventurer Pro Backpack,General,2026-04-01,Weekly,40,86.16,1.0,Stable,178,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-3,1521,Adventurer Pro Backpack,General,2026-04-08,Weekly,40,79.76,1.0,Stable,178,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-4,1521,Adventurer Pro Backpack,General,2026-04-15,Weekly,40,81.96,1.0,Stable,178,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-5,1521,Adventurer Pro Backpack,General,2026-04-22,Weekly,40,79.26,1.0,Stable,178,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-6,1521,Adventurer Pro Backpack,General,2026-05-01,Monthly,175,81.45,1.0,Stable,178,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-7,1521,Adventurer Pro Backpack,General,2026-05-31,Monthly,182,81.45,1.0,Stable,178,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-8,1531,Summit Breeze Jacket,General,2026-04-01,Monthly,244,85.59,1.0,Stable,253,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-9,1531,Summit Breeze Jacket,General,2026-04-01,Weekly,56,89.59,1.0,Stable,253,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-10,1531,Summit Breeze Jacket,General,2026-04-08,Weekly,56,89.76,1.0,Stable,253,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-11,1531,Summit Breeze Jacket,General,2026-04-15,Weekly,56,86.58,1.0,Stable,253,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-12,1531,Summit Breeze Jacket,General,2026-04-22,Weekly,56,86.63,1.0,Stable,253,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-13,1531,Summit Breeze Jacket,General,2026-05-01,Monthly,250,85.59,1.0,Stable,253,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-14,1531,Summit Breeze Jacket,General,2026-05-31,Monthly,253,85.59,1.0,Stable,253,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-15,1541,TrekReady Hiking Boots,General,2026-04-01,Monthly,167,84.71,1.0,Stable,163,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-16,1541,TrekReady Hiking Boots,General,2026-04-01,Weekly,38,87.23,1.0,Stable,163,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-17,1541,TrekReady Hiking Boots,General,2026-04-08,Weekly,38,85.17,1.0,Stable,163,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-18,1541,TrekReady Hiking Boots,General,2026-04-15,Weekly,38,83.19,1.0,Stable,163,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-19,1541,TrekReady Hiking Boots,General,2026-04-22,Weekly,38,80.19,1.0,Stable,163,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-20,1541,TrekReady Hiking Boots,General,2026-05-01,Monthly,166,84.71,1.0,Stable,163,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-21,1541,TrekReady Hiking Boots,General,2026-05-31,Monthly,155,84.71,1.0,Stable,163,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-22,1551,BaseCamp Folding Table,General,2026-04-01,Monthly,70,92.06,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-23,1551,BaseCamp Folding Table,General,2026-04-01,Weekly,16,96.21,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-24,1551,BaseCamp Folding Table,General,2026-04-08,Weekly,16,96.22,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-25,1551,BaseCamp Folding Table,General,2026-04-15,Weekly,16,89.44,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-26,1551,BaseCamp Folding Table,General,2026-04-22,Weekly,16,91.98,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-27,1551,BaseCamp Folding Table,General,2026-05-01,Monthly,71,92.06,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-28,1551,BaseCamp Folding Table,General,2026-05-31,Monthly,68,92.06,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-29,1561,EcoFire Camping Stove,General,2026-04-01,Monthly,71,85.39,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-30,1561,EcoFire Camping Stove,General,2026-04-01,Weekly,16,90.37,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-31,1561,EcoFire Camping Stove,General,2026-04-08,Weekly,16,80.65,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-32,1561,EcoFire Camping Stove,General,2026-04-15,Weekly,16,81.39,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-33,1561,EcoFire Camping Stove,General,2026-04-22,Weekly,16,82.41,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-34,1561,EcoFire Camping Stove,General,2026-05-01,Monthly,72,85.39,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-35,1561,EcoFire Camping Stove,General,2026-05-31,Monthly,69,85.39,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-36,1571,CozyNights Sleeping Bag,General,2026-04-01,Monthly,114,93.23,1.0,Stable,120,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-37,1571,CozyNights Sleeping Bag,General,2026-04-01,Weekly,26,93.25,1.0,Stable,120,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-38,1571,CozyNights Sleeping Bag,General,2026-04-08,Weekly,26,91.53,1.0,Stable,120,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-39,1571,CozyNights Sleeping Bag,General,2026-04-15,Weekly,26,90.15,1.0,Stable,120,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-40,1571,CozyNights Sleeping Bag,General,2026-04-22,Weekly,26,92.2,1.0,Stable,120,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-41,1571,CozyNights Sleeping Bag,General,2026-05-01,Monthly,123,93.23,1.0,Stable,120,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-42,1571,CozyNights Sleeping Bag,General,2026-05-31,Monthly,116,93.23,1.0,Stable,120,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-43,1511,Alpine Explorer Tent,General,2026-04-01,Monthly,199,85.87,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-44,1511,Alpine Explorer Tent,General,2026-04-01,Weekly,46,82.32,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-45,1511,Alpine Explorer Tent,General,2026-04-08,Weekly,46,82.38,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-46,1511,Alpine Explorer Tent,General,2026-04-15,Weekly,46,86.65,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-47,1511,Alpine Explorer Tent,General,2026-04-22,Weekly,46,84.05,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-48,1511,Alpine Explorer Tent,General,2026-05-01,Monthly,191,85.87,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-49,1511,Alpine Explorer Tent,General,2026-05-31,Monthly,187,85.87,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-50,1522,SummitClimber Backpack,General,2026-04-01,Monthly,184,83.38,1.0,Stable,180,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-51,1522,SummitClimber Backpack,General,2026-04-01,Weekly,42,86.26,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-52,1522,SummitClimber Backpack,General,2026-04-08,Weekly,42,86.45,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-53,1522,SummitClimber Backpack,General,2026-04-15,Weekly,42,86.71,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-54,1522,SummitClimber Backpack,General,2026-04-22,Weekly,42,85.15,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-55,1522,SummitClimber Backpack,General,2026-05-01,Monthly,175,83.38,1.0,Stable,180,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-56,1522,SummitClimber Backpack,General,2026-05-31,Monthly,178,83.38,1.0,Stable,180,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-57,1532,TrailBlaze Hiking Pants,General,2026-04-01,Monthly,234,82.22,1.0,Stable,244,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-58,1532,TrailBlaze Hiking Pants,General,2026-04-01,Weekly,54,86.73,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-59,1532,TrailBlaze Hiking Pants,General,2026-04-08,Weekly,54,77.92,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-60,1532,TrailBlaze Hiking Pants,General,2026-04-15,Weekly,54,85.21,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-61,1532,TrailBlaze Hiking Pants,General,2026-04-22,Weekly,54,77.8,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-62,1532,TrailBlaze Hiking Pants,General,2026-05-01,Monthly,253,82.22,1.0,Stable,244,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-63,1532,TrailBlaze Hiking Pants,General,2026-05-31,Monthly,255,82.22,1.0,Stable,244,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-64,1542,TrailWalker Hiking Shoes,General,2026-04-01,Monthly,189,79.52,1.0,Stable,189,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-65,1542,TrailWalker Hiking Shoes,General,2026-04-01,Weekly,43,79.85,1.0,Stable,189,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-66,1542,TrailWalker Hiking Shoes,General,2026-04-08,Weekly,43,83.18,1.0,Stable,189,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-67,1542,TrailWalker Hiking Shoes,General,2026-04-15,Weekly,43,76.26,1.0,Stable,189,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-68,1542,TrailWalker Hiking Shoes,General,2026-04-22,Weekly,43,77.41,1.0,Stable,189,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-69,1542,TrailWalker Hiking Shoes,General,2026-05-01,Monthly,181,79.52,1.0,Stable,189,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-70,1542,TrailWalker Hiking Shoes,General,2026-05-31,Monthly,183,79.52,1.0,Stable,189,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-71,1552,TrekMaster Camping Chair,General,2026-04-01,Monthly,62,76.16,1.0,Stable,61,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-72,1552,TrekMaster Camping Chair,General,2026-04-01,Weekly,14,80.9,1.0,Stable,61,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-73,1552,TrekMaster Camping Chair,General,2026-04-08,Weekly,14,71.61,1.0,Stable,61,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-74,1552,TrekMaster Camping Chair,General,2026-04-15,Weekly,14,80.58,1.0,Stable,61,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-75,1552,TrekMaster Camping Chair,General,2026-04-22,Weekly,14,75.15,1.0,Stable,61,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-76,1552,TrekMaster Camping Chair,General,2026-05-01,Monthly,59,76.16,1.0,Stable,61,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-77,1552,TrekMaster Camping Chair,General,2026-05-31,Monthly,58,76.16,1.0,Stable,61,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-78,1562,PowerBurner Camping Stove,General,2026-04-01,Monthly,53,81.71,1.0,Stable,53,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-79,1562,PowerBurner Camping Stove,General,2026-04-01,Weekly,12,77.97,1.0,Stable,53,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-80,1562,PowerBurner Camping Stove,General,2026-04-08,Weekly,12,77.37,1.0,Stable,53,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-81,1562,PowerBurner Camping Stove,General,2026-04-15,Weekly,12,77.56,1.0,Stable,53,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-82,1562,PowerBurner Camping Stove,General,2026-04-22,Weekly,12,77.36,1.0,Stable,53,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-83,1562,PowerBurner Camping Stove,General,2026-05-01,Monthly,50,81.71,1.0,Stable,53,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-84,1562,PowerBurner Camping Stove,General,2026-05-31,Monthly,55,81.71,1.0,Stable,53,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-85,1572,MountainDream Sleeping Bag,General,2026-04-01,Monthly,134,88.57,1.0,Stable,135,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-86,1572,MountainDream Sleeping Bag,General,2026-04-01,Weekly,31,90.11,1.0,Stable,135,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-87,1572,MountainDream Sleeping Bag,General,2026-04-08,Weekly,31,92.83,1.0,Stable,135,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-88,1572,MountainDream Sleeping Bag,General,2026-04-15,Weekly,31,93.13,1.0,Stable,135,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-89,1572,MountainDream Sleeping Bag,General,2026-04-22,Weekly,31,83.95,1.0,Stable,135,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-90,1572,MountainDream Sleeping Bag,General,2026-05-01,Monthly,133,88.57,1.0,Stable,135,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-91,1572,MountainDream Sleeping Bag,General,2026-05-31,Monthly,129,88.57,1.0,Stable,135,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-92,1512,SkyView 2-Person Tent,General,2026-04-01,Monthly,195,83.39,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-93,1512,SkyView 2-Person Tent,General,2026-04-01,Weekly,45,83.0,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-94,1512,SkyView 2-Person Tent,General,2026-04-08,Weekly,45,87.99,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-95,1512,SkyView 2-Person Tent,General,2026-04-15,Weekly,45,81.44,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-96,1512,SkyView 2-Person Tent,General,2026-04-22,Weekly,45,79.57,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-97,1512,SkyView 2-Person Tent,General,2026-05-01,Monthly,201,83.39,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-98,1512,SkyView 2-Person Tent,General,2026-05-31,Monthly,185,83.39,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-99,1523,TrailLite Daypack,General,2026-04-01,Monthly,199,86.7,1.0,Stable,191,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-100,1523,TrailLite Daypack,General,2026-04-01,Weekly,46,90.17,1.0,Stable,191,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-101,1523,TrailLite Daypack,General,2026-04-08,Weekly,46,84.45,1.0,Stable,191,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-102,1523,TrailLite Daypack,General,2026-04-15,Weekly,46,89.46,1.0,Stable,191,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-103,1523,TrailLite Daypack,General,2026-04-22,Weekly,46,86.84,1.0,Stable,191,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-104,1523,TrailLite Daypack,General,2026-05-01,Monthly,195,86.7,1.0,Stable,191,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-105,1523,TrailLite Daypack,General,2026-05-31,Monthly,196,86.7,1.0,Stable,191,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-106,1533,RainGuard Hiking Jacket,General,2026-04-01,Monthly,240,76.12,1.0,Stable,244,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-107,1533,RainGuard Hiking Jacket,General,2026-04-01,Weekly,55,78.9,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-108,1533,RainGuard Hiking Jacket,General,2026-04-08,Weekly,55,74.73,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-109,1533,RainGuard Hiking Jacket,General,2026-04-15,Weekly,55,81.0,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-110,1533,RainGuard Hiking Jacket,General,2026-04-22,Weekly,55,74.95,1.0,Stable,244,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-111,1533,RainGuard Hiking Jacket,General,2026-05-01,Monthly,237,76.12,1.0,Stable,244,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-112,1533,RainGuard Hiking Jacket,General,2026-05-31,Monthly,253,76.12,1.0,Stable,244,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-113,1543,TrekStar Hiking Sandals,General,2026-04-01,Monthly,172,75.12,1.0,Stable,180,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-114,1543,TrekStar Hiking Sandals,General,2026-04-01,Weekly,40,73.23,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-115,1543,TrekStar Hiking Sandals,General,2026-04-08,Weekly,40,79.87,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-116,1543,TrekStar Hiking Sandals,General,2026-04-15,Weekly,40,79.32,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-117,1543,TrekStar Hiking Sandals,General,2026-04-22,Weekly,40,74.84,1.0,Stable,180,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-118,1543,TrekStar Hiking Sandals,General,2026-05-01,Monthly,180,75.12,1.0,Stable,180,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-119,1543,TrekStar Hiking Sandals,General,2026-05-31,Monthly,188,75.12,1.0,Stable,180,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-120,1553,Adventure Dining Table,General,2026-04-01,Monthly,74,75.9,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-121,1553,Adventure Dining Table,General,2026-04-01,Weekly,17,79.34,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-122,1553,Adventure Dining Table,General,2026-04-08,Weekly,17,72.82,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-123,1553,Adventure Dining Table,General,2026-04-15,Weekly,17,71.54,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-124,1553,Adventure Dining Table,General,2026-04-22,Weekly,17,74.86,1.0,Stable,72,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-125,1553,Adventure Dining Table,General,2026-05-01,Monthly,71,75.9,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-126,1553,Adventure Dining Table,General,2026-05-31,Monthly,72,75.9,1.0,Stable,72,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-127,1563,CompactCook Camping Stove,General,2026-04-01,Monthly,57,91.71,1.0,Stable,57,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-128,1563,CompactCook Camping Stove,General,2026-04-01,Weekly,13,88.1,1.0,Stable,57,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-129,1563,CompactCook Camping Stove,General,2026-04-08,Weekly,13,94.85,1.0,Stable,57,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-130,1563,CompactCook Camping Stove,General,2026-04-15,Weekly,13,96.11,1.0,Stable,57,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-131,1563,CompactCook Camping Stove,General,2026-04-22,Weekly,13,95.03,1.0,Stable,57,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-132,1563,CompactCook Camping Stove,General,2026-05-01,Monthly,54,91.71,1.0,Stable,57,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-133,1563,CompactCook Camping Stove,General,2026-05-31,Monthly,56,91.71,1.0,Stable,57,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-134,1581,LED Headlamp - Rechargeable,General,2026-04-01,Monthly,48,78.03,1.0,Stable,48,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-135,1581,LED Headlamp - Rechargeable,General,2026-04-01,Weekly,11,73.95,1.0,Stable,48,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-136,1581,LED Headlamp - Rechargeable,General,2026-04-08,Weekly,11,82.59,1.0,Stable,48,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-137,1581,LED Headlamp - Rechargeable,General,2026-04-15,Weekly,11,80.26,1.0,Stable,48,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-138,1581,LED Headlamp - Rechargeable,General,2026-04-22,Weekly,11,74.88,1.0,Stable,48,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-139,1581,LED Headlamp - Rechargeable,General,2026-05-01,Monthly,46,78.03,1.0,Stable,48,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-140,1581,LED Headlamp - Rechargeable,General,2026-05-31,Monthly,46,78.03,1.0,Stable,48,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-141,2011,Coffee Maker,General,2026-04-01,Monthly,1286,87.32,1.0,Stable,1293,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-142,2011,Coffee Maker,General,2026-04-01,Weekly,299,87.05,1.0,Stable,1293,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-143,2011,Coffee Maker,General,2026-04-08,Weekly,299,86.32,1.0,Stable,1293,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-144,2011,Coffee Maker,General,2026-04-15,Weekly,299,91.35,1.0,Stable,1293,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-145,2011,Coffee Maker,General,2026-04-22,Weekly,299,89.92,1.0,Stable,1293,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-146,2011,Coffee Maker,General,2026-05-01,Monthly,1323,87.32,1.0,Stable,1293,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-147,2011,Coffee Maker,General,2026-05-31,Monthly,1241,87.32,1.0,Stable,1293,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-148,2012,Espresso Machine,General,2026-04-01,Monthly,1343,90.84,1.0,Stable,1346,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-149,2012,Espresso Machine,General,2026-04-01,Weekly,312,88.62,1.0,Stable,1346,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-150,2012,Espresso Machine,General,2026-04-08,Weekly,312,88.31,1.0,Stable,1346,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-151,2012,Espresso Machine,General,2026-04-15,Weekly,312,95.64,1.0,Stable,1346,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-152,2012,Espresso Machine,General,2026-04-22,Weekly,312,88.12,1.0,Stable,1346,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-153,2012,Espresso Machine,General,2026-05-01,Monthly,1302,90.84,1.0,Stable,1346,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-154,2012,Espresso Machine,General,2026-05-31,Monthly,1353,90.84,1.0,Stable,1346,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-155,2021,Chef Knife,General,2026-04-01,Monthly,831,83.19,1.0,Stable,851,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-156,2021,Chef Knife,General,2026-04-01,Weekly,193,85.54,1.0,Stable,851,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-157,2021,Chef Knife,General,2026-04-08,Weekly,193,81.36,1.0,Stable,851,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-158,2021,Chef Knife,General,2026-04-15,Weekly,193,79.6,1.0,Stable,851,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-159,2021,Chef Knife,General,2026-04-22,Weekly,193,85.95,1.0,Stable,851,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-160,2021,Chef Knife,General,2026-05-01,Monthly,828,83.19,1.0,Stable,851,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-161,2021,Chef Knife,General,2026-05-31,Monthly,860,83.19,1.0,Stable,851,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-162,2022,Fork Set,General,2026-04-01,Monthly,776,80.68,1.0,Stable,812,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-163,2022,Fork Set,General,2026-04-01,Weekly,180,85.53,1.0,Stable,812,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-164,2022,Fork Set,General,2026-04-08,Weekly,180,76.2,1.0,Stable,812,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-165,2022,Fork Set,General,2026-04-15,Weekly,180,76.19,1.0,Stable,812,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-166,2022,Fork Set,General,2026-04-22,Weekly,180,77.51,1.0,Stable,812,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-167,2022,Fork Set,General,2026-05-01,Monthly,777,80.68,1.0,Stable,812,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-168,2022,Fork Set,General,2026-05-31,Monthly,812,80.68,1.0,Stable,812,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-169,2031,Coffee Mug,General,2026-04-01,Monthly,805,81.35,1.0,Stable,828,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-170,2031,Coffee Mug,General,2026-04-01,Weekly,187,83.24,1.0,Stable,828,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-171,2031,Coffee Mug,General,2026-04-08,Weekly,187,77.2,1.0,Stable,828,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-172,2031,Coffee Mug,General,2026-04-15,Weekly,187,77.8,1.0,Stable,828,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-173,2031,Coffee Mug,General,2026-04-22,Weekly,187,79.77,1.0,Stable,828,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-174,2031,Coffee Mug,General,2026-05-01,Monthly,854,81.35,1.0,Stable,828,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-175,2031,Coffee Mug,General,2026-05-31,Monthly,814,81.35,1.0,Stable,828,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-176,2041,Serving Platter,General,2026-04-01,Monthly,705,86.1,1.0,Stable,727,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-177,2041,Serving Platter,General,2026-04-01,Weekly,163,87.45,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-178,2041,Serving Platter,General,2026-04-08,Weekly,163,85.05,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-179,2041,Serving Platter,General,2026-04-15,Weekly,163,84.34,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-180,2041,Serving Platter,General,2026-04-22,Weekly,163,83.89,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-181,2041,Serving Platter,General,2026-05-01,Monthly,733,86.1,1.0,Stable,727,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-182,2041,Serving Platter,General,2026-05-31,Monthly,708,86.1,1.0,Stable,727,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-183,2051,Ice Cream Bowl,General,2026-04-01,Monthly,251,86.17,1.0,Stable,259,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-184,2051,Ice Cream Bowl,General,2026-04-01,Weekly,58,84.57,1.0,Stable,259,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-185,2051,Ice Cream Bowl,General,2026-04-08,Weekly,58,89.02,1.0,Stable,259,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-186,2051,Ice Cream Bowl,General,2026-04-15,Weekly,58,81.22,1.0,Stable,259,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-187,2051,Ice Cream Bowl,General,2026-04-22,Weekly,58,83.74,1.0,Stable,259,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-188,2051,Ice Cream Bowl,General,2026-05-01,Monthly,263,86.17,1.0,Stable,259,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-189,2051,Ice Cream Bowl,General,2026-05-31,Monthly,257,86.17,1.0,Stable,259,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-190,2061,Mixing Bowl,General,2026-04-01,Monthly,649,88.72,1.0,Stable,684,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-191,2061,Mixing Bowl,General,2026-04-01,Weekly,150,84.39,1.0,Stable,684,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-192,2061,Mixing Bowl,General,2026-04-08,Weekly,150,89.24,1.0,Stable,684,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-193,2061,Mixing Bowl,General,2026-04-15,Weekly,150,87.62,1.0,Stable,684,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-194,2061,Mixing Bowl,General,2026-04-22,Weekly,150,91.54,1.0,Stable,684,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-195,2061,Mixing Bowl,General,2026-05-01,Monthly,688,88.72,1.0,Stable,684,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-196,2061,Mixing Bowl,General,2026-05-31,Monthly,660,88.72,1.0,Stable,684,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-197,2071,Baking Pan,General,2026-04-01,Monthly,729,86.64,1.0,Stable,727,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-198,2071,Baking Pan,General,2026-04-01,Weekly,169,82.51,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-199,2071,Baking Pan,General,2026-04-08,Weekly,169,84.43,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-200,2071,Baking Pan,General,2026-04-15,Weekly,169,88.04,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-201,2071,Baking Pan,General,2026-04-22,Weekly,169,84.25,1.0,Stable,727,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-202,2071,Baking Pan,General,2026-05-01,Monthly,754,86.64,1.0,Stable,727,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-203,2071,Baking Pan,General,2026-05-31,Monthly,699,86.64,1.0,Stable,727,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-204,2081,Food Storage Set,General,2026-04-01,Monthly,365,85.49,1.0,Stable,353,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-205,2081,Food Storage Set,General,2026-04-01,Weekly,84,87.11,1.0,Stable,353,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-206,2081,Food Storage Set,General,2026-04-08,Weekly,84,84.01,1.0,Stable,353,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-207,2081,Food Storage Set,General,2026-04-15,Weekly,84,89.28,1.0,Stable,353,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-208,2081,Food Storage Set,General,2026-04-22,Weekly,84,85.04,1.0,Stable,353,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-209,2081,Food Storage Set,General,2026-05-01,Monthly,369,85.49,1.0,Stable,353,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-210,2081,Food Storage Set,General,2026-05-31,Monthly,342,85.49,1.0,Stable,353,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-211,2091,Spatula,General,2026-04-01,Monthly,276,78.33,1.0,Stable,283,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-212,2091,Spatula,General,2026-04-01,Weekly,64,82.52,1.0,Stable,283,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-213,2091,Spatula,General,2026-04-08,Weekly,64,83.07,1.0,Stable,283,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-214,2091,Spatula,General,2026-04-15,Weekly,64,74.4,1.0,Stable,283,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-215,2091,Spatula,General,2026-04-22,Weekly,64,78.22,1.0,Stable,283,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-216,2091,Spatula,General,2026-05-01,Monthly,282,78.33,1.0,Stable,283,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-217,2091,Spatula,General,2026-05-31,Monthly,272,78.33,1.0,Stable,283,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-218,2101,Measuring Cup Set,General,2026-04-01,Monthly,271,84.66,1.0,Stable,264,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-219,2101,Measuring Cup Set,General,2026-04-01,Weekly,63,83.01,1.0,Stable,264,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-220,2101,Measuring Cup Set,General,2026-04-08,Weekly,63,79.8,1.0,Stable,264,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-221,2101,Measuring Cup Set,General,2026-04-15,Weekly,63,88.74,1.0,Stable,264,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-222,2101,Measuring Cup Set,General,2026-04-22,Weekly,63,83.87,1.0,Stable,264,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-223,2101,Measuring Cup Set,General,2026-05-01,Monthly,254,84.66,1.0,Stable,264,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-224,2101,Measuring Cup Set,General,2026-05-31,Monthly,269,84.66,1.0,Stable,264,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-225,2111,High-Speed Blender,General,2026-04-01,Monthly,291,88.8,1.0,Stable,291,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-226,2111,High-Speed Blender,General,2026-04-01,Weekly,67,85.84,1.0,Stable,291,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-227,2111,High-Speed Blender,General,2026-04-08,Weekly,67,86.49,1.0,Stable,291,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-228,2111,High-Speed Blender,General,2026-04-15,Weekly,67,91.58,1.0,Stable,291,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-229,2111,High-Speed Blender,General,2026-04-22,Weekly,67,84.24,1.0,Stable,291,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-230,2111,High-Speed Blender,General,2026-05-01,Monthly,280,88.8,1.0,Stable,291,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-231,2111,High-Speed Blender,General,2026-05-31,Monthly,303,88.8,1.0,Stable,291,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-232,2112,4-Slice Toaster,General,2026-04-01,Monthly,279,88.11,1.0,Stable,277,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-233,2112,4-Slice Toaster,General,2026-04-01,Weekly,64,85.27,1.0,Stable,277,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-234,2112,4-Slice Toaster,General,2026-04-08,Weekly,64,88.59,1.0,Stable,277,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-235,2112,4-Slice Toaster,General,2026-04-15,Weekly,64,89.21,1.0,Stable,277,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-236,2112,4-Slice Toaster,General,2026-04-22,Weekly,64,88.92,1.0,Stable,277,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-237,2112,4-Slice Toaster,General,2026-05-01,Monthly,280,88.11,1.0,Stable,277,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-238,2112,4-Slice Toaster,General,2026-05-31,Monthly,277,88.11,1.0,Stable,277,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-239,2121,Bamboo Cutting Board Set,General,2026-04-01,Monthly,283,83.44,1.0,Stable,271,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-240,2121,Bamboo Cutting Board Set,General,2026-04-01,Weekly,65,78.47,1.0,Stable,271,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-241,2121,Bamboo Cutting Board Set,General,2026-04-08,Weekly,65,81.28,1.0,Stable,271,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-242,2121,Bamboo Cutting Board Set,General,2026-04-15,Weekly,65,85.59,1.0,Stable,271,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-243,2121,Bamboo Cutting Board Set,General,2026-04-22,Weekly,65,80.43,1.0,Stable,271,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-244,2121,Bamboo Cutting Board Set,General,2026-05-01,Monthly,279,83.44,1.0,Stable,271,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-245,2121,Bamboo Cutting Board Set,General,2026-05-31,Monthly,277,83.44,1.0,Stable,271,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-246,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-01,Monthly,30,90.7,1.0,Stable,32,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-247,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-01,Weekly,6,92.31,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-248,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-08,Weekly,6,95.66,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-249,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-15,Weekly,6,93.1,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-250,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-22,Weekly,6,87.53,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-251,3011,Alpine Pro Racing Skis - 170cm,General,2026-05-01,Monthly,33,90.7,1.0,Stable,32,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-252,3011,Alpine Pro Racing Skis - 170cm,General,2026-05-31,Monthly,33,90.7,1.0,Stable,32,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-253,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-01,Monthly,31,87.06,1.0,Stable,31,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-254,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-01,Weekly,7,90.24,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-255,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-08,Weekly,7,90.16,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-256,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-15,Weekly,7,83.82,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-257,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-22,Weekly,7,82.36,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-258,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-05-01,Monthly,31,87.06,1.0,Stable,31,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-259,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-05-31,Monthly,30,87.06,1.0,Stable,31,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-260,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-01,Monthly,30,90.47,1.0,Stable,31,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-261,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-01,Weekly,6,86.55,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-262,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-08,Weekly,6,90.73,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-263,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-15,Weekly,6,94.34,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-264,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-22,Weekly,6,85.91,1.0,Stable,31,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-265,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-05-01,Monthly,31,90.47,1.0,Stable,31,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-266,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-05-31,Monthly,29,90.47,1.0,Stable,31,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-267,3021,Nordic Classic XC Skis - 185cm,General,2026-04-01,Monthly,14,94.97,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-268,3021,Nordic Classic XC Skis - 185cm,General,2026-04-01,Weekly,3,96.35,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-269,3021,Nordic Classic XC Skis - 185cm,General,2026-04-08,Weekly,3,94.55,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-270,3021,Nordic Classic XC Skis - 185cm,General,2026-04-15,Weekly,3,96.95,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-271,3021,Nordic Classic XC Skis - 185cm,General,2026-04-22,Weekly,3,93.02,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-272,3021,Nordic Classic XC Skis - 185cm,General,2026-05-01,Monthly,15,94.97,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-273,3021,Nordic Classic XC Skis - 185cm,General,2026-05-31,Monthly,14,94.97,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-274,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-01,Monthly,14,75.9,1.0,Stable,14,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-275,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-01,Weekly,3,71.32,1.0,Stable,14,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-276,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-08,Weekly,3,78.25,1.0,Stable,14,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-277,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-15,Weekly,3,79.23,1.0,Stable,14,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-278,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-22,Weekly,3,79.51,1.0,Stable,14,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-279,3022,Backcountry Explorer XC Skis - 190cm,General,2026-05-01,Monthly,13,75.9,1.0,Stable,14,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-280,3022,Backcountry Explorer XC Skis - 190cm,General,2026-05-31,Monthly,14,75.9,1.0,Stable,14,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-281,3031,Pro Flex Racing Ski Boots,General,2026-04-01,Monthly,21,92.67,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-282,3031,Pro Flex Racing Ski Boots,General,2026-04-01,Weekly,4,93.94,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-283,3031,Pro Flex Racing Ski Boots,General,2026-04-08,Weekly,4,89.56,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-284,3031,Pro Flex Racing Ski Boots,General,2026-04-15,Weekly,4,96.64,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-285,3031,Pro Flex Racing Ski Boots,General,2026-04-22,Weekly,4,91.05,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-286,3031,Pro Flex Racing Ski Boots,General,2026-05-01,Monthly,23,92.67,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-287,3031,Pro Flex Racing Ski Boots,General,2026-05-31,Monthly,24,92.67,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-288,3032,Comfort Fit Recreational Boots,General,2026-04-01,Monthly,30,85.38,1.0,Stable,32,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-289,3032,Comfort Fit Recreational Boots,General,2026-04-01,Weekly,6,87.72,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-290,3032,Comfort Fit Recreational Boots,General,2026-04-08,Weekly,6,84.52,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-291,3032,Comfort Fit Recreational Boots,General,2026-04-15,Weekly,6,81.98,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-292,3032,Comfort Fit Recreational Boots,General,2026-04-22,Weekly,6,89.21,1.0,Stable,32,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-293,3032,Comfort Fit Recreational Boots,General,2026-05-01,Monthly,32,85.38,1.0,Stable,32,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-294,3032,Comfort Fit Recreational Boots,General,2026-05-31,Monthly,31,85.38,1.0,Stable,32,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-295,3033,Women's Performance Ski Boots,General,2026-04-01,Monthly,23,89.52,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-296,3033,Women's Performance Ski Boots,General,2026-04-01,Weekly,5,94.29,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-297,3033,Women's Performance Ski Boots,General,2026-04-08,Weekly,5,88.96,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-298,3033,Women's Performance Ski Boots,General,2026-04-15,Weekly,5,88.17,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-299,3033,Women's Performance Ski Boots,General,2026-04-22,Weekly,5,91.36,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-300,3033,Women's Performance Ski Boots,General,2026-05-01,Monthly,23,89.52,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-301,3033,Women's Performance Ski Boots,General,2026-05-31,Monthly,23,89.52,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-302,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-01,Monthly,14,81.43,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-303,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-01,Weekly,3,84.4,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-304,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-08,Weekly,3,77.24,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-305,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-15,Weekly,3,80.44,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-306,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-22,Weekly,3,85.99,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-307,3041,Carbon Fiber Racing Poles - 120cm,General,2026-05-01,Monthly,14,81.43,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-308,3041,Carbon Fiber Racing Poles - 120cm,General,2026-05-31,Monthly,15,81.43,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-309,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-01,Monthly,12,93.81,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-310,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-01,Weekly,2,96.39,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-311,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-08,Weekly,2,90.77,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-312,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-15,Weekly,2,97.61,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-313,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-22,Weekly,2,95.65,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-314,3042,Aluminum All-Mountain Poles - 115cm,General,2026-05-01,Monthly,12,93.81,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-315,3042,Aluminum All-Mountain Poles - 115cm,General,2026-05-31,Monthly,11,93.81,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-316,3051,Insulated Ski Jacket - Men's,General,2026-04-01,Monthly,17,91.47,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-317,3051,Insulated Ski Jacket - Men's,General,2026-04-01,Weekly,3,88.57,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-318,3051,Insulated Ski Jacket - Men's,General,2026-04-08,Weekly,3,92.47,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-319,3051,Insulated Ski Jacket - Men's,General,2026-04-15,Weekly,3,90.25,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-320,3051,Insulated Ski Jacket - Men's,General,2026-04-22,Weekly,3,92.13,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-321,3051,Insulated Ski Jacket - Men's,General,2026-05-01,Monthly,18,91.47,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-322,3051,Insulated Ski Jacket - Men's,General,2026-05-31,Monthly,17,91.47,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-323,3052,Thermal Base Layer Set - Women's,General,2026-04-01,Monthly,17,88.96,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-324,3052,Thermal Base Layer Set - Women's,General,2026-04-01,Weekly,3,87.8,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-325,3052,Thermal Base Layer Set - Women's,General,2026-04-08,Weekly,3,86.18,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-326,3052,Thermal Base Layer Set - Women's,General,2026-04-15,Weekly,3,91.53,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-327,3052,Thermal Base Layer Set - Women's,General,2026-04-22,Weekly,3,90.03,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-328,3052,Thermal Base Layer Set - Women's,General,2026-05-01,Monthly,18,88.96,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-329,3052,Thermal Base Layer Set - Women's,General,2026-05-31,Monthly,18,88.96,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-330,3053,Waterproof Ski Pants,General,2026-04-01,Monthly,22,94.03,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-331,3053,Waterproof Ski Pants,General,2026-04-01,Weekly,5,91.11,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-332,3053,Waterproof Ski Pants,General,2026-04-08,Weekly,5,91.26,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-333,3053,Waterproof Ski Pants,General,2026-04-15,Weekly,5,94.28,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-334,3053,Waterproof Ski Pants,General,2026-04-22,Weekly,5,93.65,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-335,3053,Waterproof Ski Pants,General,2026-05-01,Monthly,22,94.03,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-336,3053,Waterproof Ski Pants,General,2026-05-31,Monthly,22,94.03,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-337,3061,Professional Ski Helmet,General,2026-04-01,Monthly,6,88.51,1.0,Stable,7,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-338,3061,Professional Ski Helmet,General,2026-04-01,Weekly,1,88.85,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-339,3061,Professional Ski Helmet,General,2026-04-08,Weekly,1,91.58,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-340,3061,Professional Ski Helmet,General,2026-04-15,Weekly,1,84.06,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-341,3061,Professional Ski Helmet,General,2026-04-22,Weekly,1,84.73,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-342,3061,Professional Ski Helmet,General,2026-05-01,Monthly,7,88.51,1.0,Stable,7,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-343,3061,Professional Ski Helmet,General,2026-05-31,Monthly,6,88.51,1.0,Stable,7,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-344,3062,Anti-Fog Ski Goggles,General,2026-04-01,Monthly,10,86.7,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-345,3062,Anti-Fog Ski Goggles,General,2026-04-01,Weekly,2,90.5,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-346,3062,Anti-Fog Ski Goggles,General,2026-04-08,Weekly,2,90.61,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-347,3062,Anti-Fog Ski Goggles,General,2026-04-15,Weekly,2,85.38,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-348,3062,Anti-Fog Ski Goggles,General,2026-04-22,Weekly,2,90.5,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-349,3062,Anti-Fog Ski Goggles,General,2026-05-01,Monthly,10,86.7,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-350,3062,Anti-Fog Ski Goggles,General,2026-05-31,Monthly,10,86.7,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-351,3071,Ski Boot Bag - Premium,General,2026-04-01,Monthly,9,86.53,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-352,3071,Ski Boot Bag - Premium,General,2026-04-01,Weekly,2,87.75,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-353,3071,Ski Boot Bag - Premium,General,2026-04-08,Weekly,2,90.45,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-354,3071,Ski Boot Bag - Premium,General,2026-04-15,Weekly,2,91.41,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-355,3071,Ski Boot Bag - Premium,General,2026-04-22,Weekly,2,89.36,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-356,3071,Ski Boot Bag - Premium,General,2026-05-01,Monthly,9,86.53,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-357,3071,Ski Boot Bag - Premium,General,2026-05-31,Monthly,9,86.53,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-358,3072,Hand Warmers - 10 Pack,General,2026-04-01,Monthly,3,80.91,1.0,Stable,4,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-359,3072,Hand Warmers - 10 Pack,General,2026-04-01,Weekly,1,77.4,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-360,3072,Hand Warmers - 10 Pack,General,2026-04-08,Weekly,1,78.6,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-361,3072,Hand Warmers - 10 Pack,General,2026-04-15,Weekly,1,81.52,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-362,3072,Hand Warmers - 10 Pack,General,2026-04-22,Weekly,1,77.23,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-363,3072,Hand Warmers - 10 Pack,General,2026-05-01,Monthly,4,80.91,1.0,Stable,4,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-364,3072,Hand Warmers - 10 Pack,General,2026-05-31,Monthly,4,80.91,1.0,Stable,4,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-365,3081,All-Temp Ski Wax Kit,General,2026-04-01,Monthly,10,79.78,1.0,Stable,11,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-366,3081,All-Temp Ski Wax Kit,General,2026-04-01,Weekly,2,80.79,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-367,3081,All-Temp Ski Wax Kit,General,2026-04-08,Weekly,2,83.64,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-368,3081,All-Temp Ski Wax Kit,General,2026-04-15,Weekly,2,78.97,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-369,3081,All-Temp Ski Wax Kit,General,2026-04-22,Weekly,2,83.84,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-370,3081,All-Temp Ski Wax Kit,General,2026-05-01,Monthly,11,79.78,1.0,Stable,11,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-371,3081,All-Temp Ski Wax Kit,General,2026-05-31,Monthly,11,79.78,1.0,Stable,11,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-372,3082,Edge Tuning Tool Set,General,2026-04-01,Monthly,12,81.63,1.0,Stable,13,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-373,3082,Edge Tuning Tool Set,General,2026-04-01,Weekly,2,84.88,1.0,Stable,13,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-374,3082,Edge Tuning Tool Set,General,2026-04-08,Weekly,2,81.26,1.0,Stable,13,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-375,3082,Edge Tuning Tool Set,General,2026-04-15,Weekly,2,82.49,1.0,Stable,13,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-376,3082,Edge Tuning Tool Set,General,2026-04-22,Weekly,2,85.91,1.0,Stable,13,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-377,3082,Edge Tuning Tool Set,General,2026-05-01,Monthly,12,81.63,1.0,Stable,13,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-378,3082,Edge Tuning Tool Set,General,2026-05-31,Monthly,12,81.63,1.0,Stable,13,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-379,3091,Freestyle Snowboard - 155cm,General,2026-04-01,Monthly,5,90.8,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-380,3091,Freestyle Snowboard - 155cm,General,2026-04-01,Weekly,1,94.53,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-381,3091,Freestyle Snowboard - 155cm,General,2026-04-08,Weekly,1,94.19,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-382,3091,Freestyle Snowboard - 155cm,General,2026-04-15,Weekly,1,90.05,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-383,3091,Freestyle Snowboard - 155cm,General,2026-04-22,Weekly,1,92.78,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-384,3091,Freestyle Snowboard - 155cm,General,2026-05-01,Monthly,6,90.8,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-385,3091,Freestyle Snowboard - 155cm,General,2026-05-31,Monthly,5,90.8,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-386,3092,All-Mountain Snowboard - 158cm,General,2026-04-01,Monthly,4,82.15,1.0,Stable,5,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-387,3092,All-Mountain Snowboard - 158cm,General,2026-04-01,Weekly,1,81.0,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-388,3092,All-Mountain Snowboard - 158cm,General,2026-04-08,Weekly,1,77.23,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-389,3092,All-Mountain Snowboard - 158cm,General,2026-04-15,Weekly,1,83.58,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-390,3092,All-Mountain Snowboard - 158cm,General,2026-04-22,Weekly,1,84.18,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-391,3092,All-Mountain Snowboard - 158cm,General,2026-05-01,Monthly,5,82.15,1.0,Stable,5,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-392,3092,All-Mountain Snowboard - 158cm,General,2026-05-31,Monthly,5,82.15,1.0,Stable,5,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-393,3101,Winter Boots - Insulated,General,2026-04-01,Monthly,8,91.74,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-394,3101,Winter Boots - Insulated,General,2026-04-01,Weekly,1,94.81,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-395,3101,Winter Boots - Insulated,General,2026-04-08,Weekly,1,91.61,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-396,3101,Winter Boots - Insulated,General,2026-04-15,Weekly,1,87.64,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-397,3101,Winter Boots - Insulated,General,2026-04-22,Weekly,1,92.87,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-398,3101,Winter Boots - Insulated,General,2026-05-01,Monthly,8,91.74,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-399,3101,Winter Boots - Insulated,General,2026-05-31,Monthly,7,91.74,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-400,3102,Winter Hiking Boots - Waterproof,General,2026-04-01,Monthly,4,81.86,1.0,Stable,4,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-401,3102,Winter Hiking Boots - Waterproof,General,2026-04-01,Weekly,1,86.84,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-402,3102,Winter Hiking Boots - Waterproof,General,2026-04-08,Weekly,1,80.72,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-403,3102,Winter Hiking Boots - Waterproof,General,2026-04-15,Weekly,1,77.56,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-404,3102,Winter Hiking Boots - Waterproof,General,2026-04-22,Weekly,1,83.83,1.0,Stable,4,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-405,3102,Winter Hiking Boots - Waterproof,General,2026-05-01,Monthly,4,81.86,1.0,Stable,4,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-406,3102,Winter Hiking Boots - Waterproof,General,2026-05-31,Monthly,3,81.86,1.0,Stable,4,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-407,3103,Snowboard Bindings - Pro,General,2026-04-01,Monthly,9,88.87,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-408,3103,Snowboard Bindings - Pro,General,2026-04-01,Weekly,2,85.24,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-409,3103,Snowboard Bindings - Pro,General,2026-04-08,Weekly,2,92.73,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-410,3103,Snowboard Bindings - Pro,General,2026-04-15,Weekly,2,83.89,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-411,3103,Snowboard Bindings - Pro,General,2026-04-22,Weekly,2,87.95,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-412,3103,Snowboard Bindings - Pro,General,2026-05-01,Monthly,9,88.87,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-413,3103,Snowboard Bindings - Pro,General,2026-05-31,Monthly,9,88.87,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-414,3104,Ski Tuning Bench - Portable,General,2026-04-01,Monthly,10,85.24,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-415,3104,Ski Tuning Bench - Portable,General,2026-04-01,Weekly,2,86.71,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-416,3104,Ski Tuning Bench - Portable,General,2026-04-08,Weekly,2,86.77,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-417,3104,Ski Tuning Bench - Portable,General,2026-04-15,Weekly,2,80.69,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-418,3104,Ski Tuning Bench - Portable,General,2026-04-22,Weekly,2,88.71,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:33:04
-419,3104,Ski Tuning Bench - Portable,General,2026-05-01,Monthly,9,85.24,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
-420,3104,Ski Tuning Bench - Portable,General,2026-05-31,Monthly,9,85.24,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:33:04
+1,1521,Adventurer Pro Backpack,General,2026-04-01,Monthly,201,91.45,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+2,1521,Adventurer Pro Backpack,General,2026-04-01,Weekly,46,87.11,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+3,1521,Adventurer Pro Backpack,General,2026-04-08,Weekly,46,96.38,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+4,1521,Adventurer Pro Backpack,General,2026-04-15,Weekly,46,86.9,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+5,1521,Adventurer Pro Backpack,General,2026-04-22,Weekly,46,88.03,1.0,Stable,195,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+6,1521,Adventurer Pro Backpack,General,2026-05-01,Monthly,190,91.45,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+7,1521,Adventurer Pro Backpack,General,2026-05-31,Monthly,199,91.45,1.0,Stable,195,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+8,1531,Summit Breeze Jacket,General,2026-04-01,Monthly,184,75.28,1.0,Stable,182,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+9,1531,Summit Breeze Jacket,General,2026-04-01,Weekly,42,71.01,1.0,Stable,182,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+10,1531,Summit Breeze Jacket,General,2026-04-08,Weekly,42,73.81,1.0,Stable,182,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+11,1531,Summit Breeze Jacket,General,2026-04-15,Weekly,42,75.39,1.0,Stable,182,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+12,1531,Summit Breeze Jacket,General,2026-04-22,Weekly,42,78.12,1.0,Stable,182,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+13,1531,Summit Breeze Jacket,General,2026-05-01,Monthly,189,75.28,1.0,Stable,182,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+14,1531,Summit Breeze Jacket,General,2026-05-31,Monthly,184,75.28,1.0,Stable,182,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+15,1541,TrekReady Hiking Boots,General,2026-04-01,Monthly,131,80.99,1.0,Stable,132,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+16,1541,TrekReady Hiking Boots,General,2026-04-01,Weekly,30,85.7,1.0,Stable,132,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+17,1541,TrekReady Hiking Boots,General,2026-04-08,Weekly,30,82.07,1.0,Stable,132,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+18,1541,TrekReady Hiking Boots,General,2026-04-15,Weekly,30,82.85,1.0,Stable,132,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+19,1541,TrekReady Hiking Boots,General,2026-04-22,Weekly,30,84.36,1.0,Stable,132,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+20,1541,TrekReady Hiking Boots,General,2026-05-01,Monthly,127,80.99,1.0,Stable,132,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+21,1541,TrekReady Hiking Boots,General,2026-05-31,Monthly,135,80.99,1.0,Stable,132,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+22,1551,BaseCamp Folding Table,General,2026-04-01,Monthly,77,78.75,1.0,Stable,81,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+23,1551,BaseCamp Folding Table,General,2026-04-01,Weekly,17,77.21,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+24,1551,BaseCamp Folding Table,General,2026-04-08,Weekly,17,77.59,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+25,1551,BaseCamp Folding Table,General,2026-04-15,Weekly,17,83.08,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+26,1551,BaseCamp Folding Table,General,2026-04-22,Weekly,17,83.01,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+27,1551,BaseCamp Folding Table,General,2026-05-01,Monthly,80,78.75,1.0,Stable,81,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+28,1551,BaseCamp Folding Table,General,2026-05-31,Monthly,84,78.75,1.0,Stable,81,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+29,1561,EcoFire Camping Stove,General,2026-04-01,Monthly,61,90.12,1.0,Stable,59,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+30,1561,EcoFire Camping Stove,General,2026-04-01,Weekly,14,91.1,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+31,1561,EcoFire Camping Stove,General,2026-04-08,Weekly,14,89.34,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+32,1561,EcoFire Camping Stove,General,2026-04-15,Weekly,14,88.84,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+33,1561,EcoFire Camping Stove,General,2026-04-22,Weekly,14,89.83,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+34,1561,EcoFire Camping Stove,General,2026-05-01,Monthly,57,90.12,1.0,Stable,59,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+35,1561,EcoFire Camping Stove,General,2026-05-31,Monthly,56,90.12,1.0,Stable,59,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+36,1571,CozyNights Sleeping Bag,General,2026-04-01,Monthly,89,87.13,1.0,Stable,87,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+37,1571,CozyNights Sleeping Bag,General,2026-04-01,Weekly,20,83.23,1.0,Stable,87,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+38,1571,CozyNights Sleeping Bag,General,2026-04-08,Weekly,20,88.09,1.0,Stable,87,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+39,1571,CozyNights Sleeping Bag,General,2026-04-15,Weekly,20,83.82,1.0,Stable,87,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+40,1571,CozyNights Sleeping Bag,General,2026-04-22,Weekly,20,87.52,1.0,Stable,87,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+41,1571,CozyNights Sleeping Bag,General,2026-05-01,Monthly,85,87.13,1.0,Stable,87,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+42,1571,CozyNights Sleeping Bag,General,2026-05-31,Monthly,83,87.13,1.0,Stable,87,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+43,1511,Alpine Explorer Tent,General,2026-04-01,Monthly,232,80.92,1.0,Stable,223,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+44,1511,Alpine Explorer Tent,General,2026-04-01,Weekly,53,78.91,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+45,1511,Alpine Explorer Tent,General,2026-04-08,Weekly,53,80.54,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+46,1511,Alpine Explorer Tent,General,2026-04-15,Weekly,53,79.29,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+47,1511,Alpine Explorer Tent,General,2026-04-22,Weekly,53,76.06,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+48,1511,Alpine Explorer Tent,General,2026-05-01,Monthly,218,80.92,1.0,Stable,223,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+49,1511,Alpine Explorer Tent,General,2026-05-31,Monthly,222,80.92,1.0,Stable,223,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+50,1522,SummitClimber Backpack,General,2026-04-01,Monthly,210,76.25,1.0,Stable,203,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+51,1522,SummitClimber Backpack,General,2026-04-01,Weekly,48,78.16,1.0,Stable,203,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+52,1522,SummitClimber Backpack,General,2026-04-08,Weekly,48,76.74,1.0,Stable,203,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+53,1522,SummitClimber Backpack,General,2026-04-15,Weekly,48,74.96,1.0,Stable,203,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+54,1522,SummitClimber Backpack,General,2026-04-22,Weekly,48,73.0,1.0,Stable,203,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+55,1522,SummitClimber Backpack,General,2026-05-01,Monthly,206,76.25,1.0,Stable,203,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+56,1522,SummitClimber Backpack,General,2026-05-31,Monthly,200,76.25,1.0,Stable,203,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+57,1532,TrailBlaze Hiking Pants,General,2026-04-01,Monthly,186,92.68,1.0,Stable,184,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+58,1532,TrailBlaze Hiking Pants,General,2026-04-01,Weekly,43,96.56,1.0,Stable,184,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+59,1532,TrailBlaze Hiking Pants,General,2026-04-08,Weekly,43,93.7,1.0,Stable,184,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+60,1532,TrailBlaze Hiking Pants,General,2026-04-15,Weekly,43,87.74,1.0,Stable,184,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+61,1532,TrailBlaze Hiking Pants,General,2026-04-22,Weekly,43,91.69,1.0,Stable,184,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+62,1532,TrailBlaze Hiking Pants,General,2026-05-01,Monthly,176,92.68,1.0,Stable,184,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+63,1532,TrailBlaze Hiking Pants,General,2026-05-31,Monthly,188,92.68,1.0,Stable,184,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+64,1542,TrailWalker Hiking Shoes,General,2026-04-01,Monthly,134,92.72,1.0,Stable,141,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+65,1542,TrailWalker Hiking Shoes,General,2026-04-01,Weekly,31,94.49,1.0,Stable,141,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+66,1542,TrailWalker Hiking Shoes,General,2026-04-08,Weekly,31,94.7,1.0,Stable,141,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+67,1542,TrailWalker Hiking Shoes,General,2026-04-15,Weekly,31,89.95,1.0,Stable,141,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+68,1542,TrailWalker Hiking Shoes,General,2026-04-22,Weekly,31,96.94,1.0,Stable,141,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+69,1542,TrailWalker Hiking Shoes,General,2026-05-01,Monthly,134,92.72,1.0,Stable,141,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+70,1542,TrailWalker Hiking Shoes,General,2026-05-31,Monthly,137,92.72,1.0,Stable,141,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+71,1552,TrekMaster Camping Chair,General,2026-04-01,Monthly,80,75.13,1.0,Stable,83,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+72,1552,TrekMaster Camping Chair,General,2026-04-01,Weekly,18,71.24,1.0,Stable,83,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+73,1552,TrekMaster Camping Chair,General,2026-04-08,Weekly,18,76.81,1.0,Stable,83,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+74,1552,TrekMaster Camping Chair,General,2026-04-15,Weekly,18,76.08,1.0,Stable,83,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+75,1552,TrekMaster Camping Chair,General,2026-04-22,Weekly,18,75.1,1.0,Stable,83,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+76,1552,TrekMaster Camping Chair,General,2026-05-01,Monthly,83,75.13,1.0,Stable,83,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+77,1552,TrekMaster Camping Chair,General,2026-05-31,Monthly,82,75.13,1.0,Stable,83,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+78,1562,PowerBurner Camping Stove,General,2026-04-01,Monthly,55,86.69,1.0,Stable,58,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+79,1562,PowerBurner Camping Stove,General,2026-04-01,Weekly,12,89.16,1.0,Stable,58,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+80,1562,PowerBurner Camping Stove,General,2026-04-08,Weekly,12,89.1,1.0,Stable,58,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+81,1562,PowerBurner Camping Stove,General,2026-04-15,Weekly,12,91.39,1.0,Stable,58,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+82,1562,PowerBurner Camping Stove,General,2026-04-22,Weekly,12,87.28,1.0,Stable,58,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+83,1562,PowerBurner Camping Stove,General,2026-05-01,Monthly,58,86.69,1.0,Stable,58,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+84,1562,PowerBurner Camping Stove,General,2026-05-31,Monthly,56,86.69,1.0,Stable,58,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+85,1572,MountainDream Sleeping Bag,General,2026-04-01,Monthly,79,75.71,1.0,Stable,81,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+86,1572,MountainDream Sleeping Bag,General,2026-04-01,Weekly,18,72.56,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+87,1572,MountainDream Sleeping Bag,General,2026-04-08,Weekly,18,76.76,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+88,1572,MountainDream Sleeping Bag,General,2026-04-15,Weekly,18,71.49,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+89,1572,MountainDream Sleeping Bag,General,2026-04-22,Weekly,18,75.0,1.0,Stable,81,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+90,1572,MountainDream Sleeping Bag,General,2026-05-01,Monthly,79,75.71,1.0,Stable,81,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+91,1572,MountainDream Sleeping Bag,General,2026-05-31,Monthly,79,75.71,1.0,Stable,81,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+92,1512,SkyView 2-Person Tent,General,2026-04-01,Monthly,219,76.7,1.0,Stable,223,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+93,1512,SkyView 2-Person Tent,General,2026-04-01,Weekly,50,76.23,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+94,1512,SkyView 2-Person Tent,General,2026-04-08,Weekly,50,72.97,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+95,1512,SkyView 2-Person Tent,General,2026-04-15,Weekly,50,77.19,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+96,1512,SkyView 2-Person Tent,General,2026-04-22,Weekly,50,71.82,1.0,Stable,223,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+97,1512,SkyView 2-Person Tent,General,2026-05-01,Monthly,227,76.7,1.0,Stable,223,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+98,1512,SkyView 2-Person Tent,General,2026-05-31,Monthly,221,76.7,1.0,Stable,223,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+99,1523,TrailLite Daypack,General,2026-04-01,Monthly,189,77.24,1.0,Stable,187,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+100,1523,TrailLite Daypack,General,2026-04-01,Weekly,43,80.95,1.0,Stable,187,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+101,1523,TrailLite Daypack,General,2026-04-08,Weekly,43,81.65,1.0,Stable,187,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+102,1523,TrailLite Daypack,General,2026-04-15,Weekly,43,81.27,1.0,Stable,187,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+103,1523,TrailLite Daypack,General,2026-04-22,Weekly,43,79.85,1.0,Stable,187,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+104,1523,TrailLite Daypack,General,2026-05-01,Monthly,186,77.24,1.0,Stable,187,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+105,1523,TrailLite Daypack,General,2026-05-31,Monthly,179,77.24,1.0,Stable,187,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+106,1533,RainGuard Hiking Jacket,General,2026-04-01,Monthly,177,81.07,1.0,Stable,176,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+107,1533,RainGuard Hiking Jacket,General,2026-04-01,Weekly,41,82.64,1.0,Stable,176,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+108,1533,RainGuard Hiking Jacket,General,2026-04-08,Weekly,41,77.09,1.0,Stable,176,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+109,1533,RainGuard Hiking Jacket,General,2026-04-15,Weekly,41,79.51,1.0,Stable,176,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+110,1533,RainGuard Hiking Jacket,General,2026-04-22,Weekly,41,80.25,1.0,Stable,176,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+111,1533,RainGuard Hiking Jacket,General,2026-05-01,Monthly,176,81.07,1.0,Stable,176,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+112,1533,RainGuard Hiking Jacket,General,2026-05-31,Monthly,183,81.07,1.0,Stable,176,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+113,1543,TrekStar Hiking Sandals,General,2026-04-01,Monthly,145,92.25,1.0,Stable,140,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+114,1543,TrekStar Hiking Sandals,General,2026-04-01,Weekly,33,96.22,1.0,Stable,140,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+115,1543,TrekStar Hiking Sandals,General,2026-04-08,Weekly,33,87.92,1.0,Stable,140,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+116,1543,TrekStar Hiking Sandals,General,2026-04-15,Weekly,33,91.44,1.0,Stable,140,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+117,1543,TrekStar Hiking Sandals,General,2026-04-22,Weekly,33,88.07,1.0,Stable,140,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+118,1543,TrekStar Hiking Sandals,General,2026-05-01,Monthly,145,92.25,1.0,Stable,140,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+119,1543,TrekStar Hiking Sandals,General,2026-05-31,Monthly,138,92.25,1.0,Stable,140,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+120,1553,Adventure Dining Table,General,2026-04-01,Monthly,83,83.12,1.0,Stable,86,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+121,1553,Adventure Dining Table,General,2026-04-01,Weekly,19,86.98,1.0,Stable,86,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+122,1553,Adventure Dining Table,General,2026-04-08,Weekly,19,82.83,1.0,Stable,86,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+123,1553,Adventure Dining Table,General,2026-04-15,Weekly,19,84.87,1.0,Stable,86,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+124,1553,Adventure Dining Table,General,2026-04-22,Weekly,19,80.16,1.0,Stable,86,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+125,1553,Adventure Dining Table,General,2026-05-01,Monthly,81,83.12,1.0,Stable,86,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+126,1553,Adventure Dining Table,General,2026-05-31,Monthly,86,83.12,1.0,Stable,86,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+127,1563,CompactCook Camping Stove,General,2026-04-01,Monthly,57,88.5,1.0,Stable,59,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+128,1563,CompactCook Camping Stove,General,2026-04-01,Weekly,13,92.79,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+129,1563,CompactCook Camping Stove,General,2026-04-08,Weekly,13,84.83,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+130,1563,CompactCook Camping Stove,General,2026-04-15,Weekly,13,86.78,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+131,1563,CompactCook Camping Stove,General,2026-04-22,Weekly,13,91.51,1.0,Stable,59,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+132,1563,CompactCook Camping Stove,General,2026-05-01,Monthly,59,88.5,1.0,Stable,59,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+133,1563,CompactCook Camping Stove,General,2026-05-31,Monthly,57,88.5,1.0,Stable,59,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+134,1581,LED Headlamp - Rechargeable,General,2026-04-01,Monthly,35,87.88,1.0,Stable,36,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+135,1581,LED Headlamp - Rechargeable,General,2026-04-01,Weekly,8,85.38,1.0,Stable,36,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+136,1581,LED Headlamp - Rechargeable,General,2026-04-08,Weekly,8,88.01,1.0,Stable,36,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+137,1581,LED Headlamp - Rechargeable,General,2026-04-15,Weekly,8,88.75,1.0,Stable,36,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+138,1581,LED Headlamp - Rechargeable,General,2026-04-22,Weekly,8,92.1,1.0,Stable,36,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+139,1581,LED Headlamp - Rechargeable,General,2026-05-01,Monthly,36,87.88,1.0,Stable,36,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+140,1581,LED Headlamp - Rechargeable,General,2026-05-31,Monthly,36,87.88,1.0,Stable,36,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+141,2011,Coffee Maker,General,2026-04-01,Monthly,660,91.3,1.0,Stable,692,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+142,2011,Coffee Maker,General,2026-04-01,Weekly,153,93.73,1.0,Stable,692,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+143,2011,Coffee Maker,General,2026-04-08,Weekly,153,89.42,1.0,Stable,692,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+144,2011,Coffee Maker,General,2026-04-15,Weekly,153,86.93,1.0,Stable,692,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+145,2011,Coffee Maker,General,2026-04-22,Weekly,153,95.87,1.0,Stable,692,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+146,2011,Coffee Maker,General,2026-05-01,Monthly,670,91.3,1.0,Stable,692,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+147,2011,Coffee Maker,General,2026-05-31,Monthly,705,91.3,1.0,Stable,692,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+148,2012,Espresso Machine,General,2026-04-01,Monthly,644,82.77,1.0,Stable,670,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+149,2012,Espresso Machine,General,2026-04-01,Weekly,149,87.74,1.0,Stable,670,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+150,2012,Espresso Machine,General,2026-04-08,Weekly,149,81.26,1.0,Stable,670,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+151,2012,Espresso Machine,General,2026-04-15,Weekly,149,79.47,1.0,Stable,670,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+152,2012,Espresso Machine,General,2026-04-22,Weekly,149,78.52,1.0,Stable,670,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+153,2012,Espresso Machine,General,2026-05-01,Monthly,637,82.77,1.0,Stable,670,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+154,2012,Espresso Machine,General,2026-05-31,Monthly,664,82.77,1.0,Stable,670,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+155,2021,Chef Knife,General,2026-04-01,Monthly,457,82.54,1.0,Stable,464,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+156,2021,Chef Knife,General,2026-04-01,Weekly,106,84.19,1.0,Stable,464,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+157,2021,Chef Knife,General,2026-04-08,Weekly,106,85.02,1.0,Stable,464,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+158,2021,Chef Knife,General,2026-04-15,Weekly,106,79.06,1.0,Stable,464,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+159,2021,Chef Knife,General,2026-04-22,Weekly,106,80.13,1.0,Stable,464,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+160,2021,Chef Knife,General,2026-05-01,Monthly,480,82.54,1.0,Stable,464,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+161,2021,Chef Knife,General,2026-05-31,Monthly,462,82.54,1.0,Stable,464,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+162,2022,Fork Set,General,2026-04-01,Monthly,428,93.17,1.0,Stable,443,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+163,2022,Fork Set,General,2026-04-01,Weekly,99,89.66,1.0,Stable,443,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+164,2022,Fork Set,General,2026-04-08,Weekly,99,89.11,1.0,Stable,443,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+165,2022,Fork Set,General,2026-04-15,Weekly,99,93.55,1.0,Stable,443,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+166,2022,Fork Set,General,2026-04-22,Weekly,99,93.33,1.0,Stable,443,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+167,2022,Fork Set,General,2026-05-01,Monthly,452,93.17,1.0,Stable,443,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+168,2022,Fork Set,General,2026-05-31,Monthly,433,93.17,1.0,Stable,443,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+169,2031,Coffee Mug,General,2026-04-01,Monthly,471,90.46,1.0,Stable,455,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+170,2031,Coffee Mug,General,2026-04-01,Weekly,109,85.67,1.0,Stable,455,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+171,2031,Coffee Mug,General,2026-04-08,Weekly,109,90.5,1.0,Stable,455,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+172,2031,Coffee Mug,General,2026-04-15,Weekly,109,93.27,1.0,Stable,455,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+173,2031,Coffee Mug,General,2026-04-22,Weekly,109,95.23,1.0,Stable,455,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+174,2031,Coffee Mug,General,2026-05-01,Monthly,477,90.46,1.0,Stable,455,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+175,2031,Coffee Mug,General,2026-05-31,Monthly,449,90.46,1.0,Stable,455,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+176,2041,Serving Platter,General,2026-04-01,Monthly,399,82.85,1.0,Stable,405,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+177,2041,Serving Platter,General,2026-04-01,Weekly,92,86.1,1.0,Stable,405,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+178,2041,Serving Platter,General,2026-04-08,Weekly,92,81.07,1.0,Stable,405,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+179,2041,Serving Platter,General,2026-04-15,Weekly,92,78.32,1.0,Stable,405,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+180,2041,Serving Platter,General,2026-04-22,Weekly,92,78.83,1.0,Stable,405,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+181,2041,Serving Platter,General,2026-05-01,Monthly,421,82.85,1.0,Stable,405,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+182,2041,Serving Platter,General,2026-05-31,Monthly,401,82.85,1.0,Stable,405,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+183,2051,Ice Cream Bowl,General,2026-04-01,Monthly,191,83.6,1.0,Stable,198,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+184,2051,Ice Cream Bowl,General,2026-04-01,Weekly,44,87.79,1.0,Stable,198,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+185,2051,Ice Cream Bowl,General,2026-04-08,Weekly,44,81.04,1.0,Stable,198,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+186,2051,Ice Cream Bowl,General,2026-04-15,Weekly,44,88.17,1.0,Stable,198,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+187,2051,Ice Cream Bowl,General,2026-04-22,Weekly,44,86.97,1.0,Stable,198,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+188,2051,Ice Cream Bowl,General,2026-05-01,Monthly,188,83.6,1.0,Stable,198,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+189,2051,Ice Cream Bowl,General,2026-05-31,Monthly,199,83.6,1.0,Stable,198,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+190,2061,Mixing Bowl,General,2026-04-01,Monthly,384,91.59,1.0,Stable,391,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+191,2061,Mixing Bowl,General,2026-04-01,Weekly,89,95.93,1.0,Stable,391,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+192,2061,Mixing Bowl,General,2026-04-08,Weekly,89,89.19,1.0,Stable,391,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+193,2061,Mixing Bowl,General,2026-04-15,Weekly,89,91.19,1.0,Stable,391,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+194,2061,Mixing Bowl,General,2026-04-22,Weekly,89,90.83,1.0,Stable,391,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+195,2061,Mixing Bowl,General,2026-05-01,Monthly,391,91.59,1.0,Stable,391,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+196,2061,Mixing Bowl,General,2026-05-31,Monthly,372,91.59,1.0,Stable,391,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+197,2071,Baking Pan,General,2026-04-01,Monthly,438,76.2,1.0,Stable,419,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+198,2071,Baking Pan,General,2026-04-01,Weekly,101,81.09,1.0,Stable,419,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+199,2071,Baking Pan,General,2026-04-08,Weekly,101,76.82,1.0,Stable,419,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+200,2071,Baking Pan,General,2026-04-15,Weekly,101,81.17,1.0,Stable,419,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+201,2071,Baking Pan,General,2026-04-22,Weekly,101,74.14,1.0,Stable,419,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+202,2071,Baking Pan,General,2026-05-01,Monthly,427,76.2,1.0,Stable,419,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+203,2071,Baking Pan,General,2026-05-31,Monthly,422,76.2,1.0,Stable,419,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+204,2081,Food Storage Set,General,2026-04-01,Monthly,230,80.29,1.0,Stable,225,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+205,2081,Food Storage Set,General,2026-04-01,Weekly,53,80.13,1.0,Stable,225,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+206,2081,Food Storage Set,General,2026-04-08,Weekly,53,85.24,1.0,Stable,225,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+207,2081,Food Storage Set,General,2026-04-15,Weekly,53,80.66,1.0,Stable,225,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+208,2081,Food Storage Set,General,2026-04-22,Weekly,53,76.27,1.0,Stable,225,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+209,2081,Food Storage Set,General,2026-05-01,Monthly,218,80.29,1.0,Stable,225,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+210,2081,Food Storage Set,General,2026-05-31,Monthly,215,80.29,1.0,Stable,225,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+211,2091,Spatula,General,2026-04-01,Monthly,150,89.38,1.0,Stable,153,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+212,2091,Spatula,General,2026-04-01,Weekly,34,91.24,1.0,Stable,153,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+213,2091,Spatula,General,2026-04-08,Weekly,34,93.92,1.0,Stable,153,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+214,2091,Spatula,General,2026-04-15,Weekly,34,92.43,1.0,Stable,153,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+215,2091,Spatula,General,2026-04-22,Weekly,34,84.7,1.0,Stable,153,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+216,2091,Spatula,General,2026-05-01,Monthly,159,89.38,1.0,Stable,153,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+217,2091,Spatula,General,2026-05-31,Monthly,155,89.38,1.0,Stable,153,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+218,2101,Measuring Cup Set,General,2026-04-01,Monthly,157,93.2,1.0,Stable,156,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+219,2101,Measuring Cup Set,General,2026-04-01,Weekly,36,96.67,1.0,Stable,156,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+220,2101,Measuring Cup Set,General,2026-04-08,Weekly,36,95.76,1.0,Stable,156,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+221,2101,Measuring Cup Set,General,2026-04-15,Weekly,36,97.56,1.0,Stable,156,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+222,2101,Measuring Cup Set,General,2026-04-22,Weekly,36,97.02,1.0,Stable,156,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+223,2101,Measuring Cup Set,General,2026-05-01,Monthly,155,93.2,1.0,Stable,156,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+224,2101,Measuring Cup Set,General,2026-05-31,Monthly,162,93.2,1.0,Stable,156,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+225,2111,High-Speed Blender,General,2026-04-01,Monthly,149,82.38,1.0,Stable,150,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+226,2111,High-Speed Blender,General,2026-04-01,Weekly,34,86.54,1.0,Stable,150,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+227,2111,High-Speed Blender,General,2026-04-08,Weekly,34,80.74,1.0,Stable,150,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+228,2111,High-Speed Blender,General,2026-04-15,Weekly,34,81.94,1.0,Stable,150,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+229,2111,High-Speed Blender,General,2026-04-22,Weekly,34,81.07,1.0,Stable,150,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+230,2111,High-Speed Blender,General,2026-05-01,Monthly,154,82.38,1.0,Stable,150,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+231,2111,High-Speed Blender,General,2026-05-31,Monthly,150,82.38,1.0,Stable,150,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+232,2112,4-Slice Toaster,General,2026-04-01,Monthly,162,80.74,1.0,Stable,169,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+233,2112,4-Slice Toaster,General,2026-04-01,Weekly,37,78.35,1.0,Stable,169,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+234,2112,4-Slice Toaster,General,2026-04-08,Weekly,37,83.34,1.0,Stable,169,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+235,2112,4-Slice Toaster,General,2026-04-15,Weekly,37,79.65,1.0,Stable,169,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+236,2112,4-Slice Toaster,General,2026-04-22,Weekly,37,79.69,1.0,Stable,169,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+237,2112,4-Slice Toaster,General,2026-05-01,Monthly,176,80.74,1.0,Stable,169,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+238,2112,4-Slice Toaster,General,2026-05-31,Monthly,165,80.74,1.0,Stable,169,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+239,2121,Bamboo Cutting Board Set,General,2026-04-01,Monthly,154,75.72,1.0,Stable,161,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+240,2121,Bamboo Cutting Board Set,General,2026-04-01,Weekly,35,74.29,1.0,Stable,161,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+241,2121,Bamboo Cutting Board Set,General,2026-04-08,Weekly,35,71.46,1.0,Stable,161,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+242,2121,Bamboo Cutting Board Set,General,2026-04-15,Weekly,35,80.64,1.0,Stable,161,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+243,2121,Bamboo Cutting Board Set,General,2026-04-22,Weekly,35,74.88,1.0,Stable,161,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+244,2121,Bamboo Cutting Board Set,General,2026-05-01,Monthly,159,75.72,1.0,Stable,161,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+245,2121,Bamboo Cutting Board Set,General,2026-05-31,Monthly,156,75.72,1.0,Stable,161,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+246,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-01,Monthly,19,92.24,1.0,Stable,20,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+247,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-01,Weekly,4,89.53,1.0,Stable,20,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+248,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-08,Weekly,4,96.42,1.0,Stable,20,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+249,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-15,Weekly,4,94.69,1.0,Stable,20,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+250,3011,Alpine Pro Racing Skis - 170cm,General,2026-04-22,Weekly,4,88.82,1.0,Stable,20,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+251,3011,Alpine Pro Racing Skis - 170cm,General,2026-05-01,Monthly,19,92.24,1.0,Stable,20,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+252,3011,Alpine Pro Racing Skis - 170cm,General,2026-05-31,Monthly,20,92.24,1.0,Stable,20,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+253,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-01,Monthly,22,79.06,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+254,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-01,Weekly,5,83.35,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+255,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-08,Weekly,5,75.48,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+256,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-15,Weekly,5,83.64,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+257,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-04-22,Weekly,5,79.79,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+258,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-05-01,Monthly,22,79.06,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+259,3012,Mountain Master All-Terrain Skis - 165cm,General,2026-05-31,Monthly,22,79.06,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+260,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-01,Monthly,17,93.95,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+261,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-01,Weekly,3,91.52,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+262,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-08,Weekly,3,98.65,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+263,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-15,Weekly,3,93.8,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+264,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-04-22,Weekly,3,93.64,1.0,Stable,18,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+265,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-05-01,Monthly,18,93.95,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+266,3013,Beginner's Choice Alpine Skis - 160cm,General,2026-05-31,Monthly,17,93.95,1.0,Stable,18,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+267,3021,Nordic Classic XC Skis - 185cm,General,2026-04-01,Monthly,9,81.49,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+268,3021,Nordic Classic XC Skis - 185cm,General,2026-04-01,Weekly,2,77.22,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+269,3021,Nordic Classic XC Skis - 185cm,General,2026-04-08,Weekly,2,82.71,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+270,3021,Nordic Classic XC Skis - 185cm,General,2026-04-15,Weekly,2,81.58,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+271,3021,Nordic Classic XC Skis - 185cm,General,2026-04-22,Weekly,2,81.46,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+272,3021,Nordic Classic XC Skis - 185cm,General,2026-05-01,Monthly,10,81.49,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+273,3021,Nordic Classic XC Skis - 185cm,General,2026-05-31,Monthly,9,81.49,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+274,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-01,Monthly,7,86.37,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+275,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-01,Weekly,1,82.35,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+276,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-08,Weekly,1,86.41,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+277,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-15,Weekly,1,90.61,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+278,3022,Backcountry Explorer XC Skis - 190cm,General,2026-04-22,Weekly,1,83.23,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+279,3022,Backcountry Explorer XC Skis - 190cm,General,2026-05-01,Monthly,7,86.37,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+280,3022,Backcountry Explorer XC Skis - 190cm,General,2026-05-31,Monthly,7,86.37,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+281,3031,Pro Flex Racing Ski Boots,General,2026-04-01,Monthly,23,94.42,1.0,Stable,24,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+282,3031,Pro Flex Racing Ski Boots,General,2026-04-01,Weekly,5,95.43,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+283,3031,Pro Flex Racing Ski Boots,General,2026-04-08,Weekly,5,95.03,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+284,3031,Pro Flex Racing Ski Boots,General,2026-04-15,Weekly,5,90.87,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+285,3031,Pro Flex Racing Ski Boots,General,2026-04-22,Weekly,5,95.28,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+286,3031,Pro Flex Racing Ski Boots,General,2026-05-01,Monthly,25,94.42,1.0,Stable,24,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+287,3031,Pro Flex Racing Ski Boots,General,2026-05-31,Monthly,23,94.42,1.0,Stable,24,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+288,3032,Comfort Fit Recreational Boots,General,2026-04-01,Monthly,22,76.17,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+289,3032,Comfort Fit Recreational Boots,General,2026-04-01,Weekly,5,79.56,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+290,3032,Comfort Fit Recreational Boots,General,2026-04-08,Weekly,5,73.12,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+291,3032,Comfort Fit Recreational Boots,General,2026-04-15,Weekly,5,72.32,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+292,3032,Comfort Fit Recreational Boots,General,2026-04-22,Weekly,5,79.04,1.0,Stable,22,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+293,3032,Comfort Fit Recreational Boots,General,2026-05-01,Monthly,22,76.17,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+294,3032,Comfort Fit Recreational Boots,General,2026-05-31,Monthly,21,76.17,1.0,Stable,22,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+295,3033,Women's Performance Ski Boots,General,2026-04-01,Monthly,21,94.77,1.0,Stable,21,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+296,3033,Women's Performance Ski Boots,General,2026-04-01,Weekly,4,96.46,1.0,Stable,21,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+297,3033,Women's Performance Ski Boots,General,2026-04-08,Weekly,4,99.76,1.0,Stable,21,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+298,3033,Women's Performance Ski Boots,General,2026-04-15,Weekly,4,92.86,1.0,Stable,21,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+299,3033,Women's Performance Ski Boots,General,2026-04-22,Weekly,4,90.92,1.0,Stable,21,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+300,3033,Women's Performance Ski Boots,General,2026-05-01,Monthly,22,94.77,1.0,Stable,21,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+301,3033,Women's Performance Ski Boots,General,2026-05-31,Monthly,21,94.77,1.0,Stable,21,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+302,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-01,Monthly,9,93.01,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+303,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-01,Weekly,2,94.05,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+304,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-08,Weekly,2,97.86,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+305,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-15,Weekly,2,91.83,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+306,3041,Carbon Fiber Racing Poles - 120cm,General,2026-04-22,Weekly,2,97.09,1.0,Stable,9,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+307,3041,Carbon Fiber Racing Poles - 120cm,General,2026-05-01,Monthly,9,93.01,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+308,3041,Carbon Fiber Racing Poles - 120cm,General,2026-05-31,Monthly,9,93.01,1.0,Stable,9,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+309,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-01,Monthly,7,86.34,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+310,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-01,Weekly,1,86.19,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+311,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-08,Weekly,1,85.94,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+312,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-15,Weekly,1,82.99,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+313,3042,Aluminum All-Mountain Poles - 115cm,General,2026-04-22,Weekly,1,85.49,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+314,3042,Aluminum All-Mountain Poles - 115cm,General,2026-05-01,Monthly,8,86.34,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+315,3042,Aluminum All-Mountain Poles - 115cm,General,2026-05-31,Monthly,7,86.34,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+316,3051,Insulated Ski Jacket - Men's,General,2026-04-01,Monthly,14,79.77,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+317,3051,Insulated Ski Jacket - Men's,General,2026-04-01,Weekly,3,79.34,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+318,3051,Insulated Ski Jacket - Men's,General,2026-04-08,Weekly,3,80.31,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+319,3051,Insulated Ski Jacket - Men's,General,2026-04-15,Weekly,3,77.73,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+320,3051,Insulated Ski Jacket - Men's,General,2026-04-22,Weekly,3,83.81,1.0,Stable,15,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+321,3051,Insulated Ski Jacket - Men's,General,2026-05-01,Monthly,15,79.77,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+322,3051,Insulated Ski Jacket - Men's,General,2026-05-31,Monthly,15,79.77,1.0,Stable,15,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+323,3052,Thermal Base Layer Set - Women's,General,2026-04-01,Monthly,18,82.34,1.0,Stable,19,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+324,3052,Thermal Base Layer Set - Women's,General,2026-04-01,Weekly,4,77.57,1.0,Stable,19,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+325,3052,Thermal Base Layer Set - Women's,General,2026-04-08,Weekly,4,81.06,1.0,Stable,19,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+326,3052,Thermal Base Layer Set - Women's,General,2026-04-15,Weekly,4,83.45,1.0,Stable,19,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+327,3052,Thermal Base Layer Set - Women's,General,2026-04-22,Weekly,4,78.79,1.0,Stable,19,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+328,3052,Thermal Base Layer Set - Women's,General,2026-05-01,Monthly,18,82.34,1.0,Stable,19,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+329,3052,Thermal Base Layer Set - Women's,General,2026-05-31,Monthly,19,82.34,1.0,Stable,19,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+330,3053,Waterproof Ski Pants,General,2026-04-01,Monthly,17,93.21,1.0,Stable,17,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+331,3053,Waterproof Ski Pants,General,2026-04-01,Weekly,3,94.1,1.0,Stable,17,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+332,3053,Waterproof Ski Pants,General,2026-04-08,Weekly,3,92.27,1.0,Stable,17,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+333,3053,Waterproof Ski Pants,General,2026-04-15,Weekly,3,93.17,1.0,Stable,17,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+334,3053,Waterproof Ski Pants,General,2026-04-22,Weekly,3,94.45,1.0,Stable,17,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+335,3053,Waterproof Ski Pants,General,2026-05-01,Monthly,17,93.21,1.0,Stable,17,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+336,3053,Waterproof Ski Pants,General,2026-05-31,Monthly,17,93.21,1.0,Stable,17,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+337,3061,Professional Ski Helmet,General,2026-04-01,Monthly,10,85.02,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+338,3061,Professional Ski Helmet,General,2026-04-01,Weekly,2,86.35,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+339,3061,Professional Ski Helmet,General,2026-04-08,Weekly,2,87.66,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+340,3061,Professional Ski Helmet,General,2026-04-15,Weekly,2,81.61,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+341,3061,Professional Ski Helmet,General,2026-04-22,Weekly,2,87.88,1.0,Stable,10,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+342,3061,Professional Ski Helmet,General,2026-05-01,Monthly,9,85.02,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+343,3061,Professional Ski Helmet,General,2026-05-31,Monthly,10,85.02,1.0,Stable,10,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+344,3062,Anti-Fog Ski Goggles,General,2026-04-01,Monthly,7,90.19,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+345,3062,Anti-Fog Ski Goggles,General,2026-04-01,Weekly,1,90.37,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+346,3062,Anti-Fog Ski Goggles,General,2026-04-08,Weekly,1,88.33,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+347,3062,Anti-Fog Ski Goggles,General,2026-04-15,Weekly,1,91.99,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+348,3062,Anti-Fog Ski Goggles,General,2026-04-22,Weekly,1,90.46,1.0,Stable,8,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+349,3062,Anti-Fog Ski Goggles,General,2026-05-01,Monthly,7,90.19,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+350,3062,Anti-Fog Ski Goggles,General,2026-05-31,Monthly,7,90.19,1.0,Stable,8,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+351,3071,Ski Boot Bag - Premium,General,2026-04-01,Monthly,7,78.41,1.0,Stable,7,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+352,3071,Ski Boot Bag - Premium,General,2026-04-01,Weekly,1,76.64,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+353,3071,Ski Boot Bag - Premium,General,2026-04-08,Weekly,1,82.12,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+354,3071,Ski Boot Bag - Premium,General,2026-04-15,Weekly,1,83.09,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+355,3071,Ski Boot Bag - Premium,General,2026-04-22,Weekly,1,79.03,1.0,Stable,7,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+356,3071,Ski Boot Bag - Premium,General,2026-05-01,Monthly,6,78.41,1.0,Stable,7,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+357,3071,Ski Boot Bag - Premium,General,2026-05-31,Monthly,7,78.41,1.0,Stable,7,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+358,3072,Hand Warmers - 10 Pack,General,2026-04-01,Monthly,6,92.69,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+359,3072,Hand Warmers - 10 Pack,General,2026-04-01,Weekly,1,89.05,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+360,3072,Hand Warmers - 10 Pack,General,2026-04-08,Weekly,1,93.4,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+361,3072,Hand Warmers - 10 Pack,General,2026-04-15,Weekly,1,91.92,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+362,3072,Hand Warmers - 10 Pack,General,2026-04-22,Weekly,1,89.89,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+363,3072,Hand Warmers - 10 Pack,General,2026-05-01,Monthly,5,92.69,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+364,3072,Hand Warmers - 10 Pack,General,2026-05-31,Monthly,6,92.69,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+365,3081,All-Temp Ski Wax Kit,General,2026-04-01,Monthly,22,84.28,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+366,3081,All-Temp Ski Wax Kit,General,2026-04-01,Weekly,5,80.6,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+367,3081,All-Temp Ski Wax Kit,General,2026-04-08,Weekly,5,89.17,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+368,3081,All-Temp Ski Wax Kit,General,2026-04-15,Weekly,5,83.85,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+369,3081,All-Temp Ski Wax Kit,General,2026-04-22,Weekly,5,79.86,1.0,Stable,23,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+370,3081,All-Temp Ski Wax Kit,General,2026-05-01,Monthly,23,84.28,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+371,3081,All-Temp Ski Wax Kit,General,2026-05-31,Monthly,23,84.28,1.0,Stable,23,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+372,3082,Edge Tuning Tool Set,General,2026-04-01,Monthly,25,85.61,1.0,Stable,27,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+373,3082,Edge Tuning Tool Set,General,2026-04-01,Weekly,5,81.07,1.0,Stable,27,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+374,3082,Edge Tuning Tool Set,General,2026-04-08,Weekly,5,88.79,1.0,Stable,27,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+375,3082,Edge Tuning Tool Set,General,2026-04-15,Weekly,5,87.81,1.0,Stable,27,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+376,3082,Edge Tuning Tool Set,General,2026-04-22,Weekly,5,84.07,1.0,Stable,27,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+377,3082,Edge Tuning Tool Set,General,2026-05-01,Monthly,27,85.61,1.0,Stable,27,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+378,3082,Edge Tuning Tool Set,General,2026-05-31,Monthly,28,85.61,1.0,Stable,27,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+379,3091,Freestyle Snowboard - 155cm,General,2026-04-01,Monthly,10,85.65,1.0,Stable,11,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+380,3091,Freestyle Snowboard - 155cm,General,2026-04-01,Weekly,2,88.24,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+381,3091,Freestyle Snowboard - 155cm,General,2026-04-08,Weekly,2,85.94,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+382,3091,Freestyle Snowboard - 155cm,General,2026-04-15,Weekly,2,83.49,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+383,3091,Freestyle Snowboard - 155cm,General,2026-04-22,Weekly,2,82.43,1.0,Stable,11,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+384,3091,Freestyle Snowboard - 155cm,General,2026-05-01,Monthly,10,85.65,1.0,Stable,11,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+385,3091,Freestyle Snowboard - 155cm,General,2026-05-31,Monthly,10,85.65,1.0,Stable,11,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+386,3092,All-Mountain Snowboard - 158cm,General,2026-04-01,Monthly,12,79.99,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+387,3092,All-Mountain Snowboard - 158cm,General,2026-04-01,Weekly,2,76.28,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+388,3092,All-Mountain Snowboard - 158cm,General,2026-04-08,Weekly,2,82.74,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+389,3092,All-Mountain Snowboard - 158cm,General,2026-04-15,Weekly,2,84.42,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+390,3092,All-Mountain Snowboard - 158cm,General,2026-04-22,Weekly,2,77.51,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+391,3092,All-Mountain Snowboard - 158cm,General,2026-05-01,Monthly,11,79.99,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+392,3092,All-Mountain Snowboard - 158cm,General,2026-05-31,Monthly,12,79.99,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+393,3101,Winter Boots - Insulated,General,2026-04-01,Monthly,5,87.59,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+394,3101,Winter Boots - Insulated,General,2026-04-01,Weekly,1,82.99,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+395,3101,Winter Boots - Insulated,General,2026-04-08,Weekly,1,83.47,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+396,3101,Winter Boots - Insulated,General,2026-04-15,Weekly,1,92.15,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+397,3101,Winter Boots - Insulated,General,2026-04-22,Weekly,1,90.43,1.0,Stable,6,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+398,3101,Winter Boots - Insulated,General,2026-05-01,Monthly,6,87.59,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+399,3101,Winter Boots - Insulated,General,2026-05-31,Monthly,6,87.59,1.0,Stable,6,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+400,3102,Winter Hiking Boots - Waterproof,General,2026-04-01,Monthly,5,80.5,1.0,Stable,5,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+401,3102,Winter Hiking Boots - Waterproof,General,2026-04-01,Weekly,1,81.8,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+402,3102,Winter Hiking Boots - Waterproof,General,2026-04-08,Weekly,1,78.96,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+403,3102,Winter Hiking Boots - Waterproof,General,2026-04-15,Weekly,1,79.16,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+404,3102,Winter Hiking Boots - Waterproof,General,2026-04-22,Weekly,1,76.08,1.0,Stable,5,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+405,3102,Winter Hiking Boots - Waterproof,General,2026-05-01,Monthly,5,80.5,1.0,Stable,5,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+406,3102,Winter Hiking Boots - Waterproof,General,2026-05-31,Monthly,5,80.5,1.0,Stable,5,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+407,3103,Snowboard Bindings - Pro,General,2026-04-01,Monthly,12,94.98,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+408,3103,Snowboard Bindings - Pro,General,2026-04-01,Weekly,2,92.7,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+409,3103,Snowboard Bindings - Pro,General,2026-04-08,Weekly,2,99.5,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+410,3103,Snowboard Bindings - Pro,General,2026-04-15,Weekly,2,91.7,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+411,3103,Snowboard Bindings - Pro,General,2026-04-22,Weekly,2,98.04,1.0,Stable,12,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+412,3103,Snowboard Bindings - Pro,General,2026-05-01,Monthly,11,94.98,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+413,3103,Snowboard Bindings - Pro,General,2026-05-31,Monthly,12,94.98,1.0,Stable,12,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+414,3104,Ski Tuning Bench - Portable,General,2026-04-01,Monthly,23,80.01,1.0,Stable,24,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+415,3104,Ski Tuning Bench - Portable,General,2026-04-01,Weekly,5,76.87,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+416,3104,Ski Tuning Bench - Portable,General,2026-04-08,Weekly,5,77.84,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+417,3104,Ski Tuning Bench - Portable,General,2026-04-15,Weekly,5,83.08,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+418,3104,Ski Tuning Bench - Portable,General,2026-04-22,Weekly,5,81.78,1.0,Stable,24,Sales Velocity + Seasonal,7,,,system,2026-03-04 14:56:13
+419,3104,Ski Tuning Bench - Portable,General,2026-05-01,Monthly,23,80.01,1.0,Stable,24,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
+420,3104,Ski Tuning Bench - Portable,General,2026-05-31,Monthly,22,80.01,1.0,Stable,24,Sales Velocity + Seasonal,30,,,system,2026-03-04 14:56:13
