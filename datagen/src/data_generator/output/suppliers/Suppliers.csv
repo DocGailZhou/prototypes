@@ -1,6 +1,6 @@
 SupplierID,SupplierName,SupplierType,Status,ProductCategory,PrimarySupplierID,LeadTimeDays,ReliabilityScore,Location,ContactEmail,CreatedBy,CreatedDate
-1,Contoso Camping Equipment,Primary,Active,Camping,,14,92,"Denver, CO, USA",orders@contoso-camping.com,system,2025-05-29 14:56:11
-2,Contoso Kitchen,Primary,Active,Kitchen,,10,90,"Portland, OR, USA",orders@contoso-kitchen.com,system,2025-08-04 14:56:11
-3,Contoso Ski Equipment,Primary,Active,Ski,,12,94,"Aspen, CO, USA",orders@contoso-ski.com,system,2025-04-24 14:56:11
-4,Worldwide Importers,Backup,Active,Multi,,28,80,"Vancouver, BC, Canada",wholesale@worldwide-importers.com,system,2025-12-06 14:56:11
-5,Fabrikam,Backup,Active,Ski,3.0,21,85,"Salt Lake City, UT, USA",supply@fabrikam-sports.com,system,2026-01-15 14:56:11
+1,Contoso Camping Equipment,Primary,Active,Camping,,14,92,"Denver, CO, USA",campingorders@contoso.com,system,2025-10-08 15:58:25
+2,Contoso Kitchen,Primary,Active,Kitchen,,10,90,"Portland, OR, USA",kitchenorders@contoso.com,system,2025-04-22 15:58:25
+3,Contoso Ski Equipment,Primary,Active,Ski,,12,94,"Aspen, CO, USA",skiorders@contoso.com,system,2026-01-13 15:58:25
+4,Worldwide Importers,Secondary,Active,Multi,,28,80,"Vancouver, BC, Canada",wholesale@wideworldimporters.com,system,2025-06-12 15:58:25
+5,Fabrikam,Secondary,Active,Ski,3.0,21,85,"Salt Lake City, UT, USA",supply@fabrikam.com,system,2025-05-08 15:58:25

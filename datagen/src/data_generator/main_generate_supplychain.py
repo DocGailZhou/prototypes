@@ -66,7 +66,7 @@ def generate_summary_report(results, args, start_time, end_time):
     if 'suppliers' in results:
         df_suppliers = results['suppliers']['suppliers']
         primary_count = len(df_suppliers[df_suppliers['SupplierType'] == 'Primary'])
-        backup_count = len(df_suppliers[df_suppliers['SupplierType'] == 'Backup'])
+        backup_count = len(df_suppliers[df_suppliers['SupplierType'] == 'Secondary'])
         suppliers_info = f"{primary_count} Primary, {backup_count} Backup"
     
     # Get sales integration info
@@ -524,7 +524,7 @@ def generate_graph(results, args):
                 reliability_scores = df_suppliers_filtered['ReliabilityScore']
                 
                 # Color by supplier type and size by lead time impact
-                colors = ['red' if x == 'Backup' else 'blue' for x in df_suppliers_filtered['SupplierType']]
+                colors = ['red' if x == 'Secondary' else 'blue' for x in df_suppliers_filtered['SupplierType']]
                 sizes = [max(50, 200 - lt*3) for lt in df_suppliers_filtered['LeadTimeDays']]  # Larger dot = faster delivery
                 
                 scatter = ax4.scatter(risk_scores, reliability_scores, c=colors, s=sizes, alpha=0.7, edgecolors='black')
@@ -543,7 +543,7 @@ def generate_graph(results, args):
                 from matplotlib.patches import Patch
                 legend_elements = [
                     Patch(facecolor='blue', label='Primary Supplier'),
-                    Patch(facecolor='red', label='Backup Supplier')
+                    Patch(facecolor='red', label='Secondary Supplier')
                 ]
                 ax4.legend(handles=legend_elements, loc='lower left', fontsize=10)
                 ax4.grid(True, alpha=0.2)

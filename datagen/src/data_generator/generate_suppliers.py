@@ -134,15 +134,26 @@ class SupplierDataGenerator:
                         'ProductID': product.get('ProductID', product_supplier_id * 100),
                         'ProductName': product.get('ProductName', product.get('Name', f'Product {product_supplier_id}')),
                         'ProductCategory': category.title(),
-                        'RetailPrice': product.get('Price', random.uniform(25, 500))
+                        'RetailPrice': product.get('ListPrice', product.get('Price', random.uniform(25, 500)))
                     })
             else:  # Using combined data
                 for _, product in df.iterrows():
+                    # Determine category from BrandName in combined file
+                    brand_name = product.get('BrandName', '')
+                    if 'Camping' in brand_name:
+                        category = 'Camping'
+                    elif 'Kitchen' in brand_name:
+                        category = 'Kitchen'
+                    elif 'Ski' in brand_name:
+                        category = 'Ski'
+                    else:
+                        category = 'General'
+                    
                     all_products.append({
                         'ProductID': product.get('ProductID', product_supplier_id * 100),
                         'ProductName': product.get('ProductName', product.get('Name', f'Product {product_supplier_id}')),
-                        'ProductCategory': product.get('Category', 'General'),
-                        'RetailPrice': product.get('Price', random.uniform(25, 500))
+                        'ProductCategory': category,
+                        'RetailPrice': product.get('ListPrice', product.get('Price', random.uniform(25, 500)))
                     })
                 break  # Only process combined data once
                 
@@ -191,12 +202,12 @@ class SupplierDataGenerator:
                 product_supplier_data.append(record)
                 product_supplier_id += 1
                 
-            # Also create backup supplier mappings (15% chance per backup supplier)
-            backup_suppliers = [s for s in category_suppliers if s['SupplierType'] == 'Backup']
+            # Also create secondary supplier mappings (15% chance per secondary supplier)
+            backup_suppliers = [s for s in category_suppliers if s['SupplierType'] == 'Secondary']
             for backup_supplier in backup_suppliers:
                 if random.random() < 0.15:  # 15% chance
                     
-                    # Backup suppliers typically cost more
+                    # Secondary suppliers typically cost more
                     retail_price = float(product['RetailPrice'])
                     wholesale_cost = retail_price * random.uniform(0.65, 0.85)
                     

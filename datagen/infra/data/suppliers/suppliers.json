@@ -10,7 +10,7 @@
       "LeadTimeDays": 14,
       "ReliabilityScore": 92,
       "Location": "Denver, CO, USA",
-      "ContactEmail": "orders@contoso-camping.com",
+      "ContactEmail": "campingorders@contoso.com",
       "CreatedBy": "system"
     },
     {
@@ -23,7 +23,7 @@
       "LeadTimeDays": 10,
       "ReliabilityScore": 90,
       "Location": "Portland, OR, USA",
-      "ContactEmail": "orders@contoso-kitchen.com",
+      "ContactEmail": "kitchenorders@contoso.com",
       "CreatedBy": "system"
     },
     {
@@ -36,53 +36,53 @@
       "LeadTimeDays": 12,
       "ReliabilityScore": 94,
       "Location": "Aspen, CO, USA",
-      "ContactEmail": "orders@contoso-ski.com",
+      "ContactEmail": "skiorders@contoso.com",
       "CreatedBy": "system"
     },
     {
       "SupplierID": 4,
       "SupplierName": "Worldwide Importers",
-      "SupplierType": "Backup",
+      "SupplierType": "Secondary",
       "Status": "Active",
       "ProductCategory": "Multi",
       "PrimarySupplierID": null,
       "LeadTimeDays": 28,
       "ReliabilityScore": 80,
       "Location": "Vancouver, BC, Canada", 
-      "ContactEmail": "wholesale@worldwide-importers.com",
+      "ContactEmail": "wholesale@wideworldimporters.com",
       "CreatedBy": "system",
-      "Notes": "Backup supplier for all categories - Camping, Kitchen, and Ski"
+      "Notes": "Secondary supplier for all categories - Camping, Kitchen, and Ski"
     },
     {
       "SupplierID": 5,
       "SupplierName": "Fabrikam",
-      "SupplierType": "Backup",
+      "SupplierType": "Secondary",
       "Status": "Active",
       "ProductCategory": "Ski", 
       "PrimarySupplierID": 3,
       "LeadTimeDays": 21,
       "ReliabilityScore": 85,
       "Location": "Salt Lake City, UT, USA",
-      "ContactEmail": "supply@fabrikam-sports.com", 
+      "ContactEmail": "supply@fabrikam.com", 
       "CreatedBy": "system",
-      "Notes": "Backup supplier for Ski products only"
+      "Notes": "Secondary supplier for Ski products only"
     }
   ],
-  "backup_relationships": [
+  "secondary_relationships": [
     {
       "primary_category": "Camping",
       "primary_supplier_id": 1,
-      "backup_suppliers": [4]
+      "secondary_suppliers": [4]
     },
     {
       "primary_category": "Kitchen", 
       "primary_supplier_id": 2,
-      "backup_suppliers": [4]
+      "secondary_suppliers": [4]
     },
     {
       "primary_category": "Ski",
       "primary_supplier_id": 3, 
-      "backup_suppliers": [4, 5]
+      "secondary_suppliers": [4, 5]
     }
   ],
   "supplier_tiers": {
@@ -91,7 +91,7 @@
       "reliability_range": [85, 95],
       "description": "Main suppliers with fastest delivery and highest reliability"
     },
-    "backup": {
+    "secondary": {
       "lead_time_range": [14, 35], 
       "reliability_range": [70, 85],
       "description": "Alternative suppliers for continuity planning"

@@ -1,20 +1,20 @@
 # Supply Chain Data Generation Summary
 
-**Generated**: 2026-03-04 14:56:13  
-**Date Range**: 2025-01-01 to 2026-03-31  
-**Duration**: 454 days  
-**Integration**: Connected to 50,012 sales line items
+**Generated**: 2026-03-04 15:58:25  
+**Date Range**: 2025-12-01 to 2026-03-31  
+**Duration**: 120 days  
+**Integration**: Connected to 50,573 sales line items
 
 ## 🏭 Generation Overview
 
 ### **Total Summary**
-- **Total Records Generated**: 7,416
+- **Total Records Generated**: 2,591
 - **Suppliers**: 5 suppliers with backup relationships
-- **Product-Supplier Mappings**: 12 relationships
-- **Inventory Records**: 78 stock locations
+- **Product-Supplier Mappings**: 78 relationships
+- **Inventory Records**: 75 stock locations
 - **Purchase Orders**: 50 procurement orders  
-- **PO Line Items**: 26 order details
-- **Inventory Transactions**: 6810 movement records
+- **PO Line Items**: 148 order details
+- **Inventory Transactions**: 1800 movement records
 - **Demand Forecasts**: 420 predictive analytics records
 - **Supply Chain Events**: 15 disruption scenarios
 
@@ -49,7 +49,7 @@
 - **Cost Management**: Wholesale pricing 60-80% of retail with supplier variations
 
 ### **Transaction Audit Trail**  
-- **Complete Visibility**: 6810 inventory movements across all transaction types
+- **Complete Visibility**: 1800 inventory movements across all transaction types
 - **Receipt Tracking**: Purchase order receipts with reference numbers
 - **Sales Integration**: Outbound movements linked to customer orders
 - **Adjustments**: Cycle counts, transfers, damages, returns all tracked
@@ -94,14 +94,14 @@
 
 ### **Supplier Data** (`output/suppliers/`)
 - `Suppliers.csv` - 5 supplier records with backup relationships
-- `ProductSuppliers.csv` - 12 product-to-supplier mappings with pricing
+- `ProductSuppliers.csv` - 78 product-to-supplier mappings with pricing
 - `SupplyChainEvents.csv` - 15 disruption events and scenarios
 
 ### **Inventory Data** (`output/inventory/`)  
-- `Inventory.csv` - 78 current stock levels across warehouses
-- `InventoryTransactions.csv` - 6810 complete movement audit trail
+- `Inventory.csv` - 75 current stock levels across warehouses
+- `InventoryTransactions.csv` - 1800 complete movement audit trail
 - `PurchaseOrders.csv` - 50 procurement orders with supplier details  
-- `PurchaseOrderItems.csv` - 26 line items with specifications
+- `PurchaseOrderItems.csv` - 148 line items with specifications
 - `DemandForecast.csv` - 420 predictive analytics with seasonal patterns
 
 ## 🚀 Next Steps

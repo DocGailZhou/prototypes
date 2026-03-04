@@ -62,6 +62,20 @@ class InventoryDataGenerator:
         print(f"📁 Output: {self.inventory_output}")
         print(f"📅 Date range: {self.start_date} to {self.end_date}")
         
+    def _get_product_category(self, product):
+        """Get product category from BrandName or other fields."""
+        # Try to determine category from BrandName first
+        brand_name = product.get('BrandName', '')
+        if 'Camping' in brand_name:
+            return 'Camping'
+        elif 'Kitchen' in brand_name:
+            return 'Kitchen'
+        elif 'Ski' in brand_name:
+            return 'Ski'
+        else:
+            # Fallback to explicit Category field
+            return product.get('Category', product.get('ProductCategory', 'General'))
+        
     def _load_sales_data(self):
         """Load sales data from all categories to analyze demand patterns."""
         sales_data = []
@@ -235,7 +249,7 @@ class InventoryDataGenerator:
         for _, product in self.products_data.iterrows():
             product_id = product.get('ProductID', inventory_id * 100)
             product_name = product.get('ProductName', product.get('Name', f'Product {product_id}'))
-            category = product.get('Category', 'General')
+            category = self._get_product_category(product)
             
             # Get velocity data for this product or use defaults
             if product_id in velocity_data:
@@ -671,7 +685,7 @@ class InventoryDataGenerator:
                 all_products.append({
                     'ProductID': product.get('ProductID', product.get('Id', forecast_id * 100)),
                     'ProductName': product.get('ProductName', product.get('Name', f'Product {forecast_id}')),
-                    'ProductCategory': product.get('Category', product.get('ProductCategory', 'General'))
+                    'ProductCategory': self._get_product_category(product)
                 })
                 
         if not all_products:
