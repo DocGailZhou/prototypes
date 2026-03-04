@@ -206,7 +206,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Project specific data directories
-datagen/infra/data/
-datagen/src/data_generator/output/
+# # Project specific data directories
+# datagen/infra/data/
+# datagen/src/data_generator/output/
 
