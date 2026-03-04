@@ -1,0 +1,6 @@
+ProductSupplierID,ProductID,ProductName,ProductCategory,SupplierID,SupplierName,SupplierProductCode,WholesaleCost,MinOrderQuantity,MaxOrderQuantity,LeadTimeDays,Status,CreatedBy,CreatedDate
+1,1552,TrekMaster Camping Chair,General,4,Worldwide Importers,WOR-1552,313.15,25,,25,Active,system,2025-12-31 14:31:14
+2,2041,Serving Platter,General,4,Worldwide Importers,WOR-2041,387.69,50,2000.0,23,Active,system,2025-11-29 14:31:14
+3,2112,4-Slice Toaster,General,4,Worldwide Importers,WOR-2112,372.46,1,,26,Active,system,2025-12-02 14:31:14
+4,3011,Alpine Pro Racing Skis - 170cm,General,4,Worldwide Importers,WOR-3011,308.26,25,,24,Active,system,2025-11-17 14:31:14
+5,3051,Insulated Ski Jacket - Men's,General,4,Worldwide Importers,WOR-3051,161.91,25,,31,Active,system,2025-12-14 14:31:14
