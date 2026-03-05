@@ -17,7 +17,8 @@
     # Step 1: Login to Azure
     az login
 
-    # Step 2: Run the script  
+    # Step 2: Run the script (in Git Bash or WSL terminal)
+    chmod +x setup_azure_vm.sh 
     .\setup_azure_vm.ps1
 
 .NOTES
@@ -194,6 +195,44 @@ function Show-ConnectionInfo {
         Write-Info "📍 Public IP Address: $publicIp"
         Write-Info "👤 Username: $AdminUsername"
         Write-Info "🔑 SSH Key Location: ~/.ssh/id_rsa"
+        
+        # Create SSH info markdown file
+        $sshInfoFile = "azure_vm_ssh_info.md"
+        
+        # Remove existing file if it exists
+        if (Test-Path $sshInfoFile) {
+            Remove-Item $sshInfoFile -Force
+        }
+        
+        $sshContent = @"
+# Azure VM SSH Connection Information
+
+## 🔗 SSH Connection Commands:
+
+### Option 1 - Azure CLI SSH (Recommended):
+```
+az ssh vm --resource-group $ResourceGroupName --name $VMName --local-user $AdminUsername
+```
+
+### Option 2 - Direct SSH:
+```
+ssh $AdminUsername@$publicIp
+```
+
+## Connection Details:
+- **📍 Public IP Address:** $publicIp
+- **👤 Username:** $AdminUsername
+- **🔑 SSH Key Location:** ~/.ssh/id_rsa
+- **🗂️ Resource Group:** $ResourceGroupName
+- **🖥️ VM Name:** $VMName
+
+---
+*Generated on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')*
+"@
+        
+        Set-Content -Path $sshInfoFile -Value $sshContent -Encoding UTF8
+        Write-Host ""
+        Write-Success "✓ SSH connection info saved to: $sshInfoFile"
     }
     else {
         Write-Warning "Could not retrieve public IP address"
