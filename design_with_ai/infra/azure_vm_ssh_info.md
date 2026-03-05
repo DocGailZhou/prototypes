@@ -4,20 +4,20 @@
 
 ### Option 1 - Azure CLI SSH (Recommended):
 `
-az ssh vm --resource-group gzt_iot_aio_dev_rg --name local_linux --local-user azureuser
+az ssh vm --resource-group gz_iot_aio_rg --name gz_linux --local-user azureuser
 `
 
 ### Option 2 - Direct SSH:
 `
-ssh azureuser@20.115.122.123
+ssh azureuser@52.186.149.210
 `
 
 ## Connection Details:
-- **📍 Public IP Address:** 20.115.122.123
+- **📍 Public IP Address:** 52.186.149.210
 - **👤 Username:** azureuser
 - **🔑 SSH Key Location:** ~/.ssh/id_rsa
-- **🗂️ Resource Group:** gzt_iot_aio_dev_rg
-- **🖥️ VM Name:** local_linux
+- **🗂️ Resource Group:** gz_iot_aio_rg
+- **🖥️ VM Name:** gz_linux
 
 ---
-*Generated on 2026-03-04 23:50:42*
+*Generated on 2026-03-05 11:34:50*

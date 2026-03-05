@@ -209,3 +209,4 @@ __marimo__/
 # Project specific data directories
 # datagen/infra/data/
 # datagen/src/data_generator/output/
+design_with_ai/infra/azure_vm_ssh_info.md
