@@ -33,6 +33,90 @@ from generate_suppliers import SupplierDataGenerator
 from generate_inventory import InventoryDataGenerator
 
 
+def calculate_optimal_parameters(start_date, end_date):
+    """Calculate optimal purchase orders and transactions based on existing sales data."""
+    
+    base_path = Path(__file__).parent
+    output_path = base_path / "output"
+    
+    # Default fallback values
+    recommended_orders = 30
+    recommended_transactions = 500
+    sales_info = "No sales data found"
+    
+    try:
+        # Load sales data from all categories
+        total_sales_lines = 0
+        total_orders = 0
+        categories_found = []
+        
+        for category in ['camping', 'kitchen', 'ski']:
+            sales_path = output_path / category / "sales"
+            if sales_path.exists():
+                # Count order lines
+                orderline_files = list(sales_path.glob("*OrderLine*.csv"))
+                order_files = list(sales_path.glob("*Order*.csv"))
+                
+                for file_path in orderline_files:
+                    if file_path.exists():
+                        try:
+                            df = pd.read_csv(file_path)
+                            # Filter by date range if OrderDate column exists
+                            if 'OrderDate' in df.columns:
+                                df['OrderDate'] = pd.to_datetime(df['OrderDate'])
+                                start_dt = pd.to_datetime(start_date)
+                                end_dt = pd.to_datetime(end_date)
+                                df_filtered = df[(df['OrderDate'] >= start_dt) & (df['OrderDate'] <= end_dt)]
+                                total_sales_lines += len(df_filtered)
+                            else:
+                                total_sales_lines += len(df)
+                            categories_found.append(category.title())
+                        except Exception as e:
+                            print(f"⚠️  Could not read {file_path}: {e}")
+                
+                for file_path in order_files:
+                    if file_path.exists() and 'OrderLine' not in str(file_path) and 'OrderPayment' not in str(file_path):
+                        try:
+                            df = pd.read_csv(file_path)
+                            # Filter by date range if OrderDate column exists
+                            if 'OrderDate' in df.columns:
+                                df['OrderDate'] = pd.to_datetime(df['OrderDate'])
+                                start_dt = pd.to_datetime(start_date)
+                                end_dt = pd.to_datetime(end_date)
+                                df_filtered = df[(df['OrderDate'] >= start_dt) & (df['OrderDate'] <= end_dt)]
+                                total_orders += len(df_filtered)
+                            else:
+                                total_orders += len(df)
+                        except Exception as e:
+                            print(f"⚠️  Could not read {file_path}: {e}")
+        
+        if total_sales_lines > 0:
+            # Calculate recommendations based on sales volume
+            # Purchase Orders: ~1 PO per 400-500 line items, minimum 20, maximum 200
+            recommended_orders = max(20, min(200, int(total_sales_lines / 450)))
+            
+            # Inventory Transactions: 2-3x sales volume, with reasonable limits
+            days_in_range = (datetime.strptime(end_date, '%Y-%m-%d').date() - 
+                           datetime.strptime(start_date, '%Y-%m-%d').date()).days
+            max_daily_transactions = 15  # Cap at 15 transactions per day
+            calculated_transactions = min(total_sales_lines * 2, days_in_range * max_daily_transactions)
+            recommended_transactions = max(200, calculated_transactions)
+            
+            # Sales info summary
+            categories_str = ", ".join(set(categories_found))
+            sales_info = f"{total_sales_lines:,} line items from {total_orders:,} orders ({categories_str})"
+            
+        else:
+            print("⚠️  No sales data found in output directory. Using default parameters.")
+            sales_info = "No sales data found - using defaults"
+            
+    except Exception as e:
+        print(f"⚠️  Error analyzing sales data: {e}")
+        sales_info = f"Error reading sales data: {e}"
+    
+    return recommended_orders, recommended_transactions, sales_info
+
+
 def generate_summary_report(results, args, start_time, end_time):
     """Generate a comprehensive summary markdown report."""
     
@@ -307,7 +391,7 @@ def generate_graph(results, args):
         
         # Create subplot layout (2x2 grid) with larger figure size
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(18, 14))
-        fig.suptitle(f'📊 Supply Chain Business Dashboard\n{args.start_date} to {args.end_date}', 
+        fig.suptitle(f'Supply Chain Business Dashboard\n{args.start_date} to {args.end_date}', 
                      fontsize=18, fontweight='bold', y=0.96)
         
         # Graph 1: Demand Forecast vs Recent Sales Reality
@@ -359,7 +443,7 @@ def generate_graph(results, args):
                 # Plot all data as one continuous area
                 ax1.fill_between(x_positions, 0, all_data, 
                                color='#2E8B57', alpha=0.8, 
-                               label='📊 Business Timeline')
+                               label='Business Timeline')
                 
                 # Overlay forecast area with different color
                 if len(forecast_data) > 0:
@@ -367,7 +451,7 @@ def generate_graph(results, args):
                     forecast_positions = list(range(forecast_start_idx, len(all_data)))
                     ax1.fill_between(forecast_positions, 0, forecast_data, 
                                    color='#4169E1', alpha=0.6, 
-                                   label='🔮 Demand Forecast')
+                                   label='Demand Forecast')
                     
                     # Add transition marker at the boundary  
                     transition_point = len(historical_data) - 0.5
@@ -383,7 +467,7 @@ def generate_graph(results, args):
                         fontweight='bold', color='white',
                         bbox=dict(boxstyle='round,pad=0.5', facecolor='#2E8B57', alpha=0.8))
             
-            ax1.set_title('🔮 Demand Forecast vs Recent Sales Reality', fontsize=14, fontweight='bold', pad=20)
+            ax1.set_title('Demand Forecast vs Recent Sales Reality', fontsize=14, fontweight='bold', pad=20)
             ax1.set_ylabel('Units (Thousands)', fontsize=12)
             ax1.set_xlabel('Month', fontsize=12)
             
@@ -434,10 +518,10 @@ def generate_graph(results, args):
                 ax2.text(util + 2, i, f'{util:.1f}%', va='center', fontweight='bold', fontsize=12)
             
             # Add capacity zones
-            ax2.axvline(x=70, color='orange', linestyle='--', alpha=0.7, linewidth=2, label='⚠️  High Utilization')
-            ax2.axvline(x=90, color='red', linestyle='--', alpha=0.7, linewidth=2, label='🚨 Critical Capacity')
+            ax2.axvline(x=70, color='orange', linestyle='--', alpha=0.7, linewidth=2, label='High Utilization')
+            ax2.axvline(x=90, color='red', linestyle='--', alpha=0.7, linewidth=2, label='Critical Capacity')
             
-            ax2.set_title('🏭 Warehouse Capacity Utilization', fontsize=14, fontweight='bold', pad=20)
+            ax2.set_title('Warehouse Capacity Utilization', fontsize=14, fontweight='bold', pad=20)
             ax2.set_xlabel('Capacity Utilization (%)', fontsize=12)
             ax2.set_xlim(0, 105)
             ax2.legend(loc='lower right', fontsize=10)
@@ -447,7 +531,7 @@ def generate_graph(results, args):
         if inventory_levels_file.exists():
             # Create stock health analysis
             df_inventory['StockHealth'] = 'Unknown'
-            df_inventory.loc[df_inventory['CurrentStock'] == 0, 'StockHealth'] = '🚨 Out of Stock'
+            df_inventory.loc[df_inventory['CurrentStock'] == 0, 'StockHealth'] = 'Out of Stock'
             df_inventory.loc[
                 (df_inventory['CurrentStock'] > 0) & 
                 (df_inventory['CurrentStock'] <= df_inventory['SafetyStockLevel']), 
@@ -457,27 +541,27 @@ def generate_graph(results, args):
                 (df_inventory['CurrentStock'] > df_inventory['SafetyStockLevel']) & 
                 (df_inventory['CurrentStock'] <= df_inventory['ReorderPoint']), 
                 'StockHealth'
-            ] = '📋 Reorder Soon'
+            ] = 'Reorder Soon'
             df_inventory.loc[
                 (df_inventory['CurrentStock'] > df_inventory['ReorderPoint']) & 
                 (df_inventory['CurrentStock'] < df_inventory['MaxStockLevel'] * 0.9), 
                 'StockHealth'
-            ] = '✅ Healthy Stock'
+            ] = 'Healthy Stock'
             df_inventory.loc[
                 df_inventory['CurrentStock'] >= df_inventory['MaxStockLevel'] * 0.9, 
                 'StockHealth'
-            ] = '📦 High Stock'
+            ] = 'High Stock'
             
             # Count products by health status
             health_counts = df_inventory['StockHealth'].value_counts()
             
             # Define colors for each health status
             health_colors = {
-                '🚨 Out of Stock': '#DC143C',
+                'Out of Stock': '#DC143C',
                 '⚠️  Low Stock': '#FF8C00', 
-                '📋 Reorder Soon': '#FFD700',
-                '✅ Healthy Stock': '#32CD32',
-                '📦 High Stock': '#4169E1'
+                'Reorder Soon': '#FFD700',
+                'Healthy Stock': '#32CD32',
+                'High Stock': '#4169E1'
             }
             
             colors = [health_colors.get(status, '#808080') for status in health_counts.index]
@@ -492,7 +576,7 @@ def generate_graph(results, args):
             
             ax3.set_yticks(range(len(health_counts)))
             ax3.set_yticklabels(health_counts.index, fontsize=11)
-            ax3.set_title('📊 Inventory Health Status', fontsize=14, fontweight='bold', pad=20)
+            ax3.set_title('Inventory Health Status', fontsize=14, fontweight='bold', pad=20)
             ax3.set_xlabel('Number of Products', fontsize=12)
             ax3.grid(True, alpha=0.2, axis='x')
         
@@ -537,7 +621,7 @@ def generate_graph(results, args):
                 
                 ax4.set_xlabel('Risk Score (Lower is Better)', fontsize=12)
                 ax4.set_ylabel('Reliability Score (Higher is Better)', fontsize=12)
-                ax4.set_title('🎯 Supplier Performance Matrix', fontsize=14, fontweight='bold', pad=20)
+                ax4.set_title('Supplier Performance Matrix', fontsize=14, fontweight='bold', pad=20)
                 
                 # Simple legend - just Primary vs Backup
                 from matplotlib.patches import Patch
@@ -550,12 +634,12 @@ def generate_graph(results, args):
             else:
                 ax4.text(0.5, 0.5, 'No suppliers meet\nreliability criteria (≥80%)', 
                         ha='center', va='center', transform=ax4.transAxes, fontsize=14)
-                ax4.set_title('🎯 Supplier Performance Matrix', fontsize=14, fontweight='bold', pad=20)
+                ax4.set_title('Supplier Performance Matrix', fontsize=14, fontweight='bold', pad=20)
             ax4.grid(True, alpha=0.2)
         
         # Add overall business insights text box
         fig.text(0.02, 0.02, 
-                '📊 Business Insights: Monitor red zones for immediate action. '
+                'Business Insights: Monitor red zones for immediate action. '
                 'Strategic suppliers (top-left) should handle 70%+ of volume. '
                 'High utilization warehouses need expansion planning.',
                 fontsize=10, style='italic', 
@@ -641,8 +725,9 @@ def generate_graph(results, args):
         
         print(f"\n🚀 Dashboard shows {date_range_days}-day business timeline with actionable insights!")
         
-        # Display the graph in a separate window
-        plt.show()
+        # Display the graph (only if not running in automation mode)
+        if not args.no_display:
+            plt.show()
         
     except Exception as e:
         print(f"❌ Error generating supply chain dashboard: {e}")
@@ -718,7 +803,8 @@ Examples:
   python main_generate_supplychain.py
   python main_generate_supplychain.py --start-date 2025-01-01 --end-date 2026-03-02
   python main_generate_supplychain.py --inventory-only --num-orders 50
-  python main_generate_supplychain.py --graph
+  python main_generate_supplychain.py --auto-scale  # Auto-calculate based on sales data
+  python main_generate_supplychain.py --auto-scale --graph
   python main_generate_supplychain.py --graph --num-orders 25 --num-transactions 800
         """
     )
@@ -771,6 +857,18 @@ Examples:
     )
     
     parser.add_argument(
+        '--no-display',
+        action='store_true',
+        help='Save graphs without displaying (for automation)'
+    )
+    
+    parser.add_argument(
+        '--auto-scale',
+        action='store_true',
+        help='Auto-calculate optimal purchase orders and transactions based on existing sales data'
+    )
+    
+    parser.add_argument(
         '--copydata',
         action='store_true',
         help='Copy generated data files to infra/data directory'
@@ -782,6 +880,28 @@ Examples:
     print_banner()
     
     start_time = datetime.now()
+    
+    # Auto-scale parameters if requested
+    if args.auto_scale:
+        print("🚀 Auto-scaling enabled - analyzing existing sales data...")
+        print("-" * 60)
+        
+        calculated_orders, calculated_transactions, sales_summary = calculate_optimal_parameters(
+            args.start_date, args.end_date
+        )
+        
+        print(f"📈 Sales Analysis: {sales_summary}")
+        print(f"📊 Calculated Parameters:")
+        print(f"   • Purchase Orders: {calculated_orders} (was {args.num_orders})")
+        print(f"   • Inventory Transactions: {calculated_transactions:,} (was {args.num_transactions})")
+        
+        # Use calculated values
+        args.num_orders = calculated_orders
+        args.num_transactions = calculated_transactions
+        
+        print("✅ Using auto-calculated parameters\n")
+    else:
+        print(f"📄 Using manual parameters: {args.num_orders} orders, {args.num_transactions} transactions\n")
     
     try:
         results = {}

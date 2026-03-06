@@ -1,27 +1,27 @@
 # Sales Data Generation Summary
 
-**Generated**: 2026-03-05 10:27:40  
+**Generated**: 2026-03-06 13:02:37  
 **Date Range**: 2025-01-01 to 2026-03-31  
 **Duration**: 455 days
 
 ## 📊 Generation Overview
 
 ### **Total Summary**
-- **Orders**: 18,669
-- **Order Lines**: 50,504
-- **Sales Payments**: 18,669
-- **Invoices**: 18,669
-- **Finance Payments**: 18,669
+- **Orders**: 18,653
+- **Order Lines**: 50,526
+- **Sales Payments**: 18,653
+- **Invoices**: 18,653
+- **Finance Payments**: 18,653
 - **Customer Accounts**: 1,539
-- **Total Sales Value**: $30,921,917.23
+- **Total Sales Value**: $30,968,007.87
 
 ### **Domain Performance**
 
 | Domain | Orders | Total Sales | Avg Order Value |
 |--------|--------|-------------|----------------|
-| 🏕️ Camping | 8,105 | $8,057,887.64 | $994.19 |
-| 🍳 Kitchen | 9,065 | $20,326,180.62 | $2242.27 |
-| ⛷️ Ski | 1,499 | $2,537,848.97 | $1693.03 |
+| 🏕️ Camping | 8,084 | $8,008,359.00 | $990.64 |
+| 🍳 Kitchen | 9,063 | $20,460,962.28 | $2257.64 |
+| ⛷️ Ski | 1,506 | $2,498,686.59 | $1659.15 |
 
 
 ## 🎯 Key Metrics
@@ -34,6 +34,6 @@
 
 ### **Data Volume**
 - **Average Orders per Day**: 41.0
-- **Average Order Value**: $1656.32
+- **Average Order Value**: $1660.22
 - **Order Line Items**: 2.7 items per order average
 - **Customer Coverage**: 1539 accounts across all domains

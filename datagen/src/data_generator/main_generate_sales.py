@@ -127,6 +127,12 @@ Business Growth Features (--enable-growth):
     )
     
     parser.add_argument(
+        '--no-display',
+        action='store_true',
+        help='Save graphs without displaying (for automation)'
+    )
+    
+    parser.add_argument(
         '--copydata',
         action='store_true',
         help='Copy generated files to infra/data directory'
@@ -516,8 +522,9 @@ def generate_revenue_graph(start_date, end_date, run_camping, run_kitchen, run_s
         print(f"   Peak Monthly: ${max_monthly_revenue:,.2f}")
         print(growth_analysis)
         
-        # Display the graph
-        plt.show()
+        # Display the graph (only if not running in automation mode)
+        if not args.no_display:
+            plt.show()
         
     except Exception as e:
         print(f"❌ Error generating revenue graph: {e}")

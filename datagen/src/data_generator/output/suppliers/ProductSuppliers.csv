@@ -1,78 +1,75 @@
 ProductSupplierID,ProductID,ProductName,ProductCategory,SupplierID,SupplierName,SupplierProductCode,WholesaleCost,MinOrderQuantity,MaxOrderQuantity,LeadTimeDays,Status,CreatedBy,CreatedDate
-1,1521,Adventurer Pro Backpack,Camping,1,Contoso Camping Equipment,CON-1521,132.48,5,1000.0,13,Active,system,2026-01-13 10:28:58
-2,1531,Summit Breeze Jacket,Camping,1,Contoso Camping Equipment,CON-1531,98.99,10,5000.0,15,Active,system,2025-09-17 10:28:58
-3,1541,TrekReady Hiking Boots,Camping,1,Contoso Camping Equipment,CON-1541,141.11,10,1000.0,12,Active,system,2025-09-21 10:28:58
-4,1551,BaseCamp Folding Table,Camping,1,Contoso Camping Equipment,CON-1551,62.06,10,5000.0,14,Active,system,2026-01-24 10:28:58
-5,1561,EcoFire Camping Stove,Camping,1,Contoso Camping Equipment,CON-1561,99.78,5,1000.0,15,Active,system,2025-12-21 10:28:58
-6,1571,CozyNights Sleeping Bag,Camping,1,Contoso Camping Equipment,CON-1571,119.14,25,10000.0,16,Active,system,2025-11-09 10:28:58
-7,1511,Alpine Explorer Tent,Camping,1,Contoso Camping Equipment,CON-1511,306.38,25,1000.0,16,Active,system,2026-01-24 10:28:58
-8,1522,SummitClimber Backpack,Camping,1,Contoso Camping Equipment,CON-1522,158.05,50,10000.0,12,Active,system,2025-10-07 10:28:58
-9,1532,TrailBlaze Hiking Pants,Camping,1,Contoso Camping Equipment,CON-1532,60.25,50,1000.0,15,Active,system,2025-10-20 10:28:58
-10,1542,TrailWalker Hiking Shoes,Camping,1,Contoso Camping Equipment,CON-1542,88.99,10,5000.0,11,Active,system,2025-12-31 10:28:58
-11,1542,TrailWalker Hiking Shoes,Camping,4,Worldwide Importers,WOR-1542,96.76,50,,26,Active,system,2026-01-23 10:28:58
-12,1552,TrekMaster Camping Chair,Camping,1,Contoso Camping Equipment,CON-1552,59.98,25,,13,Active,system,2025-10-11 10:28:58
-13,1562,PowerBurner Camping Stove,Camping,1,Contoso Camping Equipment,CON-1562,118.54,1,5000.0,14,Active,system,2025-11-14 10:28:58
-14,1572,MountainDream Sleeping Bag,Camping,1,Contoso Camping Equipment,CON-1572,222.74,10,,15,Active,system,2025-12-11 10:28:58
-15,1512,SkyView 2-Person Tent,Camping,1,Contoso Camping Equipment,CON-1512,256.87,50,10000.0,16,Active,system,2025-12-05 10:28:58
-16,1523,TrailLite Daypack,Camping,1,Contoso Camping Equipment,CON-1523,63.92,10,10000.0,14,Active,system,2026-01-18 10:28:58
-17,1523,TrailLite Daypack,Camping,4,Worldwide Importers,WOR-1523,58.79,25,2000.0,32,Active,system,2025-12-16 10:28:58
-18,1533,RainGuard Hiking Jacket,Camping,1,Contoso Camping Equipment,CON-1533,118.09,10,,17,Active,system,2025-10-25 10:28:58
-19,1543,TrekStar Hiking Sandals,Camping,1,Contoso Camping Equipment,CON-1543,62.13,50,,15,Active,system,2025-10-04 10:28:58
-20,1553,Adventure Dining Table,Camping,1,Contoso Camping Equipment,CON-1553,102.97,10,5000.0,17,Active,system,2025-10-25 10:28:58
-21,1563,CompactCook Camping Stove,Camping,1,Contoso Camping Equipment,CON-1563,70.72,1,10000.0,17,Active,system,2026-01-02 10:28:58
-22,1563,CompactCook Camping Stove,Camping,4,Worldwide Importers,WOR-1563,78.14,50,,30,Active,system,2025-12-20 10:28:58
-23,1581,LED Headlamp - Rechargeable,Camping,1,Contoso Camping Equipment,CON-1581,57.03,1,10000.0,16,Active,system,2025-12-02 10:28:58
-24,2011,Coffee Maker,Kitchen,2,Contoso Kitchen,CON-2011,125.11,25,10000.0,13,Active,system,2025-10-01 10:28:58
-25,2012,Espresso Machine,Kitchen,2,Contoso Kitchen,CON-2012,276.87,5,1000.0,12,Active,system,2025-10-05 10:28:58
-26,2021,Chef Knife,Kitchen,2,Contoso Kitchen,CON-2021,66.79,5,5000.0,7,Active,system,2025-12-10 10:28:58
-27,2022,Fork Set,Kitchen,2,Contoso Kitchen,CON-2022,36.37,25,5000.0,9,Active,system,2025-12-28 10:28:58
-28,2031,Coffee Mug,Kitchen,2,Contoso Kitchen,CON-2031,24.29,5,,9,Active,system,2025-11-12 10:28:58
-29,2031,Coffee Mug,Kitchen,4,Worldwide Importers,WOR-2031,24.45,50,,32,Active,system,2026-02-02 10:28:58
-30,2041,Serving Platter,Kitchen,2,Contoso Kitchen,CON-2041,44.92,5,1000.0,8,Active,system,2025-09-08 10:28:58
-31,2051,Ice Cream Bowl,Kitchen,2,Contoso Kitchen,CON-2051,15.07,10,,9,Active,system,2025-11-26 10:28:58
-32,2061,Mixing Bowl,Kitchen,2,Contoso Kitchen,CON-2061,25.87,50,5000.0,12,Active,system,2026-01-10 10:28:58
-33,2071,Baking Pan,Kitchen,2,Contoso Kitchen,CON-2071,18.28,10,5000.0,13,Active,system,2025-10-20 10:28:58
-34,2081,Food Storage Set,Kitchen,2,Contoso Kitchen,CON-2081,27.26,25,10000.0,10,Active,system,2025-11-25 10:28:58
-35,2091,Spatula,Kitchen,2,Contoso Kitchen,CON-2091,9.39,50,1000.0,9,Active,system,2025-09-29 10:28:58
-36,2091,Spatula,Kitchen,4,Worldwide Importers,WOR-2091,10.63,25,5000.0,30,Active,system,2026-01-25 10:28:58
-37,2101,Measuring Cup Set,Kitchen,2,Contoso Kitchen,CON-2101,15.61,10,,8,Active,system,2025-09-16 10:28:58
-38,2111,High-Speed Blender,Kitchen,2,Contoso Kitchen,CON-2111,136.01,50,1000.0,9,Active,system,2025-11-26 10:28:58
-39,2112,4-Slice Toaster,Kitchen,2,Contoso Kitchen,CON-2112,55.59,25,5000.0,9,Active,system,2025-10-17 10:28:58
-40,2121,Bamboo Cutting Board Set,Kitchen,2,Contoso Kitchen,CON-2121,29.61,25,5000.0,10,Active,system,2026-02-01 10:28:58
-41,3011,Alpine Pro Racing Skis - 170cm,Ski,3,Contoso Ski Equipment,CON-3011,972.67,1,,12,Active,system,2025-10-21 10:28:58
-42,3012,Mountain Master All-Terrain Skis - 165cm,Ski,3,Contoso Ski Equipment,CON-3012,662.5,5,10000.0,14,Active,system,2025-09-25 10:28:58
-43,3012,Mountain Master All-Terrain Skis - 165cm,Ski,5,Fabrikam,FAB-3012,729.87,25,,24,Active,system,2025-12-23 10:28:58
-44,3013,Beginner's Choice Alpine Skis - 160cm,Ski,3,Contoso Ski Equipment,CON-3013,297.31,5,10000.0,12,Active,system,2026-01-12 10:28:58
-45,3021,Nordic Classic XC Skis - 185cm,Ski,3,Contoso Ski Equipment,CON-3021,216.86,25,1000.0,11,Active,system,2025-11-03 10:28:58
-46,3021,Nordic Classic XC Skis - 185cm,Ski,5,Fabrikam,FAB-3021,274.9,50,5000.0,26,Active,system,2025-12-06 10:28:58
-47,3022,Backcountry Explorer XC Skis - 190cm,Ski,3,Contoso Ski Equipment,CON-3022,343.37,5,10000.0,14,Active,system,2025-11-05 10:28:58
-48,3031,Pro Flex Racing Ski Boots,Ski,3,Contoso Ski Equipment,CON-3031,454.2,5,1000.0,11,Active,system,2025-10-29 10:28:58
-49,3031,Pro Flex Racing Ski Boots,Ski,5,Fabrikam,FAB-3031,423.16,25,,26,Active,system,2025-12-26 10:28:58
-50,3032,Comfort Fit Recreational Boots,Ski,3,Contoso Ski Equipment,CON-3032,269.25,50,5000.0,12,Active,system,2025-11-12 10:28:58
-51,3033,Women's Performance Ski Boots,Ski,3,Contoso Ski Equipment,CON-3033,423.19,25,5000.0,12,Active,system,2025-11-28 10:28:58
-52,3041,Carbon Fiber Racing Poles - 120cm,Ski,3,Contoso Ski Equipment,CON-3041,136.83,25,,13,Active,system,2026-01-24 10:28:58
-53,3041,Carbon Fiber Racing Poles - 120cm,Ski,4,Worldwide Importers,WOR-3041,117.57,1,,32,Active,system,2025-10-08 10:28:58
-54,3042,Aluminum All-Mountain Poles - 115cm,Ski,3,Contoso Ski Equipment,CON-3042,65.21,1,10000.0,13,Active,system,2025-11-25 10:28:58
-55,3051,Insulated Ski Jacket - Men's,Ski,3,Contoso Ski Equipment,CON-3051,219.07,1,1000.0,15,Active,system,2026-01-07 10:28:58
-56,3051,Insulated Ski Jacket - Men's,Ski,4,Worldwide Importers,WOR-3051,227.51,10,,24,Active,system,2025-12-07 10:28:58
-57,3052,Thermal Base Layer Set - Women's,Ski,3,Contoso Ski Equipment,CON-3052,111.57,25,5000.0,9,Active,system,2026-02-03 10:28:58
-58,3052,Thermal Base Layer Set - Women's,Ski,5,Fabrikam,FAB-3052,124.7,50,,21,Active,system,2025-12-22 10:28:58
-59,3053,Waterproof Ski Pants,Ski,3,Contoso Ski Equipment,CON-3053,187.66,10,,11,Active,system,2025-10-10 10:28:58
-60,3053,Waterproof Ski Pants,Ski,5,Fabrikam,FAB-3053,205.98,1,5000.0,25,Active,system,2025-12-31 10:28:58
-61,3061,Professional Ski Helmet,Ski,3,Contoso Ski Equipment,CON-3061,143.13,25,1000.0,15,Active,system,2025-09-24 10:28:58
-62,3061,Professional Ski Helmet,Ski,4,Worldwide Importers,WOR-3061,167.6,25,,27,Active,system,2025-11-15 10:28:58
-63,3061,Professional Ski Helmet,Ski,5,Fabrikam,FAB-3061,130.87,25,2000.0,25,Active,system,2026-01-17 10:28:58
-64,3062,Anti-Fog Ski Goggles,Ski,3,Contoso Ski Equipment,CON-3062,82.37,5,1000.0,10,Active,system,2026-01-24 10:28:58
-65,3071,Ski Boot Bag - Premium,Ski,3,Contoso Ski Equipment,CON-3071,45.37,50,1000.0,15,Active,system,2025-12-28 10:28:58
-66,3072,Hand Warmers - 10 Pack,Ski,3,Contoso Ski Equipment,CON-3072,11.62,50,1000.0,13,Active,system,2025-10-24 10:28:58
-67,3081,All-Temp Ski Wax Kit,Ski,3,Contoso Ski Equipment,CON-3081,61.0,5,5000.0,15,Active,system,2025-09-10 10:28:58
-68,3082,Edge Tuning Tool Set,Ski,3,Contoso Ski Equipment,CON-3082,79.27,5,5000.0,15,Active,system,2025-10-06 10:28:58
-69,3082,Edge Tuning Tool Set,Ski,4,Worldwide Importers,WOR-3082,79.98,25,500.0,23,Active,system,2026-01-04 10:28:58
-70,3091,Freestyle Snowboard - 155cm,Ski,3,Contoso Ski Equipment,CON-3091,485.13,50,,10,Active,system,2025-09-07 10:28:58
-71,3092,All-Mountain Snowboard - 158cm,Ski,3,Contoso Ski Equipment,CON-3092,544.23,50,1000.0,12,Active,system,2025-09-25 10:28:58
-72,3101,Winter Boots - Insulated,Ski,3,Contoso Ski Equipment,CON-3101,115.54,25,,13,Active,system,2025-10-07 10:28:58
-73,3101,Winter Boots - Insulated,Ski,5,Fabrikam,FAB-3101,106.07,25,5000.0,26,Active,system,2026-01-28 10:28:58
-74,3102,Winter Hiking Boots - Waterproof,Ski,3,Contoso Ski Equipment,CON-3102,193.66,1,5000.0,15,Active,system,2025-12-20 10:28:58
-75,3103,Snowboard Bindings - Pro,Ski,3,Contoso Ski Equipment,CON-3103,199.47,1,5000.0,12,Active,system,2025-11-05 10:28:58
-76,3104,Ski Tuning Bench - Portable,Ski,3,Contoso Ski Equipment,CON-3104,144.19,25,5000.0,13,Active,system,2025-11-17 10:28:58
-77,3104,Ski Tuning Bench - Portable,Ski,5,Fabrikam,FAB-3104,148.49,50,500.0,19,Active,system,2025-11-19 10:28:58
+1,1521,Adventurer Pro Backpack,Camping,1,Contoso Camping Equipment,CON-1521,140.72,5,10000.0,17,Active,system,2025-12-02 13:02:41
+2,1531,Summit Breeze Jacket,Camping,1,Contoso Camping Equipment,CON-1531,96.27,1,,13,Active,system,2025-11-09 13:02:41
+3,1541,TrekReady Hiking Boots,Camping,1,Contoso Camping Equipment,CON-1541,124.22,10,,16,Active,system,2025-10-24 13:02:41
+4,1551,BaseCamp Folding Table,Camping,1,Contoso Camping Equipment,CON-1551,60.46,5,5000.0,16,Active,system,2025-12-31 13:02:41
+5,1551,BaseCamp Folding Table,Camping,4,Worldwide Importers,WOR-1551,60.13,50,2000.0,28,Active,system,2025-12-18 13:02:41
+6,1561,EcoFire Camping Stove,Camping,1,Contoso Camping Equipment,CON-1561,84.42,50,1000.0,17,Active,system,2025-10-22 13:02:41
+7,1571,CozyNights Sleeping Bag,Camping,1,Contoso Camping Equipment,CON-1571,103.24,5,5000.0,16,Active,system,2025-11-24 13:02:41
+8,1511,Alpine Explorer Tent,Camping,1,Contoso Camping Equipment,CON-1511,301.87,50,5000.0,12,Active,system,2025-12-12 13:02:41
+9,1511,Alpine Explorer Tent,Camping,4,Worldwide Importers,WOR-1511,340.46,1,500.0,29,Active,system,2025-10-24 13:02:41
+10,1522,SummitClimber Backpack,Camping,1,Contoso Camping Equipment,CON-1522,149.2,1,,14,Active,system,2025-12-06 13:02:41
+11,1532,TrailBlaze Hiking Pants,Camping,1,Contoso Camping Equipment,CON-1532,71.27,1,5000.0,14,Active,system,2025-12-17 13:02:41
+12,1542,TrailWalker Hiking Shoes,Camping,1,Contoso Camping Equipment,CON-1542,99.1,50,1000.0,12,Active,system,2025-09-22 13:02:41
+13,1552,TrekMaster Camping Chair,Camping,1,Contoso Camping Equipment,CON-1552,59.56,50,,16,Active,system,2026-01-28 13:02:41
+14,1562,PowerBurner Camping Stove,Camping,1,Contoso Camping Equipment,CON-1562,145.78,50,1000.0,15,Active,system,2025-10-07 13:02:41
+15,1562,PowerBurner Camping Stove,Camping,4,Worldwide Importers,WOR-1562,158.19,10,,32,Active,system,2025-09-29 13:02:41
+16,1572,MountainDream Sleeping Bag,Camping,1,Contoso Camping Equipment,CON-1572,228.02,5,1000.0,15,Active,system,2025-09-11 13:02:41
+17,1512,SkyView 2-Person Tent,Camping,1,Contoso Camping Equipment,CON-1512,259.3,50,,17,Active,system,2025-09-08 13:02:41
+18,1523,TrailLite Daypack,Camping,1,Contoso Camping Equipment,CON-1523,48.52,25,1000.0,17,Active,system,2025-12-17 13:02:41
+19,1533,RainGuard Hiking Jacket,Camping,1,Contoso Camping Equipment,CON-1533,135.77,25,5000.0,15,Active,system,2026-01-26 13:02:41
+20,1543,TrekStar Hiking Sandals,Camping,1,Contoso Camping Equipment,CON-1543,66.99,10,1000.0,17,Active,system,2025-12-27 13:02:41
+21,1553,Adventure Dining Table,Camping,1,Contoso Camping Equipment,CON-1553,91.96,50,,12,Active,system,2025-12-28 13:02:41
+22,1563,CompactCook Camping Stove,Camping,1,Contoso Camping Equipment,CON-1563,66.8,25,1000.0,14,Active,system,2026-02-02 13:02:41
+23,1581,LED Headlamp - Rechargeable,Camping,1,Contoso Camping Equipment,CON-1581,45.6,1,,16,Active,system,2025-11-08 13:02:41
+24,2011,Coffee Maker,Kitchen,2,Contoso Kitchen,CON-2011,127.78,50,5000.0,12,Active,system,2026-02-01 13:02:41
+25,2012,Espresso Machine,Kitchen,2,Contoso Kitchen,CON-2012,336.66,25,,10,Active,system,2025-12-12 13:02:41
+26,2012,Espresso Machine,Kitchen,4,Worldwide Importers,WOR-2012,299.73,10,5000.0,29,Active,system,2025-12-13 13:02:41
+27,2021,Chef Knife,Kitchen,2,Contoso Kitchen,CON-2021,54.14,25,1000.0,10,Active,system,2025-10-17 13:02:41
+28,2021,Chef Knife,Kitchen,4,Worldwide Importers,WOR-2021,71.06,25,500.0,30,Active,system,2025-11-24 13:02:41
+29,2022,Fork Set,Kitchen,2,Contoso Kitchen,CON-2022,33.12,10,10000.0,10,Active,system,2025-12-27 13:02:41
+30,2031,Coffee Mug,Kitchen,2,Contoso Kitchen,CON-2031,24.59,10,1000.0,7,Active,system,2025-12-29 13:02:41
+31,2041,Serving Platter,Kitchen,2,Contoso Kitchen,CON-2041,53.03,10,5000.0,11,Active,system,2026-01-30 13:02:41
+32,2051,Ice Cream Bowl,Kitchen,2,Contoso Kitchen,CON-2051,19.21,25,1000.0,9,Active,system,2025-10-17 13:02:41
+33,2061,Mixing Bowl,Kitchen,2,Contoso Kitchen,CON-2061,29.78,50,,11,Active,system,2025-09-09 13:02:41
+34,2071,Baking Pan,Kitchen,2,Contoso Kitchen,CON-2071,21.62,10,1000.0,12,Active,system,2025-10-06 13:02:41
+35,2081,Food Storage Set,Kitchen,2,Contoso Kitchen,CON-2081,24.34,25,,10,Active,system,2025-09-15 13:02:41
+36,2091,Spatula,Kitchen,2,Contoso Kitchen,CON-2091,8.5,1,1000.0,9,Active,system,2025-09-19 13:02:41
+37,2101,Measuring Cup Set,Kitchen,2,Contoso Kitchen,CON-2101,14.51,1,,8,Active,system,2025-10-10 13:02:41
+38,2111,High-Speed Blender,Kitchen,2,Contoso Kitchen,CON-2111,153.95,50,10000.0,8,Active,system,2025-09-07 13:02:41
+39,2112,4-Slice Toaster,Kitchen,2,Contoso Kitchen,CON-2112,67.76,5,10000.0,13,Active,system,2025-09-28 13:02:41
+40,2112,4-Slice Toaster,Kitchen,4,Worldwide Importers,WOR-2112,71.31,50,,33,Active,system,2025-11-15 13:02:41
+41,2121,Bamboo Cutting Board Set,Kitchen,2,Contoso Kitchen,CON-2121,30.31,1,5000.0,8,Active,system,2025-09-11 13:02:41
+42,3011,Alpine Pro Racing Skis - 170cm,Ski,3,Contoso Ski Equipment,CON-3011,879.41,25,10000.0,9,Active,system,2025-12-15 13:02:41
+43,3012,Mountain Master All-Terrain Skis - 165cm,Ski,3,Contoso Ski Equipment,CON-3012,555.59,10,1000.0,15,Active,system,2026-02-02 13:02:41
+44,3012,Mountain Master All-Terrain Skis - 165cm,Ski,4,Worldwide Importers,WOR-3012,712.23,50,,32,Active,system,2025-11-29 13:02:41
+45,3013,Beginner's Choice Alpine Skis - 160cm,Ski,3,Contoso Ski Equipment,CON-3013,310.77,25,,15,Active,system,2025-11-08 13:02:41
+46,3021,Nordic Classic XC Skis - 185cm,Ski,3,Contoso Ski Equipment,CON-3021,272.02,10,1000.0,15,Active,system,2025-10-18 13:02:41
+47,3022,Backcountry Explorer XC Skis - 190cm,Ski,3,Contoso Ski Equipment,CON-3022,331.62,10,,14,Active,system,2025-09-17 13:02:41
+48,3022,Backcountry Explorer XC Skis - 190cm,Ski,5,Fabrikam,FAB-3022,464.99,25,5000.0,21,Active,system,2025-11-23 13:02:41
+49,3031,Pro Flex Racing Ski Boots,Ski,3,Contoso Ski Equipment,CON-3031,428.49,1,10000.0,11,Active,system,2025-09-17 13:02:41
+50,3032,Comfort Fit Recreational Boots,Ski,3,Contoso Ski Equipment,CON-3032,286.37,25,1000.0,10,Active,system,2025-10-07 13:02:41
+51,3033,Women's Performance Ski Boots,Ski,3,Contoso Ski Equipment,CON-3033,359.23,5,1000.0,11,Active,system,2026-01-13 13:02:41
+52,3033,Women's Performance Ski Boots,Ski,4,Worldwide Importers,WOR-3033,430.81,10,500.0,26,Active,system,2025-11-15 13:02:41
+53,3041,Carbon Fiber Racing Poles - 120cm,Ski,3,Contoso Ski Equipment,CON-3041,138.62,10,10000.0,15,Active,system,2025-12-17 13:02:41
+54,3041,Carbon Fiber Racing Poles - 120cm,Ski,5,Fabrikam,FAB-3041,127.63,50,2000.0,19,Active,system,2026-01-02 13:02:41
+55,3042,Aluminum All-Mountain Poles - 115cm,Ski,3,Contoso Ski Equipment,CON-3042,70.77,50,10000.0,13,Active,system,2026-01-20 13:02:41
+56,3051,Insulated Ski Jacket - Men's,Ski,3,Contoso Ski Equipment,CON-3051,228.33,5,5000.0,15,Active,system,2025-10-03 13:02:41
+57,3051,Insulated Ski Jacket - Men's,Ski,4,Worldwide Importers,WOR-3051,215.43,1,500.0,24,Active,system,2025-10-28 13:02:41
+58,3052,Thermal Base Layer Set - Women's,Ski,3,Contoso Ski Equipment,CON-3052,102.64,5,5000.0,14,Active,system,2025-10-23 13:02:41
+59,3052,Thermal Base Layer Set - Women's,Ski,4,Worldwide Importers,WOR-3052,126.86,10,5000.0,31,Active,system,2026-01-10 13:02:41
+60,3053,Waterproof Ski Pants,Ski,3,Contoso Ski Equipment,CON-3053,193.66,1,5000.0,11,Active,system,2026-01-18 13:02:41
+61,3061,Professional Ski Helmet,Ski,3,Contoso Ski Equipment,CON-3061,146.83,50,5000.0,14,Active,system,2025-12-11 13:02:41
+62,3062,Anti-Fog Ski Goggles,Ski,3,Contoso Ski Equipment,CON-3062,84.44,25,5000.0,9,Active,system,2025-12-30 13:02:41
+63,3071,Ski Boot Bag - Premium,Ski,3,Contoso Ski Equipment,CON-3071,46.69,50,1000.0,11,Active,system,2025-09-29 13:02:41
+64,3072,Hand Warmers - 10 Pack,Ski,3,Contoso Ski Equipment,CON-3072,10.22,10,10000.0,11,Active,system,2025-10-14 13:02:41
+65,3081,All-Temp Ski Wax Kit,Ski,3,Contoso Ski Equipment,CON-3081,53.4,50,5000.0,11,Active,system,2025-10-23 13:02:41
+66,3082,Edge Tuning Tool Set,Ski,3,Contoso Ski Equipment,CON-3082,82.77,1,10000.0,11,Active,system,2025-11-11 13:02:41
+67,3091,Freestyle Snowboard - 155cm,Ski,3,Contoso Ski Equipment,CON-3091,496.97,50,10000.0,15,Active,system,2025-10-28 13:02:41
+68,3092,All-Mountain Snowboard - 158cm,Ski,3,Contoso Ski Equipment,CON-3092,533.63,10,5000.0,11,Active,system,2025-11-05 13:02:41
+69,3101,Winter Boots - Insulated,Ski,3,Contoso Ski Equipment,CON-3101,126.79,50,1000.0,11,Active,system,2025-11-22 13:02:41
+70,3101,Winter Boots - Insulated,Ski,5,Fabrikam,FAB-3101,128.12,50,5000.0,21,Active,system,2026-01-17 13:02:41
+71,3102,Winter Hiking Boots - Waterproof,Ski,3,Contoso Ski Equipment,CON-3102,159.73,1,1000.0,11,Active,system,2026-01-19 13:02:41
+72,3102,Winter Hiking Boots - Waterproof,Ski,5,Fabrikam,FAB-3102,194.76,25,500.0,21,Active,system,2025-09-11 13:02:41
+73,3103,Snowboard Bindings - Pro,Ski,3,Contoso Ski Equipment,CON-3103,192.01,1,,11,Active,system,2026-01-01 13:02:41
+74,3104,Ski Tuning Bench - Portable,Ski,3,Contoso Ski Equipment,CON-3104,137.8,5,1000.0,15,Active,system,2026-01-20 13:02:41
