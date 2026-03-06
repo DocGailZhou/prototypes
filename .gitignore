@@ -210,4 +210,8 @@ __marimo__/
 # datagen/infra/data/
 # datagen/src/data_generator/output/
 design_with_ai/infra/azure_vm_ssh_info.md
+design_with_ai/infra/external_configuration/external_config_output.md
+
+
+
 

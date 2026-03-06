@@ -64,8 +64,6 @@ bash installer.sh
 pwsh ./arc_enable.ps1
 ```
 
-
-
 ### Step 3 Azure Configuration (from Windows Machine) 
 
 ```
