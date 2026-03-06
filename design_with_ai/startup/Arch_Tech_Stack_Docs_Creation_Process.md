@@ -1,6 +1,6 @@
 # AI-Assisted Solution Architecture and Technology Stack Documentation Process
 
-**Author:** Gaiye Zhou, March 2026
+**Author:** Dr. Gail Zhou, March 2026
 
 ## Background
 

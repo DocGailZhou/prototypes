@@ -1,6 +1,7 @@
 # AI-Assisted Sample Data Generation
 
-**Author:** Gaiye Zhou  
+**Author:** Dr. Gail Zhou
+
 **Date:** March 2026
 
 ## Background
