@@ -104,7 +104,7 @@ python main_generate_supplychain.py --auto-scale --num-orders 10 --num-transacti
 ### Output Directory Structure
 ```
 output/
-├── suppliers/
+├── supplychain/
 │   ├── Suppliers.csv
 │   ├── ProductSuppliers.csv
 │   └── SupplyChainEvents.csv
@@ -121,7 +121,7 @@ output/
 ### Infrastructure Copy (with --copydata)
 ```
 ../../infra/data/
-├── suppliers/ (mirrors output structure)
+├── supplychain/ (mirrors output structure)
 └── inventory/ (mirrors output structure)
 ```
 

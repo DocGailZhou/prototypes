@@ -382,7 +382,7 @@ def copy_csv_files():
     print(f"\n📊 File Copy Summary: {copied_files} files copied successfully")
     print("=" * 60)
 
-def generate_revenue_graph(start_date, end_date, run_camping, run_kitchen, run_ski):
+def generate_revenue_graph(start_date, end_date, run_camping, run_kitchen, run_ski, no_display=False):
     """Generate revenue trend graph from generated CSV data"""
     if not MATPLOTLIB_AVAILABLE:
         print("⚠️  Graphing skipped - matplotlib not available. Install with: pip install matplotlib")
@@ -523,7 +523,7 @@ def generate_revenue_graph(start_date, end_date, run_camping, run_kitchen, run_s
         print(growth_analysis)
         
         # Display the graph (only if not running in automation mode)
-        if not args.no_display:
+        if not no_display:
             plt.show()
         
     except Exception as e:
@@ -662,7 +662,7 @@ def main():
         # Generate revenue graph if requested
         if args.graph:
             print("\n" + "="*60)
-            generate_revenue_graph(start_date, end_date, run_camping, run_kitchen, run_ski)
+            generate_revenue_graph(start_date, end_date, run_camping, run_kitchen, run_ski, args.no_display)
         
         # Copy CSV files to infrastructure data folders (if requested)
         if args.copydata:

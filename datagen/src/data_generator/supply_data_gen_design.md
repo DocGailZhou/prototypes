@@ -26,7 +26,7 @@ This document defines the approach for generating supply chain data that integra
 
 ## Target Schema Generation
 
-### model_suppliers.ipynb (3 Tables)
+### model_supplychain.ipynb (3 Tables)
 1. **Suppliers** - Supplier master data with backup relationships  
 2. **ProductSuppliers** - Product-supplier mappings with pricing/terms
 3. **SupplyChainEvents** - Disruption events and impact tracking
@@ -124,7 +124,7 @@ data_generator/
 ├── generate_supply_events.py   # Disruption events
 ├── main_generate_supplychain.py # Orchestrator
 └── output/
-    ├── suppliers/              # Supplier CSV files
+    ├── supplychain/              # Supplier CSV files
     └── inventory/              # Inventory CSV files
 ```
 

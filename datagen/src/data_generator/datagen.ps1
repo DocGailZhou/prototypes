@@ -289,7 +289,7 @@ try {
     Write-Host ""
     Write-Info "   📁 Output locations:"
     Write-Host "     • Sales data: output/[camping|kitchen|ski]/" -ForegroundColor Gray
-    Write-Host "     • Supply chain: output/[suppliers|inventory]/" -ForegroundColor Gray  
+    Write-Host "     • Supply chain: output/[supplychain|inventory]/" -ForegroundColor Gray  
     Write-Host "     • Summary reports: output/sample_*_summary.md" -ForegroundColor Gray
     
     if ($GenerateGraphs) {

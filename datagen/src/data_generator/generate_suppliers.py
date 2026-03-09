@@ -34,7 +34,7 @@ class SupplierDataGenerator:
         self.output_path = self.base_path / "output"
         
         # Create output directories
-        self.suppliers_output = self.output_path / "suppliers"
+        self.suppliers_output = self.output_path / "supplychain"
         self.suppliers_output.mkdir(parents=True, exist_ok=True)
         
         # Load configuration

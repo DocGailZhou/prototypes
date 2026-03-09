@@ -155,7 +155,7 @@ class InventoryDataGenerator:
             
     def _load_suppliers_data(self):
         """Load generated supplier data."""
-        suppliers_path = self.output_path / "suppliers"
+        suppliers_path = self.output_path / "supplychain"
         
         suppliers_data = {}
         

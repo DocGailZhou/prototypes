@@ -27,7 +27,7 @@ C:\Repos\Explore\udf_solutions\prototype\src\data_generator\input
 we need to generate data for 
 
 - model_inventory.ipynb
-- model_suppliers.ipynb
+- model_supplychain.ipynb
 
 For suppliers, I can give some some sample names 
 

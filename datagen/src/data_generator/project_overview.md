@@ -111,7 +111,7 @@ python main_generate_supplychain.py --graph --num-orders 50 --num-transactions 8
 │   ├── 🏕️ camping/
 │   ├── 🍳 kitchen/  
 │   ├── ⛷️ ski/
-│   ├── 📦 suppliers/
+│   ├── 📦 supplychain/
 │   ├── 📋 inventory/
 │   └── 📊 *.png (dashboards)
 │
@@ -119,7 +119,7 @@ python main_generate_supplychain.py --graph --num-orders 50 --num-transactions 8
     ├── 🏕️ camping/ 
     ├── 🍳 kitchen/
     ├── ⛷️ ski/
-    ├── 📦 suppliers/
+    ├── 📦 supplychain/
     ├── 📋 inventory/
     └── 📄 *.md (summaries)
 ```

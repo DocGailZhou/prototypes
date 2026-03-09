@@ -382,7 +382,7 @@ def generate_graph(results, args):
     try:
         # Load data for graphing
         inventory_path = output_path / "inventory"
-        suppliers_path = output_path / "suppliers"
+        suppliers_path = output_path / "supplychain"
         
         # Check if data exists
         if not inventory_path.exists() or not suppliers_path.exists():
@@ -748,15 +748,15 @@ def copy_data_to_infra():
         # Create destination directory if it doesn't exist
         infra_dir.mkdir(parents=True, exist_ok=True)
         
-        # Copy suppliers files to suppliers subfolder
-        suppliers_src = output_dir / "suppliers"
-        suppliers_dest = infra_dir / "suppliers"
+        # Copy suppliers files to supplychain subfolder
+        suppliers_src = output_dir / "supplychain"
+        suppliers_dest = infra_dir / "supplychain"
         if suppliers_src.exists():
             suppliers_dest.mkdir(exist_ok=True)
             for file_path in suppliers_src.glob("*.csv"):
                 dest_file = suppliers_dest / file_path.name
                 shutil.copy2(file_path, dest_file)
-                print(f"✅ Copied: {file_path.name} → suppliers/")
+                print(f"✅ Copied: {file_path.name} → supplychain/")
         
         # Copy suppliers.json from input to suppliers subfolder
         input_dir = current_dir / "input"
@@ -765,7 +765,7 @@ def copy_data_to_infra():
             suppliers_dest.mkdir(exist_ok=True)
             suppliers_json_dest = suppliers_dest / "suppliers.json"
             shutil.copy2(suppliers_json_src, suppliers_json_dest)
-            print(f"✅ Copied: suppliers.json → suppliers/")
+            print(f"✅ Copied: suppliers.json → supplychain/")
         
         # Copy inventory files to inventory subfolder
         inventory_src = output_dir / "inventory" 
