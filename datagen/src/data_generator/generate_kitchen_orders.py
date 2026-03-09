@@ -433,11 +433,13 @@ def generate_kitchen_orders(start_date, end_date, order_start_number, enable_gro
                         "InvoiceId": invoice_id,
                         "InvoiceNumber": invoice_number,
                         "CustomerId": customer_id,
-                        "CustomerAccountId": account_id,
+                        "OrderId": order_id,
                         "InvoiceDate": invoice_date.date(),
                         "DueDate": due_date.date(),
-                        "InvoiceAmount": order_total,
-                        "IsoCurrencyCode": "USD",
+                        "SubTotal": round(subtotal, 2),
+                        "TaxAmount": round(total_tax, 2),
+                        "TotalAmount": order_total,
+                        "InvoiceStatus": "Issued",
                         "CreatedBy": "SampleGen"
                     })
                     
@@ -450,7 +452,7 @@ def generate_kitchen_orders(start_date, end_date, order_start_number, enable_gro
                         "PaymentDate": order_date.date(),
                         "PaymentAmount": order_total,
                         "PaymentMethod": payment_method,
-                        "IsoCurrencyCode": "USD",
+                        "PaymentStatus": "Completed",
                         "CreatedBy": "SampleGen"
                     })
                 
@@ -569,11 +571,13 @@ def generate_kitchen_orders(start_date, end_date, order_start_number, enable_gro
                     "InvoiceId": invoice_id,
                     "InvoiceNumber": invoice_number,
                     "CustomerId": customer_id,
-                    "CustomerAccountId": account_id,
+                    "OrderId": order_id,
                     "InvoiceDate": invoice_date.date(),
                     "DueDate": due_date.date(),
-                    "InvoiceAmount": order_total,
-                    "IsoCurrencyCode": "USD",
+                    "SubTotal": round(subtotal, 2),
+                    "TaxAmount": round(total_tax, 2),
+                    "TotalAmount": order_total,
+                    "InvoiceStatus": "Issued",
                     "CreatedBy": "SampleGen"
                 })
                 
@@ -586,7 +590,7 @@ def generate_kitchen_orders(start_date, end_date, order_start_number, enable_gro
                     "PaymentDate": order_date.date(),
                     "PaymentAmount": order_total,
                     "PaymentMethod": payment_method,
-                    "IsoCurrencyCode": "USD",
+                    "PaymentStatus": "Completed",
                     "CreatedBy": "SampleGen"
                 })
 
@@ -602,7 +606,7 @@ def generate_kitchen_orders(start_date, end_date, order_start_number, enable_gro
             "AccountType": "Receivable",
             "AccountStatus": "Active",
             "CreatedDate": start_date.date(),
-            "ClosedDate": None,
+            "ClosedDate": "",  # Empty string for active accounts
             "Balance": 0.0,  # Zero balance since payments are immediate
             "Currency": "USD",
             "Description": f"Accounts Receivable for Customer {customer_id} - ADB Channel",

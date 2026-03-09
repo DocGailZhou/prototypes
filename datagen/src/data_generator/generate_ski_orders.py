@@ -389,7 +389,7 @@ def generate_ski_orders(start_date, end_date, order_start_number):
             "AccountType": "Receivable",
             "AccountStatus": "Active",
             "CreatedDate": start_date.date(),
-            "ClosedDate": None,
+            "ClosedDate": "",  # Empty string for active accounts
             "Balance": 0.0,  # Zero balance since payments are immediate
             "Currency": "USD",
             "Description": f"Accounts Receivable for Customer {customer_id} - Snow Channel",
