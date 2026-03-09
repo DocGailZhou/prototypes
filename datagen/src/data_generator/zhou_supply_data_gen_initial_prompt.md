@@ -20,7 +20,7 @@ We will not use any finance data for next steps.
 
 If we need to use reference data, we can use customer and product domain data in
 
-C:\Repos\Explore\udf_solutions\prototype\src\data_generator\input
+C:\Repos\Code\Explore\prototypes\datagen\src\data_generator\input
 
 #### What do we need to generate 
 

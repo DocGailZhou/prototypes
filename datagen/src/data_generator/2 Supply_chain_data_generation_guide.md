@@ -2,7 +2,7 @@
 
 Generates intelligent supplier management and inventory data with auto-scaling based on sales patterns. 
 
-## 🚀 Interactive PowerShell Workflow (Recommended)
+## Interactive PowerShell Workflow (Recommended)
 
 **Simplest Method - Complete Business Dataset:**
 ```powershell
@@ -32,7 +32,7 @@ Generates intelligent supplier management and inventory data with auto-scaling b
 ### Sales Data (Optional but Recommended)
 For auto-scaling, ensure sales data exists in `output/[camping|kitchen|ski]/sales/` directories.
 
-## �📊 Python Command Line (Advanced)
+## Python Command Line (Advanced)
 
 ### Quick Examples
 
@@ -198,101 +198,3 @@ python main_generate_sales.py -s 2025-01-01 -e 2026-03-31 --enable-growth --copy
 python main_generate_supplychain.py -s 2025-01-01 -e 2026-03-31 --auto-scale --copydata --graph --no-display
 ```
 
-### Integration Benefits
-1. **Sales Data Drives Inventory**: Stock levels reflect actual product demand
-2. **Procurement Matches Volume**: Purchase orders scaled to business activity
-3. **Realistic Relationships**: Supplier-product connections based on sales patterns
-4. **Temporal Consistency**: All supply chain activities within sales date range
-5. **Business Logic**: Inventory movements align with customer demand
-
-## 🎯 Use Cases
-
-### Supply Chain Analytics
-- Inventory optimization modeling
-- Supplier performance analysis
-- Demand forecasting validation
-- Risk management simulation
-
-### Business Intelligence
-- Power BI supply chain dashboards  
-- Tableau inventory visualizations
-- SQL-based procurement reporting
-- Data warehouse supply chain modules
-
-### Application Development
-- ERP system inventory modules
-- Supply chain management applications
-- Procurement workflow systems
-- Warehouse management system testing
-
-### Education & Training
-- Supply chain management courses
-- Inventory control workshops
-- Business analytics training
-- SQL learning with realistic datasets
-
-## 🧮 Business Logic & Realism
-
-### Supplier Management
-- **5 realistic suppliers** with varied lead times and capabilities
-- **Primary + Backup relationships** for supply chain resilience  
-- **Geographic distribution** affecting lead times and costs
-- **Reliability scoring** based on performance history
-
-### Inventory Intelligence
-- **Sales-velocity driven stock levels** (not random numbers)
-- **Safety stock calculations** using sales patterns and lead times
-- **Reorder point optimization** based on demand variability
-- **ABC classification** with appropriate stock policies
-
-### Procurement Patterns
-- **Economic order quantities** based on demand and costs
-- **Supplier lead times** affecting order timing
-- **Seasonal ordering** patterns aligned with sales forecasts
-- **Emergency purchases** for stock-out scenarios
-
-### Transaction Realism
-- **Receipt transactions** when purchase orders arrive
-- **Putaway activities** moving stock to locations
-- **Picking transactions** for sales fulfillment
-- **Adjustment transactions** for cycle counts and corrections
-- **Transfer movements** between locations
-
-## 🛠️ Technical Requirements
-
-**Dependencies:**
-```bash
-pip install pandas numpy matplotlib
-```
-
-**System Requirements:**
-- Python 3.7+
-- PowerShell 5.0+ (for interactive workflow)
-- 200MB+ free disk space (for large datasets)
-- Windows/Linux/macOS compatible
-
-## 📈 Performance & Scalability
-
-### Dataset Sizes (15-month period with auto-scale)
-- **Small Sales Volume** (1K orders): ~20 POs, ~500 transactions
-- **Medium Sales Volume** (10K orders): ~50 POs, ~2K transactions  
-- **Large Sales Volume** (50K orders): ~112 POs, ~7K transactions
-- **Enterprise Sales Volume** (100K+ orders): ~200 POs, ~15K transactions
-
-### Generation Speed
-- Small datasets: <30 seconds
-- Medium datasets: 1-2 minutes
-- Large datasets: 3-5 minutes
-- Analytics graphs: +10-15 seconds
-
-## 📋 Summary & Reporting
-
-Every supply chain generation creates comprehensive documentation:
-- **Parameter Analysis**: Auto-scale calculations and rationale
-- **Volume Statistics**: Orders, transactions, and inventory counts
-- **Supplier Summary**: Lead times, relationships, and performance
-- **Inventory Health**: Stock levels, reorder points, and forecasts
-- **Integration Status**: Sales data connectivity and date alignment
-- **File Manifest**: All generated files with sizes and locations
-
-The summary report provides complete audit trail for business simulation accuracy and helps validate the realism of generated supply chain data.

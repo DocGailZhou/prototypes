@@ -17,35 +17,21 @@ python main_generate_supplychain.py --auto-scale -s 2025-01-01 -e 2026-03-31
 - Displays calculated vs default parameters
 - Uses intelligent date range filtering
 
-### 🎯 Orchestration Scripts
-Two new scripts handle the complete workflow automatically:
+### 🎯 PowerShell Orchestration Script
+The PowerShell script handles the complete workflow automatically:
 
 ## PowerShell Script (Recommended)
-**`Run-DataGeneration.ps1`**
+**`datagen.ps1`**
 
 ```powershell
 # Interactive mode (prompts for dates)
-.\Run-DataGeneration.ps1
+.\datagen.ps1
 
 # Direct execution  
-.\Run-DataGeneration.ps1 -StartDate "2025-01-01" -EndDate "2026-03-31"
+.\datagen.ps1 -StartDate "2025-01-01" -EndDate "2026-03-31"
 
 # Full feature execution
-.\Run-DataGeneration.ps1 -StartDate "2025-01-01" -EndDate "2026-03-31" -EnableGrowth -GenerateGraphs -CopyData
-```
-
-## Batch File (Simple)
-**`run-data-generation.bat`**
-
-```batch
-# Interactive mode
-run-data-generation.bat
-
-# With dates
-run-data-generation.bat 2025-01-01 2026-03-31
-
-# With all features
-run-data-generation.bat 2025-01-01 2026-03-31 all
+.\datagen.ps1 -StartDate "2025-01-01" -EndDate "2026-03-31" -EnableGrowth -GenerateGraphs -CopyData
 ```
 
 ## Workflow

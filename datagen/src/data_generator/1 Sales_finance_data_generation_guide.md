@@ -2,7 +2,7 @@
 
 Generates realistic sales and finance data for three business domains: Camping 🏕️, Kitchen 🍳, and Ski ⛷️.
 
-## 🚀 Interactive PowerShell Workflow (Recommended)
+## Interactive PowerShell Workflow (Recommended)
 
 **Simplest Method - Just Run:**
 ```powershell
@@ -10,6 +10,7 @@ Generates realistic sales and finance data for three business domains: Camping �
 ```
 
 **What it does:**
+
 - Interactive prompts with smart defaults (2025-01-01 to 2026-03-31)
 - Generates sales data for all domains
 - Auto-scales supply chain data based on sales volume
@@ -23,7 +24,7 @@ Generates realistic sales and finance data for three business domains: Camping �
 - **Analytics graphs**: Enabled by default (Press Enter)
 - **Copy data**: Enabled by default (Press Enter)
 
-## 📊 Python Command Line (Advanced)
+## Python Command Line (Advanced)
 
 ### Quick Examples
 
@@ -82,9 +83,14 @@ output/
 ### Infrastructure Copy (with --copydata)
 ```
 ../../infra/data/
-├── camping/ (mirrors output structure)
-├── kitchen/ (mirrors output structure)
-└── ski/ (mirrors output structure)
+├── customer/          # Customer-related CSV files
+├── product/           # Product-related CSV files
+├── camping/           # Generated camping data (mirrors output structure)
+├── kitchen/           # Generated kitchen data (mirrors output structure)
+├── ski/               # Generated ski data (mirrors output structure)
+├── inventory/         # Inventory and warehouse data
+├── supplychain/       # Supply chain data
+└── *.md              # Summary reports
 ```
 
 ### File Contents
@@ -117,103 +123,3 @@ output/
 - Average order values grow
 - Customer base expansion
 - Seasonal purchasing patterns
-
-## 📊 Analytics & Visualization
-
-### Revenue Trend Graph (--graph)
-
-**Top Chart**: Monthly Revenue by Domain
-- Individual domain trends
-- Growth pattern indicators
-- Seasonal variations
-- Domain comparison
-
-**Bottom Chart**: Total Monthly Revenue
-- Combined revenue trends
-- Growth trajectory analysis
-- Quadratic trend line fitting
-- Business performance insights
-
-**Statistics Displayed:**
-- Total revenue across all domains
-- Average monthly revenue
-- Peak monthly performance  
-- Growth pattern analysis (with --enable-growth)
-
-## 🔗 Integration Workflow
-
-### Standalone Sales Generation
-```bash
-# Generate only sales data
-python main_generate_sales.py --enable-growth --graph --copydata --no-display
-```
-
-### Complete Business Dataset (Sales + Supply Chain)
-```powershell
-# Interactive orchestration
-.\datagen.ps1
-
-# Or run both phases manually:
-python main_generate_sales.py -s 2025-01-01 -e 2026-03-31 --enable-growth --copydata --graph --no-display
-python main_generate_supplychain.py -s 2025-01-01 -e 2026-03-31 --auto-scale --copydata --graph --no-display
-```
-
-## 🎯 Use Cases
-
-### Data Analytics & BI
-- Power BI dashboard development
-- Tableau visualization projects
-- SQL query testing
-- Data warehouse prototyping
-
-### Machine Learning
-- Sales forecasting models
-- Customer segmentation
-- Demand prediction
-- Revenue optimization
-
-### Application Development
-- ERP system testing
-- E-commerce platform demos
-- Financial reporting systems
-- Business intelligence applications
-
-### Education & Training
-- SQL learning datasets
-- Business intelligence courses
-- Data analysis workshops
-- Financial modeling exercises
-
-## 🛠️ Technical Requirements
-
-**Dependencies:**
-```bash
-pip install pandas numpy matplotlib
-```
-
-**System Requirements:**
-- Python 3.7+
-- PowerShell 5.0+ (for interactive workflow)
-- 100MB+ free disk space
-- Windows/Linux/macOS compatible
-
-## 📝 Summary Generation
-
-Every run creates a comprehensive summary report:
-- Total orders and line items generated
-- Revenue statistics by domain
-- Date range coverage
-- File locations and sizes
-- Business growth analysis (if enabled)
-- Integration status with supply chain data
-- Customer tier responses
-
-**Revenue Visualization (--graph):**
-- Monthly revenue trends
-- Growth pattern analysis
-- Saves PNG chart to output folder
-
-**Data Characteristics:**
-- Average order values: Camping ~$1,000, Kitchen ~$560, Ski ~$1,600
-- Customer types: Individual, Business, Government with tier progression  
-- Seasonal patterns and realistic business cycles

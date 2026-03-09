@@ -272,32 +272,16 @@ def copy_csv_files():
     
     # Define source and destination paths using relative paths
     input_source = base_path / "input"
-    input_dest = base_path / ".." / ".." / "infra" / "data" / "shared"
-    
     output_source = base_path / "output"
     output_dest = base_path / ".." / ".." / "infra" / "data"
     
     # Ensure destination directories exist
-    input_dest.mkdir(parents=True, exist_ok=True)
     output_dest.mkdir(parents=True, exist_ok=True)
     
     copied_files = 0
     
-    # Copy CSV files from input to infra/data/shared
-    print(f"📂 Copying CSV files from input folder to {input_dest.resolve()}...")
-    input_csv_files = glob.glob(str(input_source / "*.csv"))
-    for csv_file in input_csv_files:
-        src_file = Path(csv_file)
-        dest_file = input_dest / src_file.name
-        try:
-            shutil.copy2(src_file, dest_file)
-            print(f"   ✅ {src_file.name} → {dest_file.relative_to(base_path.parent.parent)}")
-            copied_files += 1
-        except Exception as e:
-            print(f"   ❌ Failed to copy {src_file.name}: {e}")
-    
     # Copy CSV files from output to infra/data (recursively)
-    print(f"\n📂 Copying CSV files from output folder to {output_dest.resolve()}...")
+    print(f"📂 Copying CSV files from output folder to {output_dest.resolve()}...")
     output_csv_files = glob.glob(str(output_source / "**" / "*.csv"), recursive=True)
     for csv_file in output_csv_files:
         src_file = Path(csv_file)
