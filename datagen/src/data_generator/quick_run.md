@@ -1,5 +1,10 @@
 # Quick Run Examples 
 
+## Prerequisites  
+Ensure configuration files exist in `input/` directory:
+- `suppliers.json` - Supplier master data
+- `warehouses.json` - Warehouse locations and details
+
 ```bash
 # Program location
 cd datagen\src\data_generator

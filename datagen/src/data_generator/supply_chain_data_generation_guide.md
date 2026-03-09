@@ -23,7 +23,16 @@ Generates intelligent supplier management and inventory data with auto-scaling b
 - **Analytics graphs**: Enabled by default (revenue + supply chain dashboards)
 - **Copy data**: Enabled by default (to infra/data directories)
 
-## 📊 Python Command Line (Advanced)
+## � Prerequisites
+
+### Required Configuration Files
+- **suppliers.json**: Located in `input/` directory - supplier master data and product relationships
+- **warehouses.json**: Located in `input/` directory - warehouse locations, addresses, and operational details  
+
+### Sales Data (Optional but Recommended)
+For auto-scaling, ensure sales data exists in `output/[camping|kitchen|ski]/sales/` directories.
+
+## �📊 Python Command Line (Advanced)
 
 ### Quick Examples
 
@@ -109,6 +118,7 @@ output/
 │   ├── ProductSuppliers.csv
 │   └── SupplyChainEvents.csv
 ├── inventory/
+│   ├── Warehouses.csv
 │   ├── Inventory.csv
 │   ├── PurchaseOrders.csv
 │   ├── PurchaseOrderItems.csv
@@ -133,6 +143,7 @@ output/
 - **SupplyChainEvents.csv**: Risk events and disruptions (EventID, EventType, ImpactLevel, etc.)
 
 **Inventory Files:**
+- **Warehouses.csv**: Master warehouse data (WarehouseID, DisplayName, Address, Phone, Manager, etc.)
 - **Inventory.csv**: Current stock levels (ProductID, CurrentStock, ReorderPoint, SafetyStock, etc.)
 - **PurchaseOrders.csv**: Purchase order headers (OrderID, SupplierID, OrderDate, Status, etc.)
 - **PurchaseOrderItems.csv**: Purchase order line items (ItemID, OrderID, ProductID, Quantity, etc.)

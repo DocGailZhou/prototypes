@@ -1,16 +1,16 @@
 EventID,DisruptionType,EventName,Description,Severity,Status,StartDate,EndDate,GeographicArea,IndustryImpact,PredictedDuration,ActualDuration,AlertLevel,ReportedBy,CreatedBy,CreatedDate
-1,Economic,Raw Material Shortage - 1,Global shortage of key manufacturing materials,Critical,Monitoring,2026-01-23,,Global,Manufacturing,21,,Red,Supply Chain Monitor,system,2026-01-23 10:47:10
-2,Weather,Winter Storm Alpha - 2,Major winter storm affecting transportation networks,High,Active,2026-01-15,,Northwestern USA,Logistics,11,,Red,Supply Chain Monitor,system,2026-01-15 10:47:10
-3,Economic,Raw Material Shortage - 3,Global shortage of key manufacturing materials,Critical,Resolved,2026-01-15,2026-01-17,Global,Manufacturing,8,2.0,Orange,Supply Chain Monitor,system,2026-01-15 10:47:10
-4,Supplier,Factory Maintenance - 4,Scheduled maintenance at key supplier facility,Medium,Resolved,2026-02-10,2026-03-02,Regional,Manufacturing,18,20.0,Orange,Supply Chain Monitor,system,2026-02-10 10:47:10
-5,Weather,Winter Storm Alpha - 5,Major winter storm affecting transportation networks,High,Resolved,2026-01-30,2026-02-06,Northwestern USA,Logistics,5,7.0,Red,Supply Chain Monitor,system,2026-01-30 10:47:10
-6,Weather,Winter Storm Alpha - 6,Major winter storm affecting transportation networks,High,Resolved,2026-02-23,2026-03-25,Northwestern USA,Logistics,13,30.0,Red,Supply Chain Monitor,system,2026-02-23 10:47:10
-7,Economic,Raw Material Shortage - 7,Global shortage of key manufacturing materials,Critical,Resolved,2026-01-02,2026-01-06,Global,Manufacturing,3,4.0,Yellow,Supply Chain Monitor,system,2026-01-02 10:47:10
-8,Weather,Winter Storm Alpha - 8,Major winter storm affecting transportation networks,High,Resolved,2026-01-02,2026-01-15,Northwestern USA,Logistics,16,13.0,Orange,Supply Chain Monitor,system,2026-01-02 10:47:10
-9,Economic,Raw Material Shortage - 9,Global shortage of key manufacturing materials,Critical,Resolved,2025-12-20,2025-12-31,Global,Manufacturing,9,11.0,Yellow,Supply Chain Monitor,system,2025-12-20 10:47:10
-10,Economic,Raw Material Shortage - 10,Global shortage of key manufacturing materials,Critical,Active,2026-03-01,,Global,Manufacturing,7,,Yellow,Supply Chain Monitor,system,2026-03-01 10:47:10
-11,Economic,Raw Material Shortage - 11,Global shortage of key manufacturing materials,Critical,Resolved,2025-12-19,2026-01-11,Global,Manufacturing,21,23.0,Red,Supply Chain Monitor,system,2025-12-19 10:47:10
-12,Supplier,Factory Maintenance - 12,Scheduled maintenance at key supplier facility,Medium,Resolved,2026-01-19,2026-02-02,Regional,Manufacturing,12,14.0,Yellow,Supply Chain Monitor,system,2026-01-19 10:47:10
-13,Economic,Raw Material Shortage - 13,Global shortage of key manufacturing materials,Critical,Resolved,2026-02-25,2026-02-26,Global,Manufacturing,16,1.0,Yellow,Supply Chain Monitor,system,2026-02-25 10:47:10
-14,Supplier,Factory Maintenance - 14,Scheduled maintenance at key supplier facility,Medium,Resolved,2025-12-22,2026-01-02,Regional,Manufacturing,6,11.0,Yellow,Supply Chain Monitor,system,2025-12-22 10:47:10
-15,Supplier,Factory Maintenance - 15,Scheduled maintenance at key supplier facility,Medium,Monitoring,2026-02-18,,Regional,Manufacturing,20,,Red,Supply Chain Monitor,system,2026-02-18 10:47:10
+1,Supplier,Factory Maintenance - 1,Scheduled maintenance at key supplier facility,Medium,Resolved,2026-01-13,2026-01-31,Regional,Manufacturing,6,18.0,Orange,Supply Chain Monitor,system,2026-01-13 14:01:32
+2,Weather,Winter Storm Alpha - 2,Major winter storm affecting transportation networks,High,Resolved,2025-12-25,2025-12-30,Northwestern USA,Logistics,5,5.0,Red,Supply Chain Monitor,system,2025-12-25 14:01:32
+3,Economic,Raw Material Shortage - 3,Global shortage of key manufacturing materials,Critical,Active,2025-12-19,,Global,Manufacturing,3,,Yellow,Supply Chain Monitor,system,2025-12-19 14:01:32
+4,Weather,Winter Storm Alpha - 4,Major winter storm affecting transportation networks,High,Resolved,2026-03-06,2026-03-23,Northwestern USA,Logistics,15,17.0,Orange,Supply Chain Monitor,system,2026-03-06 14:01:32
+5,Supplier,Factory Maintenance - 5,Scheduled maintenance at key supplier facility,Medium,Resolved,2026-01-04,2026-01-12,Regional,Manufacturing,21,8.0,Yellow,Supply Chain Monitor,system,2026-01-04 14:01:32
+6,Supplier,Factory Maintenance - 6,Scheduled maintenance at key supplier facility,Medium,Resolved,2026-03-07,2026-03-27,Regional,Manufacturing,5,20.0,Red,Supply Chain Monitor,system,2026-03-07 14:01:32
+7,Economic,Raw Material Shortage - 7,Global shortage of key manufacturing materials,Critical,Active,2026-01-26,,Global,Manufacturing,19,,Yellow,Supply Chain Monitor,system,2026-01-26 14:01:32
+8,Economic,Raw Material Shortage - 8,Global shortage of key manufacturing materials,Critical,Monitoring,2026-01-06,,Global,Manufacturing,18,,Yellow,Supply Chain Monitor,system,2026-01-06 14:01:32
+9,Weather,Winter Storm Alpha - 9,Major winter storm affecting transportation networks,High,Resolved,2026-01-10,2026-02-09,Northwestern USA,Logistics,16,30.0,Orange,Supply Chain Monitor,system,2026-01-10 14:01:32
+10,Supplier,Factory Maintenance - 10,Scheduled maintenance at key supplier facility,Medium,Resolved,2026-03-01,2026-03-09,Regional,Manufacturing,5,8.0,Orange,Supply Chain Monitor,system,2026-03-01 14:01:32
+11,Economic,Raw Material Shortage - 11,Global shortage of key manufacturing materials,Critical,Monitoring,2026-02-22,,Global,Manufacturing,16,,Orange,Supply Chain Monitor,system,2026-02-22 14:01:32
+12,Supplier,Factory Maintenance - 12,Scheduled maintenance at key supplier facility,Medium,Resolved,2025-12-22,2026-01-10,Regional,Manufacturing,20,19.0,Orange,Supply Chain Monitor,system,2025-12-22 14:01:32
+13,Weather,Winter Storm Alpha - 13,Major winter storm affecting transportation networks,High,Resolved,2026-02-01,2026-02-21,Northwestern USA,Logistics,5,20.0,Yellow,Supply Chain Monitor,system,2026-02-01 14:01:32
+14,Supplier,Factory Maintenance - 14,Scheduled maintenance at key supplier facility,Medium,Active,2026-02-19,,Regional,Manufacturing,13,,Yellow,Supply Chain Monitor,system,2026-02-19 14:01:32
+15,Weather,Winter Storm Alpha - 15,Major winter storm affecting transportation networks,High,Resolved,2026-02-01,2026-02-25,Northwestern USA,Logistics,18,24.0,Yellow,Supply Chain Monitor,system,2026-02-01 14:01:32

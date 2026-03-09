@@ -28,9 +28,109 @@ except ImportError:
     print("📊 Matplotlib not available. Install with: pip install matplotlib")
     print("   Graphing feature will be disabled.")
 
+import json
+
+def load_warehouse_display_names(input_path):
+    """Load warehouse display names from warehouses.json configuration."""
+    config_file = input_path / "warehouses.json"
+    
+    if not config_file.exists():
+        # Fallback to hardcoded values if config file doesn't exist
+        return {
+            'Main': 'Kansas City, MO',
+            'Backup': 'Memphis, TN', 
+            'Regional': 'Atlanta, GA'
+        }
+        
+    try:
+        with open(config_file, 'r') as f:
+            config = json.load(f)
+        
+        # Create mapping from WarehouseID to DisplayName
+        return {wh['WarehouseID']: wh['DisplayName'] for wh in config['warehouses']}
+    except Exception as e:
+        print(f"⚠️ Error loading warehouses.json: {e}")
+        # Return fallback values
+        return {
+            'Main': 'Kansas City, MO',
+            'Backup': 'Memphis, TN', 
+            'Regional': 'Atlanta, GA'
+        }
+
 # Import our generators
 from generate_suppliers import SupplierDataGenerator
 from generate_inventory import InventoryDataGenerator
+
+
+def generate_warehouses_csv(input_path, output_path):
+    """Generate Warehouses.csv from warehouses.json configuration."""
+    import pandas as pd
+    from datetime import datetime
+    
+    config_file = input_path / "warehouses.json"
+    warehouses_output_dir = output_path / "inventory"
+    warehouses_output_dir.mkdir(parents=True, exist_ok=True)
+    
+    if not config_file.exists():
+        print("⚠️ warehouses.json not found, skipping Warehouses.csv generation")
+        return False
+        
+    try:
+        with open(config_file, 'r') as f:
+            config = json.load(f)
+            
+        warehouses_data = []
+        current_time = datetime.now()
+        
+        for warehouse in config['warehouses']:
+            # Flatten the nested structure for CSV format
+            record = {
+                'WarehouseID': warehouse['WarehouseID'],
+                'WarehouseName': warehouse['WarehouseName'], 
+                'DisplayName': warehouse['DisplayName'],
+                'Type': warehouse['Type'],
+                'Status': warehouse['Status'],
+                'Location': warehouse['Location'],
+                
+                # Address fields
+                'AddressStreet': warehouse['Address']['Street'],
+                'AddressCity': warehouse['Address']['City'],
+                'AddressState': warehouse['Address']['State'], 
+                'AddressZipCode': warehouse['Address']['ZipCode'],
+                'AddressCountry': warehouse['Address']['Country'],
+                
+                # Contact fields
+                'Phone': warehouse['ContactInfo']['Phone'],
+                'Email': warehouse['ContactInfo']['Email'],
+                'ManagerName': warehouse['ContactInfo']['Manager'],
+                'ManagerEmail': warehouse['ContactInfo']['ManagerEmail'],
+                
+                # Operational fields
+                'Priority': warehouse['Capacity']['Priority'],
+                'MaxCapacity': warehouse['Capacity']['MaxCapacity'],
+                'OperatingHours': warehouse['Operations']['OperatingHours'],
+                'StaffCount': warehouse['Operations']['StaffCount'],
+                'AutomationLevel': warehouse['Operations']['AutomationLevel'],
+                'DeliveryName': warehouse['DeliveryName'],
+                
+                # System fields
+                'CreatedBy': warehouse.get('CreatedBy', 'system'),
+                'CreatedDate': current_time.strftime('%Y-%m-%d %H:%M:%S'),
+                'LastUpdated': current_time.strftime('%Y-%m-%d %H:%M:%S')
+            }
+            warehouses_data.append(record)
+            
+        # Create DataFrame and save to CSV
+        df_warehouses = pd.DataFrame(warehouses_data)
+        warehouses_csv_path = warehouses_output_dir / "Warehouses.csv"
+        df_warehouses.to_csv(warehouses_csv_path, index=False)
+        
+        print(f"✅ Generated: Warehouses.csv ({len(warehouses_data)} warehouses)")
+        return True
+        
+    except Exception as e:
+        print(f"❌ Error generating Warehouses.csv: {e}")
+        return False
 
 
 def calculate_optimal_parameters(start_date, end_date):
@@ -481,17 +581,13 @@ def generate_graph(results, args):
             ax1.legend(loc='upper left', fontsize=11)
             ax1.grid(True, alpha=0.2)
         
-        # Graph 2: Warehouse Capacity Utilization (Business Critical)
+# Graph 2: Warehouse Capacity Utilization (Business Critical)
         inventory_levels_file = inventory_path / "Inventory.csv"
         if inventory_levels_file.exists():
             df_inventory = pd.read_csv(inventory_levels_file)
             
-            # Map warehouse locations to real city names for display
-            warehouse_display_names = {
-                'Main': 'Kansas City, MO',
-                'Backup': 'Memphis, TN', 
-                'Regional': 'Atlanta, GA'
-            }
+            # Load warehouse configuration for display names
+            warehouse_display_names = load_warehouse_display_names(Path(__file__).parent / "input")
             
             # Calculate capacity utilization by warehouse
             warehouse_stats = df_inventory.groupby('WarehouseLocation').agg({
@@ -758,15 +854,6 @@ def copy_data_to_infra():
                 shutil.copy2(file_path, dest_file)
                 print(f"✅ Copied: {file_path.name} → supplychain/")
         
-        # Copy suppliers.json from input to suppliers subfolder
-        input_dir = current_dir / "input"
-        suppliers_json_src = input_dir / "suppliers.json"
-        if suppliers_json_src.exists():
-            suppliers_dest.mkdir(exist_ok=True)
-            suppliers_json_dest = suppliers_dest / "suppliers.json"
-            shutil.copy2(suppliers_json_src, suppliers_json_dest)
-            print(f"✅ Copied: suppliers.json → supplychain/")
-        
         # Copy inventory files to inventory subfolder
         inventory_src = output_dir / "inventory" 
         inventory_dest = infra_dir / "inventory"
@@ -923,6 +1010,16 @@ Examples:
         print("\n📦 Phase 2: Generating Inventory Intelligence...")
         print("-" * 50)
         
+        # First, generate warehouse master data from configuration
+        current_dir = Path(__file__).parent
+        input_dir = current_dir / "input"
+        output_dir = current_dir / "output"
+        
+        print("🏭 Generating warehouse master data...")
+        warehouse_success = generate_warehouses_csv(input_dir, output_dir)
+        if warehouse_success:
+            print("   └─ Warehouse configuration loaded and CSV generated")
+        
         inventory_generator = InventoryDataGenerator(
             start_date=args.start_date,
             end_date=args.end_date
@@ -960,6 +1057,7 @@ Examples:
         print(f"\n❌ File not found: {e}")
         print("Make sure you have:")
         print("   • suppliers.json in input/ directory")
+        print("   • warehouses.json in input/ directory")
         print("   • Product sample files in input/ directory") 
         print("   • Generated sales data (for inventory analysis)")
         return 1

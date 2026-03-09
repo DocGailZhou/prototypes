@@ -56,11 +56,41 @@ class InventoryDataGenerator:
         self.sales_data = self._load_sales_data()
         self.suppliers_data = self._load_suppliers_data()
         self.products_data = self._load_products_data()
+        self.warehouses_config = self._load_warehouses_config()
+        
+        # Process warehouse configuration for easy access
+        self.active_warehouses = [wh for wh in self.warehouses_config['warehouses'] if wh.get('Status', 'Active') == 'Active']
+        self.warehouse_locations = [wh['WarehouseID'] for wh in self.active_warehouses]
+        self.warehouse_weights = [wh['Capacity']['Priority'] for wh in self.active_warehouses]
         
         print(f"✅ Inventory generator initialized")
         print(f"📁 Input: {self.input_path}")
         print(f"📁 Output: {self.inventory_output}")
         print(f"📅 Date range: {self.start_date} to {self.end_date}")
+        
+    def _load_warehouses_config(self):
+        """Load warehouse configuration from JSON file."""
+        config_file = self.input_path / "warehouses.json"
+        
+        if not config_file.exists():
+            # Fallback to hardcoded values if config file doesn't exist
+            print("⚠️  warehouses.json not found, using default warehouse configuration")
+            return {
+                'warehouses': [
+                    {'WarehouseID': 'Main', 'DisplayName': 'Kansas City, MO', 
+                     'Capacity': {'Priority': 0.7}, 'DeliveryName': 'Main Warehouse'},
+                    {'WarehouseID': 'Backup', 'DisplayName': 'Memphis, TN',
+                     'Capacity': {'Priority': 0.2}, 'DeliveryName': 'Backup Warehouse'},
+                    {'WarehouseID': 'Regional', 'DisplayName': 'Atlanta, GA',
+                     'Capacity': {'Priority': 0.1}, 'DeliveryName': 'Regional DC'}
+                ]
+            }
+            
+        with open(config_file, 'r') as f:
+            config = json.load(f)
+            
+        print(f"📋 Loaded {len(config['warehouses'])} warehouses from config")
+        return config
         
     def _get_product_category(self, product):
         """Get product category from BrandName or other fields."""
@@ -241,9 +271,7 @@ class InventoryDataGenerator:
         # Analyze sales velocity
         velocity_data = self._analyze_sales_velocity()
         
-        # Warehouse locations
-        warehouse_locations = ['Main', 'Backup', 'Regional']
-        warehouse_weights = [0.7, 0.2, 0.1]  # Main gets most inventory
+        # Use pre-loaded warehouse configuration from class initialization
         
         # Process each product
         for _, product in self.products_data.iterrows():
@@ -299,7 +327,7 @@ class InventoryDataGenerator:
                 avg_cost = float(retail_price) * random.uniform(0.65, 0.75)
                 
             # Create record for main warehouse (most products)
-            main_warehouse = random.choices(warehouse_locations, weights=warehouse_weights)[0]
+            main_warehouse = random.choices(self.warehouse_locations, weights=self.warehouse_weights)[0]
             
             record = {
                 'InventoryID': inventory_id,
@@ -408,7 +436,7 @@ class InventoryDataGenerator:
                 'ActualDeliveryDate': actual_delivery.strftime('%Y-%m-%d') if actual_delivery else None,
                 'Status': status,
                 'TotalOrderValue': 0.0,  # Will calculate from line items
-                'DeliveryLocation': random.choice(['Main Warehouse', 'Backup Warehouse', 'Regional DC']),
+                'DeliveryLocation': random.choice([wh['DeliveryName'] for wh in self.active_warehouses]),
                 'OrderedBy': random.choice(['buyer1', 'buyer2', 'supply_manager']),
                 'Priority': priority,
                 'Notes': f"Order for {supplier['ProductCategory']} products" if supplier['ProductCategory'] != 'Multi' else "Multi-category order",

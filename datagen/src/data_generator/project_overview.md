@@ -45,9 +45,10 @@
 ### Core Components
 
 | Module | Purpose | Output Files |
-|--------|---------|--------------|
+|--------|---------|-------------|
 | **Suppliers** | Master data + relationships | 3 CSV files |
-| **Inventory** | Stock levels + orders | 4 CSV files |
+| **Warehouses** | Location master data + contacts | 1 CSV file |
+| **Inventory** | Stock levels + orders | 5 CSV files |
 | **Analytics** | Professional dashboard | PNG charts |
 
 **Quick Start**: `python main_generate_supplychain.py --graph --copydata`

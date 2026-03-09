@@ -19,7 +19,8 @@ This document defines the approach for generating supply chain data that integra
 - `C:\Repos\Explore\udf_solutions\prototype\src\data_generator\input\Customer_Samples.csv`
 
 **Supply Chain Configuration:**
-- `C:\Repos\Explore\udf_solutions\prototype\src\data_generator\input\suppliers.json` - Master supplier configuration with backup relationships
+- `C:\Repos\Explore\udf_solutions\prototype\src\data_generator\input\suppliers.json` - Master supplier configuration with backup relationships  
+- `C:\Repos\Explore\udf_solutions\prototype\src\data_generator\input\warehouses.json` - Warehouse master data with addresses and operational details
 
 **Exclusions:**
 - Finance data will NOT be used for supply chain generation
@@ -31,11 +32,12 @@ This document defines the approach for generating supply chain data that integra
 2. **ProductSuppliers** - Product-supplier mappings with pricing/terms
 3. **SupplyChainEvents** - Disruption events and impact tracking
 
-### model_inventory.ipynb (4 Tables)
-1. **Inventory** - Current stock levels by product/location
-2. **InventoryTransactions** - Stock movement audit trail
-3. **PurchaseOrders** - Purchase order headers
-4. **PurchaseOrderItems** - Purchase order line items
+### model_inventory.ipynb (5 Tables)
+1. **Warehouses** - Master warehouse data with addresses and contacts
+2. **Inventory** - Current stock levels by product/location
+3. **InventoryTransactions** - Stock movement audit trail
+4. **PurchaseOrders** - Purchase order headers
+5. **PurchaseOrderItems** - Purchase order line items
 
 ## Business Logic Design
 
