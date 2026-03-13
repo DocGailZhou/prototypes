@@ -1,0 +1,78 @@
+ProductSupplierID,ProductID,ProductName,ProductCategory,SupplierID,SupplierName,SupplierProductCode,WholesaleCost,MinOrderQuantity,MaxOrderQuantity,LeadTimeDays,Status,CreatedBy,CreatedDate
+1,1521,Adventurer Pro Backpack,Camping,1,Contoso Ltd,CON-1521,135.71,25,10000.0,8,Active,system,2025-09-21 12:55:10
+2,1531,Summit Breeze Jacket,Camping,1,Contoso Ltd,CON-1531,108.38,10,5000.0,7,Active,system,2025-09-27 12:55:10
+3,1541,TrekReady Hiking Boots,Camping,1,Contoso Ltd,CON-1541,131.81,5,1000.0,13,Active,system,2025-12-30 12:55:10
+4,1551,BaseCamp Folding Table,Camping,1,Contoso Ltd,CON-1551,60.45,1,1000.0,10,Active,system,2026-02-10 12:55:10
+5,1561,EcoFire Camping Stove,Camping,1,Contoso Ltd,CON-1561,93.65,5,,10,Active,system,2025-11-16 12:55:10
+6,1571,CozyNights Sleeping Bag,Camping,1,Contoso Ltd,CON-1571,122.54,25,10000.0,11,Active,system,2025-12-07 12:55:10
+7,1511,Alpine Explorer Tent,Camping,1,Contoso Ltd,CON-1511,319.74,50,,12,Active,system,2025-10-10 12:55:10
+8,1511,Alpine Explorer Tent,Camping,4,Worldwide Importers,WOR-1511,327.26,50,500.0,22,Active,system,2025-09-30 12:55:10
+9,1522,SummitClimber Backpack,Camping,1,Contoso Ltd,CON-1522,136.95,5,5000.0,11,Active,system,2025-09-30 12:55:10
+10,1532,TrailBlaze Hiking Pants,Camping,1,Contoso Ltd,CON-1532,71.39,25,,8,Active,system,2026-02-01 12:55:10
+11,1532,TrailBlaze Hiking Pants,Camping,4,Worldwide Importers,WOR-1532,61.89,1,500.0,17,Active,system,2026-01-26 12:55:10
+12,1542,TrailWalker Hiking Shoes,Camping,1,Contoso Ltd,CON-1542,92.25,25,,9,Active,system,2025-11-15 12:55:10
+13,1542,TrailWalker Hiking Shoes,Camping,4,Worldwide Importers,WOR-1542,90.5,50,500.0,24,Active,system,2025-11-18 12:55:10
+14,1552,TrekMaster Camping Chair,Camping,1,Contoso Ltd,CON-1552,52.56,1,1000.0,10,Active,system,2025-10-12 12:55:10
+15,1562,PowerBurner Camping Stove,Camping,1,Contoso Ltd,CON-1562,130.11,1,,7,Active,system,2025-12-20 12:55:10
+16,1572,MountainDream Sleeping Bag,Camping,1,Contoso Ltd,CON-1572,230.09,5,10000.0,13,Active,system,2025-12-17 12:55:10
+17,1512,SkyView 2-Person Tent,Camping,1,Contoso Ltd,CON-1512,240.32,10,,12,Active,system,2025-10-24 12:55:10
+18,1523,TrailLite Daypack,Camping,1,Contoso Ltd,CON-1523,58.21,25,1000.0,8,Active,system,2025-10-30 12:55:10
+19,1533,RainGuard Hiking Jacket,Camping,1,Contoso Ltd,CON-1533,109.13,10,5000.0,8,Active,system,2025-11-27 12:55:10
+20,1533,RainGuard Hiking Jacket,Camping,4,Worldwide Importers,WOR-1533,118.18,1,500.0,21,Active,system,2025-09-18 12:55:10
+21,1543,TrekStar Hiking Sandals,Camping,1,Contoso Ltd,CON-1543,55.63,25,10000.0,8,Active,system,2026-01-01 12:55:10
+22,1553,Adventure Dining Table,Camping,1,Contoso Ltd,CON-1553,95.97,25,10000.0,9,Active,system,2025-12-25 12:55:10
+23,1563,CompactCook Camping Stove,Camping,1,Contoso Ltd,CON-1563,63.41,10,5000.0,9,Active,system,2025-10-24 12:55:10
+24,1581,LED Headlamp - Rechargeable,Camping,1,Contoso Ltd,CON-1581,51.6,1,1000.0,13,Active,system,2025-12-22 12:55:10
+25,2011,Coffee Maker,Kitchen,2,Proseware Inc,PRO-2011,130.32,5,1000.0,8,Active,system,2026-01-21 12:55:10
+26,2011,Coffee Maker,Kitchen,4,Worldwide Importers,WOR-2011,132.18,1,,18,Active,system,2025-12-26 12:55:10
+27,2012,Espresso Machine,Kitchen,2,Proseware Inc,PRO-2012,274.61,5,5000.0,8,Active,system,2025-12-19 12:55:10
+28,2021,Chef Knife,Kitchen,2,Proseware Inc,PRO-2021,60.02,10,,10,Active,system,2025-11-03 12:55:10
+29,2022,Fork Set,Kitchen,2,Proseware Inc,PRO-2022,31.18,5,10000.0,11,Active,system,2025-12-08 12:55:10
+30,2022,Fork Set,Kitchen,4,Worldwide Importers,WOR-2022,31.48,50,500.0,24,Active,system,2025-09-22 12:55:10
+31,2031,Coffee Mug,Kitchen,2,Proseware Inc,PRO-2031,22.04,1,10000.0,12,Active,system,2025-11-24 12:55:10
+32,2041,Serving Platter,Kitchen,2,Proseware Inc,PRO-2041,44.11,50,10000.0,7,Active,system,2025-10-06 12:55:10
+33,2051,Ice Cream Bowl,Kitchen,2,Proseware Inc,PRO-2051,18.53,5,5000.0,7,Active,system,2025-09-25 12:55:10
+34,2061,Mixing Bowl,Kitchen,2,Proseware Inc,PRO-2061,28.31,25,5000.0,13,Active,system,2026-01-25 12:55:10
+35,2071,Baking Pan,Kitchen,2,Proseware Inc,PRO-2071,22.13,1,10000.0,12,Active,system,2025-10-18 12:55:10
+36,2081,Food Storage Set,Kitchen,2,Proseware Inc,PRO-2081,26.07,50,5000.0,12,Active,system,2025-11-04 12:55:10
+37,2091,Spatula,Kitchen,2,Proseware Inc,PRO-2091,8.73,50,5000.0,13,Active,system,2025-10-15 12:55:10
+38,2101,Measuring Cup Set,Kitchen,2,Proseware Inc,PRO-2101,14.18,1,1000.0,9,Active,system,2026-02-06 12:55:10
+39,2111,High-Speed Blender,Kitchen,2,Proseware Inc,PRO-2111,125.46,50,10000.0,13,Active,system,2025-12-22 12:55:10
+40,2112,4-Slice Toaster,Kitchen,2,Proseware Inc,PRO-2112,58.11,50,,10,Active,system,2025-11-27 12:55:10
+41,2121,Bamboo Cutting Board Set,Kitchen,2,Proseware Inc,PRO-2121,28.33,1,10000.0,11,Active,system,2025-12-01 12:55:10
+42,3011,Alpine Pro Racing Skis - 170cm,Ski,3,Alpine Ski House,ALP-3011,926.95,10,1000.0,15,Active,system,2026-02-04 12:55:10
+43,3012,Mountain Master All-Terrain Skis - 165cm,Ski,3,Alpine Ski House,ALP-3012,660.07,5,,15,Active,system,2025-10-06 12:55:10
+44,3013,Beginner's Choice Alpine Skis - 160cm,Ski,3,Alpine Ski House,ALP-3013,273.87,10,5000.0,12,Active,system,2025-10-12 12:55:10
+45,3021,Nordic Classic XC Skis - 185cm,Ski,3,Alpine Ski House,ALP-3021,237.76,5,,13,Active,system,2025-12-23 12:55:10
+46,3022,Backcountry Explorer XC Skis - 190cm,Ski,3,Alpine Ski House,ALP-3022,411.57,25,5000.0,11,Active,system,2025-12-09 12:55:10
+47,3022,Backcountry Explorer XC Skis - 190cm,Ski,5,Fabrikam,FAB-3022,392.65,25,2000.0,9,Active,system,2025-10-12 12:55:10
+48,3031,Pro Flex Racing Ski Boots,Ski,3,Alpine Ski House,ALP-3031,492.82,25,1000.0,15,Active,system,2025-11-06 12:55:10
+49,3032,Comfort Fit Recreational Boots,Ski,3,Alpine Ski House,ALP-3032,315.5,10,1000.0,11,Active,system,2026-02-03 12:55:10
+50,3032,Comfort Fit Recreational Boots,Ski,4,Worldwide Importers,WOR-3032,309.26,25,2000.0,25,Active,system,2026-01-08 12:55:10
+51,3033,Women's Performance Ski Boots,Ski,3,Alpine Ski House,ALP-3033,358.33,1,,15,Active,system,2026-01-09 12:55:10
+52,3033,Women's Performance Ski Boots,Ski,4,Worldwide Importers,WOR-3033,450.2,25,500.0,24,Active,system,2025-11-11 12:55:10
+53,3041,Carbon Fiber Racing Poles - 120cm,Ski,3,Alpine Ski House,ALP-3041,126.56,25,1000.0,12,Active,system,2025-10-15 12:55:10
+54,3042,Aluminum All-Mountain Poles - 115cm,Ski,3,Alpine Ski House,ALP-3042,65.6,25,10000.0,12,Active,system,2025-10-07 12:55:10
+55,3042,Aluminum All-Mountain Poles - 115cm,Ski,5,Fabrikam,FAB-3042,78.75,25,2000.0,18,Active,system,2025-11-25 12:55:10
+56,3051,Insulated Ski Jacket - Men's,Ski,3,Alpine Ski House,ALP-3051,187.34,10,1000.0,11,Active,system,2025-10-01 12:55:10
+57,3051,Insulated Ski Jacket - Men's,Ski,4,Worldwide Importers,WOR-3051,225.55,25,2000.0,24,Active,system,2025-11-05 12:55:10
+58,3052,Thermal Base Layer Set - Women's,Ski,3,Alpine Ski House,ALP-3052,94.62,5,10000.0,13,Active,system,2025-10-06 12:55:10
+59,3052,Thermal Base Layer Set - Women's,Ski,4,Worldwide Importers,WOR-3052,98.81,10,2000.0,23,Active,system,2025-10-24 12:55:10
+60,3053,Waterproof Ski Pants,Ski,3,Alpine Ski House,ALP-3053,191.5,1,5000.0,15,Active,system,2025-10-22 12:55:10
+61,3061,Professional Ski Helmet,Ski,3,Alpine Ski House,ALP-3061,139.33,10,5000.0,9,Active,system,2025-10-27 12:55:10
+62,3062,Anti-Fog Ski Goggles,Ski,3,Alpine Ski House,ALP-3062,95.57,50,1000.0,10,Active,system,2025-11-03 12:55:10
+63,3062,Anti-Fog Ski Goggles,Ski,4,Worldwide Importers,WOR-3062,90.31,10,500.0,25,Active,system,2025-11-09 12:55:10
+64,3071,Ski Boot Bag - Premium,Ski,3,Alpine Ski House,ALP-3071,39.81,50,,14,Active,system,2026-01-18 12:55:10
+65,3071,Ski Boot Bag - Premium,Ski,4,Worldwide Importers,WOR-3071,50.59,1,,25,Active,system,2025-09-20 12:55:10
+66,3072,Hand Warmers - 10 Pack,Ski,3,Alpine Ski House,ALP-3072,9.69,50,1000.0,15,Active,system,2025-11-11 12:55:10
+67,3081,All-Temp Ski Wax Kit,Ski,3,Alpine Ski House,ALP-3081,60.81,10,1000.0,9,Active,system,2025-10-14 12:55:10
+68,3082,Edge Tuning Tool Set,Ski,3,Alpine Ski House,ALP-3082,78.68,1,,13,Active,system,2025-09-25 12:55:10
+69,3091,Freestyle Snowboard - 155cm,Ski,3,Alpine Ski House,ALP-3091,476.58,5,10000.0,11,Active,system,2025-10-31 12:55:10
+70,3092,All-Mountain Snowboard - 158cm,Ski,3,Alpine Ski House,ALP-3092,591.02,10,10000.0,14,Active,system,2025-10-26 12:55:10
+71,3101,Winter Boots - Insulated,Ski,3,Alpine Ski House,ALP-3101,110.98,5,5000.0,15,Active,system,2026-01-05 12:55:10
+72,3101,Winter Boots - Insulated,Ski,5,Fabrikam,FAB-3101,110.84,1,5000.0,13,Active,system,2025-11-26 12:55:10
+73,3102,Winter Hiking Boots - Waterproof,Ski,3,Alpine Ski House,ALP-3102,164.53,1,10000.0,10,Active,system,2025-10-21 12:55:10
+74,3103,Snowboard Bindings - Pro,Ski,3,Alpine Ski House,ALP-3103,214.47,1,1000.0,15,Active,system,2025-12-06 12:55:10
+75,3104,Ski Tuning Bench - Portable,Ski,3,Alpine Ski House,ALP-3104,141.5,50,,15,Active,system,2026-01-12 12:55:10
+76,3104,Ski Tuning Bench - Portable,Ski,4,Worldwide Importers,WOR-3104,146.56,50,2000.0,20,Active,system,2026-02-02 12:55:10
+77,3104,Ski Tuning Bench - Portable,Ski,5,Fabrikam,FAB-3104,144.65,25,500.0,14,Active,system,2025-12-16 12:55:10

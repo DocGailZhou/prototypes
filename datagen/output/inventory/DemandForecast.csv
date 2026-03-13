@@ -1,0 +1,421 @@
+ForecastID,ProductID,ProductName,ProductCategory,ForecastDate,ForecastPeriod,PredictedDemand,ConfidenceLevel,SeasonalMultiplier,TrendDirection,BaselineDemand,SalesTrendMultiplier,CompoundTrendMultiplier,MethodUsed,ForecastHorizon,ActualDemand,AccuracyScore,CreatedBy,CreatedDate
+1,1521,Adventurer Pro Backpack,Camping,2026-05-01,Monthly,258,91.51,1.05,Growing,226,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+2,1521,Adventurer Pro Backpack,Camping,2026-05-01,Weekly,60,91.77,1.5,Growing,226,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+3,1521,Adventurer Pro Backpack,Camping,2026-05-08,Weekly,60,88.78,1.5,Growing,226,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+4,1521,Adventurer Pro Backpack,Camping,2026-05-15,Weekly,60,93.42,1.5,Growing,226,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+5,1521,Adventurer Pro Backpack,Camping,2026-05-22,Weekly,60,95.54,1.5,Growing,226,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+6,1521,Adventurer Pro Backpack,Camping,2026-06-01,Monthly,263,91.51,1.03,Growing,226,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+7,1521,Adventurer Pro Backpack,Camping,2026-07-01,Monthly,269,91.51,1.02,Growing,226,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+8,1531,Summit Breeze Jacket,Camping,2026-05-01,Monthly,272,85.34,1.05,Growing,238,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+9,1531,Summit Breeze Jacket,Camping,2026-05-01,Weekly,63,86.77,1.5,Growing,238,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+10,1531,Summit Breeze Jacket,Camping,2026-05-08,Weekly,63,85.59,1.5,Growing,238,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+11,1531,Summit Breeze Jacket,Camping,2026-05-15,Weekly,63,84.53,1.5,Growing,238,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+12,1531,Summit Breeze Jacket,Camping,2026-05-22,Weekly,63,81.49,1.5,Growing,238,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+13,1531,Summit Breeze Jacket,Camping,2026-06-01,Monthly,277,85.34,1.03,Growing,238,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+14,1531,Summit Breeze Jacket,Camping,2026-07-01,Monthly,284,85.34,1.02,Growing,238,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+15,1541,TrekReady Hiking Boots,Camping,2026-05-01,Monthly,220,91.21,1.05,Growing,193,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+16,1541,TrekReady Hiking Boots,Camping,2026-05-01,Weekly,51,93.5,1.5,Growing,193,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+17,1541,TrekReady Hiking Boots,Camping,2026-05-08,Weekly,51,87.23,1.5,Growing,193,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+18,1541,TrekReady Hiking Boots,Camping,2026-05-15,Weekly,51,90.09,1.5,Growing,193,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+19,1541,TrekReady Hiking Boots,Camping,2026-05-22,Weekly,51,90.43,1.5,Growing,193,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:12
+20,1541,TrekReady Hiking Boots,Camping,2026-06-01,Monthly,224,91.21,1.03,Growing,193,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:12
+21,1541,TrekReady Hiking Boots,Camping,2026-07-01,Monthly,230,91.21,1.02,Growing,193,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+22,1551,BaseCamp Folding Table,Camping,2026-05-01,Monthly,98,77.4,1.05,Growing,86,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+23,1551,BaseCamp Folding Table,Camping,2026-05-01,Weekly,22,75.11,1.5,Growing,86,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+24,1551,BaseCamp Folding Table,Camping,2026-05-08,Weekly,22,76.56,1.5,Growing,86,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+25,1551,BaseCamp Folding Table,Camping,2026-05-15,Weekly,22,77.83,1.5,Growing,86,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+26,1551,BaseCamp Folding Table,Camping,2026-05-22,Weekly,22,80.3,1.5,Growing,86,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+27,1551,BaseCamp Folding Table,Camping,2026-06-01,Monthly,100,77.4,1.03,Growing,86,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+28,1551,BaseCamp Folding Table,Camping,2026-07-01,Monthly,102,77.4,1.02,Growing,86,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+29,1561,EcoFire Camping Stove,Camping,2026-05-01,Monthly,77,79.82,1.05,Growing,68,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+30,1561,EcoFire Camping Stove,Camping,2026-05-01,Weekly,17,76.06,1.5,Growing,68,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+31,1561,EcoFire Camping Stove,Camping,2026-05-08,Weekly,17,75.22,1.5,Growing,68,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+32,1561,EcoFire Camping Stove,Camping,2026-05-15,Weekly,17,84.65,1.5,Growing,68,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+33,1561,EcoFire Camping Stove,Camping,2026-05-22,Weekly,17,76.19,1.5,Growing,68,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+34,1561,EcoFire Camping Stove,Camping,2026-06-01,Monthly,79,79.82,1.03,Growing,68,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+35,1561,EcoFire Camping Stove,Camping,2026-07-01,Monthly,81,79.82,1.02,Growing,68,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+36,1571,CozyNights Sleeping Bag,Camping,2026-05-01,Monthly,135,81.87,1.05,Growing,118,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+37,1571,CozyNights Sleeping Bag,Camping,2026-05-01,Weekly,31,82.26,1.5,Growing,118,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+38,1571,CozyNights Sleeping Bag,Camping,2026-05-08,Weekly,31,86.3,1.5,Growing,118,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+39,1571,CozyNights Sleeping Bag,Camping,2026-05-15,Weekly,31,80.47,1.5,Growing,118,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+40,1571,CozyNights Sleeping Bag,Camping,2026-05-22,Weekly,31,82.87,1.5,Growing,118,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+41,1571,CozyNights Sleeping Bag,Camping,2026-06-01,Monthly,137,81.87,1.03,Growing,118,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+42,1571,CozyNights Sleeping Bag,Camping,2026-07-01,Monthly,140,81.87,1.02,Growing,118,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+43,1511,Alpine Explorer Tent,Camping,2026-05-01,Monthly,275,76.49,1.05,Growing,241,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+44,1511,Alpine Explorer Tent,Camping,2026-05-01,Weekly,63,80.05,1.5,Growing,241,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+45,1511,Alpine Explorer Tent,Camping,2026-05-08,Weekly,63,81.03,1.5,Growing,241,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+46,1511,Alpine Explorer Tent,Camping,2026-05-15,Weekly,63,74.1,1.5,Growing,241,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+47,1511,Alpine Explorer Tent,Camping,2026-05-22,Weekly,63,71.77,1.5,Growing,241,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+48,1511,Alpine Explorer Tent,Camping,2026-06-01,Monthly,280,76.49,1.03,Growing,241,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+49,1511,Alpine Explorer Tent,Camping,2026-07-01,Monthly,287,76.49,1.02,Growing,241,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+50,1522,SummitClimber Backpack,Camping,2026-05-01,Monthly,242,79.98,1.05,Growing,212,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+51,1522,SummitClimber Backpack,Camping,2026-05-01,Weekly,56,82.01,1.5,Growing,212,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+52,1522,SummitClimber Backpack,Camping,2026-05-08,Weekly,56,78.67,1.5,Growing,212,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+53,1522,SummitClimber Backpack,Camping,2026-05-15,Weekly,56,84.67,1.5,Growing,212,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+54,1522,SummitClimber Backpack,Camping,2026-05-22,Weekly,56,82.98,1.5,Growing,212,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+55,1522,SummitClimber Backpack,Camping,2026-06-01,Monthly,246,79.98,1.03,Growing,212,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+56,1522,SummitClimber Backpack,Camping,2026-07-01,Monthly,253,79.98,1.02,Growing,212,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+57,1532,TrailBlaze Hiking Pants,Camping,2026-05-01,Monthly,291,90.81,1.05,Growing,255,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+58,1532,TrailBlaze Hiking Pants,Camping,2026-05-01,Weekly,67,88.86,1.5,Growing,255,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+59,1532,TrailBlaze Hiking Pants,Camping,2026-05-08,Weekly,67,89.93,1.5,Growing,255,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+60,1532,TrailBlaze Hiking Pants,Camping,2026-05-15,Weekly,67,94.38,1.5,Growing,255,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+61,1532,TrailBlaze Hiking Pants,Camping,2026-05-22,Weekly,67,90.37,1.5,Growing,255,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+62,1532,TrailBlaze Hiking Pants,Camping,2026-06-01,Monthly,296,90.81,1.03,Growing,255,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+63,1532,TrailBlaze Hiking Pants,Camping,2026-07-01,Monthly,304,90.81,1.02,Growing,255,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+64,1542,TrailWalker Hiking Shoes,Camping,2026-05-01,Monthly,208,87.07,1.05,Growing,182,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+65,1542,TrailWalker Hiking Shoes,Camping,2026-05-01,Weekly,48,84.8,1.5,Growing,182,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+66,1542,TrailWalker Hiking Shoes,Camping,2026-05-08,Weekly,48,88.42,1.5,Growing,182,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+67,1542,TrailWalker Hiking Shoes,Camping,2026-05-15,Weekly,48,83.34,1.5,Growing,182,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+68,1542,TrailWalker Hiking Shoes,Camping,2026-05-22,Weekly,48,91.15,1.5,Growing,182,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+69,1542,TrailWalker Hiking Shoes,Camping,2026-06-01,Monthly,211,87.07,1.03,Growing,182,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+70,1542,TrailWalker Hiking Shoes,Camping,2026-07-01,Monthly,217,87.07,1.02,Growing,182,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+71,1552,TrekMaster Camping Chair,Camping,2026-05-01,Monthly,85,94.32,1.05,Growing,75,1.422,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+72,1552,TrekMaster Camping Chair,Camping,2026-05-01,Weekly,19,95.91,1.5,Growing,75,1.422,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+73,1552,TrekMaster Camping Chair,Camping,2026-05-08,Weekly,19,92.74,1.5,Growing,75,1.422,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+74,1552,TrekMaster Camping Chair,Camping,2026-05-15,Weekly,19,98.61,1.5,Growing,75,1.422,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+75,1552,TrekMaster Camping Chair,Camping,2026-05-22,Weekly,19,97.16,1.5,Growing,75,1.422,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+76,1552,TrekMaster Camping Chair,Camping,2026-06-01,Monthly,87,94.32,1.03,Growing,75,1.422,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+77,1552,TrekMaster Camping Chair,Camping,2026-07-01,Monthly,89,94.32,1.02,Growing,75,1.422,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+78,1562,PowerBurner Camping Stove,Camping,2026-05-01,Monthly,64,84.83,1.05,Stable,58,1.031,1.056,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+79,1562,PowerBurner Camping Stove,Camping,2026-05-01,Weekly,14,81.97,1.5,Stable,58,1.031,1.056,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+80,1562,PowerBurner Camping Stove,Camping,2026-05-08,Weekly,14,84.34,1.5,Stable,58,1.031,1.056,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+81,1562,PowerBurner Camping Stove,Camping,2026-05-15,Weekly,14,84.42,1.5,Stable,58,1.031,1.056,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+82,1562,PowerBurner Camping Stove,Camping,2026-05-22,Weekly,14,82.56,1.5,Stable,58,1.031,1.056,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+83,1562,PowerBurner Camping Stove,Camping,2026-06-01,Monthly,63,84.83,1.03,Stable,58,1.031,1.062,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+84,1562,PowerBurner Camping Stove,Camping,2026-07-01,Monthly,63,84.83,1.02,Stable,58,1.031,1.069,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+85,1572,MountainDream Sleeping Bag,Camping,2026-05-01,Monthly,144,87.8,1.05,Growing,126,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+86,1572,MountainDream Sleeping Bag,Camping,2026-05-01,Weekly,33,90.8,1.5,Growing,126,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+87,1572,MountainDream Sleeping Bag,Camping,2026-05-08,Weekly,33,92.56,1.5,Growing,126,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+88,1572,MountainDream Sleeping Bag,Camping,2026-05-15,Weekly,33,90.23,1.5,Growing,126,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+89,1572,MountainDream Sleeping Bag,Camping,2026-05-22,Weekly,33,91.18,1.5,Growing,126,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+90,1572,MountainDream Sleeping Bag,Camping,2026-06-01,Monthly,146,87.8,1.03,Growing,126,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+91,1572,MountainDream Sleeping Bag,Camping,2026-07-01,Monthly,150,87.8,1.02,Growing,126,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+92,1512,SkyView 2-Person Tent,Camping,2026-05-01,Monthly,282,82.15,1.05,Growing,247,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+93,1512,SkyView 2-Person Tent,Camping,2026-05-01,Weekly,65,77.77,1.5,Growing,247,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+94,1512,SkyView 2-Person Tent,Camping,2026-05-08,Weekly,65,78.68,1.5,Growing,247,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+95,1512,SkyView 2-Person Tent,Camping,2026-05-15,Weekly,65,85.24,1.5,Growing,247,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+96,1512,SkyView 2-Person Tent,Camping,2026-05-22,Weekly,65,79.98,1.5,Growing,247,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+97,1512,SkyView 2-Person Tent,Camping,2026-06-01,Monthly,287,82.15,1.03,Growing,247,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+98,1512,SkyView 2-Person Tent,Camping,2026-07-01,Monthly,294,82.15,1.02,Growing,247,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+99,1523,TrailLite Daypack,Camping,2026-05-01,Monthly,246,76.1,1.05,Growing,215,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+100,1523,TrailLite Daypack,Camping,2026-05-01,Weekly,57,75.45,1.5,Growing,215,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+101,1523,TrailLite Daypack,Camping,2026-05-08,Weekly,57,79.02,1.5,Growing,215,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+102,1523,TrailLite Daypack,Camping,2026-05-15,Weekly,57,72.47,1.5,Growing,215,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+103,1523,TrailLite Daypack,Camping,2026-05-22,Weekly,57,73.11,1.5,Growing,215,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+104,1523,TrailLite Daypack,Camping,2026-06-01,Monthly,250,76.1,1.03,Growing,215,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+105,1523,TrailLite Daypack,Camping,2026-07-01,Monthly,256,76.1,1.02,Growing,215,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+106,1533,RainGuard Hiking Jacket,Camping,2026-05-01,Monthly,290,92.58,1.05,Growing,254,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+107,1533,RainGuard Hiking Jacket,Camping,2026-05-01,Weekly,67,88.45,1.5,Growing,254,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+108,1533,RainGuard Hiking Jacket,Camping,2026-05-08,Weekly,67,92.92,1.5,Growing,254,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+109,1533,RainGuard Hiking Jacket,Camping,2026-05-15,Weekly,67,89.56,1.5,Growing,254,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+110,1533,RainGuard Hiking Jacket,Camping,2026-05-22,Weekly,67,91.14,1.5,Growing,254,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+111,1533,RainGuard Hiking Jacket,Camping,2026-06-01,Monthly,295,92.58,1.03,Growing,254,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+112,1533,RainGuard Hiking Jacket,Camping,2026-07-01,Monthly,303,92.58,1.02,Growing,254,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+113,1543,TrekStar Hiking Sandals,Camping,2026-05-01,Monthly,196,89.84,1.05,Growing,172,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+114,1543,TrekStar Hiking Sandals,Camping,2026-05-01,Weekly,45,85.75,1.5,Growing,172,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+115,1543,TrekStar Hiking Sandals,Camping,2026-05-08,Weekly,45,85.01,1.5,Growing,172,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+116,1543,TrekStar Hiking Sandals,Camping,2026-05-15,Weekly,45,86.42,1.5,Growing,172,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+117,1543,TrekStar Hiking Sandals,Camping,2026-05-22,Weekly,45,87.5,1.5,Growing,172,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+118,1543,TrekStar Hiking Sandals,Camping,2026-06-01,Monthly,200,89.84,1.03,Growing,172,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+119,1543,TrekStar Hiking Sandals,Camping,2026-07-01,Monthly,205,89.84,1.02,Growing,172,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+120,1553,Adventure Dining Table,Camping,2026-05-01,Monthly,99,93.11,1.05,Growing,87,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+121,1553,Adventure Dining Table,Camping,2026-05-01,Weekly,23,88.91,1.5,Growing,87,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+122,1553,Adventure Dining Table,Camping,2026-05-08,Weekly,23,95.8,1.5,Growing,87,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+123,1553,Adventure Dining Table,Camping,2026-05-15,Weekly,23,96.81,1.5,Growing,87,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+124,1553,Adventure Dining Table,Camping,2026-05-22,Weekly,23,88.12,1.5,Growing,87,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+125,1553,Adventure Dining Table,Camping,2026-06-01,Monthly,101,93.11,1.03,Growing,87,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+126,1553,Adventure Dining Table,Camping,2026-07-01,Monthly,103,93.11,1.02,Growing,87,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+127,1563,CompactCook Camping Stove,Camping,2026-05-01,Monthly,68,79.66,1.05,Growing,60,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+128,1563,CompactCook Camping Stove,Camping,2026-05-01,Weekly,15,75.28,1.5,Growing,60,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+129,1563,CompactCook Camping Stove,Camping,2026-05-08,Weekly,15,76.34,1.5,Growing,60,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+130,1563,CompactCook Camping Stove,Camping,2026-05-15,Weekly,15,82.85,1.5,Growing,60,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+131,1563,CompactCook Camping Stove,Camping,2026-05-22,Weekly,15,83.29,1.5,Growing,60,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+132,1563,CompactCook Camping Stove,Camping,2026-06-01,Monthly,69,79.66,1.03,Growing,60,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+133,1563,CompactCook Camping Stove,Camping,2026-07-01,Monthly,71,79.66,1.02,Growing,60,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+134,1581,LED Headlamp - Rechargeable,Camping,2026-05-01,Monthly,53,87.89,1.05,Growing,47,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+135,1581,LED Headlamp - Rechargeable,Camping,2026-05-01,Weekly,12,92.47,1.5,Growing,47,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+136,1581,LED Headlamp - Rechargeable,Camping,2026-05-08,Weekly,12,86.38,1.5,Growing,47,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+137,1581,LED Headlamp - Rechargeable,Camping,2026-05-15,Weekly,12,87.35,1.5,Growing,47,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+138,1581,LED Headlamp - Rechargeable,Camping,2026-05-22,Weekly,12,88.61,1.5,Growing,47,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+139,1581,LED Headlamp - Rechargeable,Camping,2026-06-01,Monthly,54,87.89,1.03,Growing,47,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+140,1581,LED Headlamp - Rechargeable,Camping,2026-07-01,Monthly,56,87.89,1.02,Growing,47,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+141,2011,Coffee Maker,Kitchen,2026-05-01,Monthly,384,93.57,1.0,Growing,353,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+142,2011,Coffee Maker,Kitchen,2026-05-01,Weekly,89,88.7,1.0,Growing,353,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+143,2011,Coffee Maker,Kitchen,2026-05-08,Weekly,89,91.83,1.0,Growing,353,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+144,2011,Coffee Maker,Kitchen,2026-05-15,Weekly,89,92.39,1.0,Growing,353,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+145,2011,Coffee Maker,Kitchen,2026-05-22,Weekly,89,92.57,1.0,Growing,353,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+146,2011,Coffee Maker,Kitchen,2026-06-01,Monthly,394,93.57,0.99,Growing,353,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+147,2011,Coffee Maker,Kitchen,2026-07-01,Monthly,404,93.57,0.98,Growing,353,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+148,2012,Espresso Machine,Kitchen,2026-05-01,Monthly,356,89.22,1.0,Growing,327,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+149,2012,Espresso Machine,Kitchen,2026-05-01,Weekly,82,93.98,1.0,Growing,327,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+150,2012,Espresso Machine,Kitchen,2026-05-08,Weekly,82,93.96,1.0,Growing,327,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+151,2012,Espresso Machine,Kitchen,2026-05-15,Weekly,82,84.47,1.0,Growing,327,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+152,2012,Espresso Machine,Kitchen,2026-05-22,Weekly,82,93.65,1.0,Growing,327,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+153,2012,Espresso Machine,Kitchen,2026-06-01,Monthly,365,89.22,0.99,Growing,327,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+154,2012,Espresso Machine,Kitchen,2026-07-01,Monthly,374,89.22,0.98,Growing,327,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+155,2021,Chef Knife,Kitchen,2026-05-01,Monthly,257,87.7,1.0,Growing,236,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+156,2021,Chef Knife,Kitchen,2026-05-01,Weekly,59,84.15,1.0,Growing,236,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+157,2021,Chef Knife,Kitchen,2026-05-08,Weekly,59,92.45,1.0,Growing,236,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+158,2021,Chef Knife,Kitchen,2026-05-15,Weekly,59,89.13,1.0,Growing,236,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+159,2021,Chef Knife,Kitchen,2026-05-22,Weekly,59,85.9,1.0,Growing,236,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+160,2021,Chef Knife,Kitchen,2026-06-01,Monthly,264,87.7,0.99,Growing,236,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+161,2021,Chef Knife,Kitchen,2026-07-01,Monthly,270,87.7,0.98,Growing,236,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+162,2022,Fork Set,Kitchen,2026-05-01,Monthly,263,85.14,1.0,Growing,242,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+163,2022,Fork Set,Kitchen,2026-05-01,Weekly,61,83.11,1.0,Growing,242,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+164,2022,Fork Set,Kitchen,2026-05-08,Weekly,61,80.87,1.0,Growing,242,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+165,2022,Fork Set,Kitchen,2026-05-15,Weekly,61,81.57,1.0,Growing,242,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+166,2022,Fork Set,Kitchen,2026-05-22,Weekly,61,83.39,1.0,Growing,242,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:13
+167,2022,Fork Set,Kitchen,2026-06-01,Monthly,270,85.14,0.99,Growing,242,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:13
+168,2022,Fork Set,Kitchen,2026-07-01,Monthly,277,85.14,0.98,Growing,242,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+169,2031,Coffee Mug,Kitchen,2026-05-01,Monthly,251,76.61,1.0,Growing,231,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+170,2031,Coffee Mug,Kitchen,2026-05-01,Weekly,58,81.2,1.0,Growing,231,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+171,2031,Coffee Mug,Kitchen,2026-05-08,Weekly,58,80.35,1.0,Growing,231,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+172,2031,Coffee Mug,Kitchen,2026-05-15,Weekly,58,72.67,1.0,Growing,231,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+173,2031,Coffee Mug,Kitchen,2026-05-22,Weekly,58,76.61,1.0,Growing,231,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+174,2031,Coffee Mug,Kitchen,2026-06-01,Monthly,258,76.61,0.99,Growing,231,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+175,2031,Coffee Mug,Kitchen,2026-07-01,Monthly,264,76.61,0.98,Growing,231,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+176,2041,Serving Platter,Kitchen,2026-05-01,Monthly,223,86.14,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+177,2041,Serving Platter,Kitchen,2026-05-01,Weekly,51,88.01,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+178,2041,Serving Platter,Kitchen,2026-05-08,Weekly,51,85.67,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+179,2041,Serving Platter,Kitchen,2026-05-15,Weekly,51,82.36,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+180,2041,Serving Platter,Kitchen,2026-05-22,Weekly,51,81.59,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+181,2041,Serving Platter,Kitchen,2026-06-01,Monthly,229,86.14,0.99,Growing,205,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+182,2041,Serving Platter,Kitchen,2026-07-01,Monthly,235,86.14,0.98,Growing,205,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+183,2051,Ice Cream Bowl,Kitchen,2026-05-01,Monthly,82,87.24,1.0,Growing,76,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+184,2051,Ice Cream Bowl,Kitchen,2026-05-01,Weekly,19,82.53,1.0,Growing,76,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+185,2051,Ice Cream Bowl,Kitchen,2026-05-08,Weekly,19,84.46,1.0,Growing,76,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+186,2051,Ice Cream Bowl,Kitchen,2026-05-15,Weekly,19,89.33,1.0,Growing,76,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+187,2051,Ice Cream Bowl,Kitchen,2026-05-22,Weekly,19,91.72,1.0,Growing,76,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+188,2051,Ice Cream Bowl,Kitchen,2026-06-01,Monthly,85,87.24,0.99,Growing,76,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+189,2051,Ice Cream Bowl,Kitchen,2026-07-01,Monthly,87,87.24,0.98,Growing,76,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+190,2061,Mixing Bowl,Kitchen,2026-05-01,Monthly,207,81.91,1.0,Growing,190,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+191,2061,Mixing Bowl,Kitchen,2026-05-01,Weekly,48,79.54,1.0,Growing,190,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+192,2061,Mixing Bowl,Kitchen,2026-05-08,Weekly,48,83.74,1.0,Growing,190,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+193,2061,Mixing Bowl,Kitchen,2026-05-15,Weekly,48,86.78,1.0,Growing,190,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+194,2061,Mixing Bowl,Kitchen,2026-05-22,Weekly,48,82.34,1.0,Growing,190,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+195,2061,Mixing Bowl,Kitchen,2026-06-01,Monthly,212,81.91,0.99,Growing,190,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+196,2061,Mixing Bowl,Kitchen,2026-07-01,Monthly,217,81.91,0.98,Growing,190,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+197,2071,Baking Pan,Kitchen,2026-05-01,Monthly,223,84.67,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+198,2071,Baking Pan,Kitchen,2026-05-01,Weekly,51,84.61,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+199,2071,Baking Pan,Kitchen,2026-05-08,Weekly,51,87.68,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+200,2071,Baking Pan,Kitchen,2026-05-15,Weekly,51,88.2,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+201,2071,Baking Pan,Kitchen,2026-05-22,Weekly,51,86.36,1.0,Growing,205,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+202,2071,Baking Pan,Kitchen,2026-06-01,Monthly,229,84.67,0.99,Growing,205,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+203,2071,Baking Pan,Kitchen,2026-07-01,Monthly,235,84.67,0.98,Growing,205,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+204,2081,Food Storage Set,Kitchen,2026-05-01,Monthly,120,94.57,1.0,Growing,111,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+205,2081,Food Storage Set,Kitchen,2026-05-01,Weekly,27,92.11,1.0,Growing,111,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+206,2081,Food Storage Set,Kitchen,2026-05-08,Weekly,27,92.73,1.0,Growing,111,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+207,2081,Food Storage Set,Kitchen,2026-05-15,Weekly,27,98.68,1.0,Growing,111,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+208,2081,Food Storage Set,Kitchen,2026-05-22,Weekly,27,93.7,1.0,Growing,111,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+209,2081,Food Storage Set,Kitchen,2026-06-01,Monthly,124,94.57,0.99,Growing,111,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+210,2081,Food Storage Set,Kitchen,2026-07-01,Monthly,127,94.57,0.98,Growing,111,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+211,2091,Spatula,Kitchen,2026-05-01,Monthly,79,82.41,1.0,Growing,73,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+212,2091,Spatula,Kitchen,2026-05-01,Weekly,18,79.23,1.0,Growing,73,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+213,2091,Spatula,Kitchen,2026-05-08,Weekly,18,86.45,1.0,Growing,73,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+214,2091,Spatula,Kitchen,2026-05-15,Weekly,18,79.41,1.0,Growing,73,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+215,2091,Spatula,Kitchen,2026-05-22,Weekly,18,78.6,1.0,Growing,73,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+216,2091,Spatula,Kitchen,2026-06-01,Monthly,81,82.41,0.99,Growing,73,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+217,2091,Spatula,Kitchen,2026-07-01,Monthly,83,82.41,0.98,Growing,73,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+218,2101,Measuring Cup Set,Kitchen,2026-05-01,Monthly,83,82.54,1.0,Growing,77,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+219,2101,Measuring Cup Set,Kitchen,2026-05-01,Weekly,19,78.61,1.0,Growing,77,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+220,2101,Measuring Cup Set,Kitchen,2026-05-08,Weekly,19,87.2,1.0,Growing,77,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+221,2101,Measuring Cup Set,Kitchen,2026-05-15,Weekly,19,87.24,1.0,Growing,77,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+222,2101,Measuring Cup Set,Kitchen,2026-05-22,Weekly,19,80.59,1.0,Growing,77,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+223,2101,Measuring Cup Set,Kitchen,2026-06-01,Monthly,86,82.54,0.99,Growing,77,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+224,2101,Measuring Cup Set,Kitchen,2026-07-01,Monthly,88,82.54,0.98,Growing,77,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+225,2111,High-Speed Blender,Kitchen,2026-05-01,Monthly,79,83.05,1.0,Growing,73,1.207,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+226,2111,High-Speed Blender,Kitchen,2026-05-01,Weekly,18,80.77,1.0,Growing,73,1.207,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+227,2111,High-Speed Blender,Kitchen,2026-05-08,Weekly,18,83.96,1.0,Growing,73,1.207,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+228,2111,High-Speed Blender,Kitchen,2026-05-15,Weekly,18,87.76,1.0,Growing,73,1.207,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+229,2111,High-Speed Blender,Kitchen,2026-05-22,Weekly,18,86.32,1.0,Growing,73,1.207,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+230,2111,High-Speed Blender,Kitchen,2026-06-01,Monthly,81,83.05,0.99,Growing,73,1.207,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+231,2111,High-Speed Blender,Kitchen,2026-07-01,Monthly,83,83.05,0.98,Growing,73,1.207,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+232,2112,4-Slice Toaster,Kitchen,2026-05-01,Monthly,89,82.92,1.0,Growing,82,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+233,2112,4-Slice Toaster,Kitchen,2026-05-01,Weekly,20,79.94,1.0,Growing,82,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+234,2112,4-Slice Toaster,Kitchen,2026-05-08,Weekly,20,78.26,1.0,Growing,82,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+235,2112,4-Slice Toaster,Kitchen,2026-05-15,Weekly,20,80.58,1.0,Growing,82,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+236,2112,4-Slice Toaster,Kitchen,2026-05-22,Weekly,20,87.4,1.0,Growing,82,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+237,2112,4-Slice Toaster,Kitchen,2026-06-01,Monthly,91,82.92,0.99,Growing,82,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+238,2112,4-Slice Toaster,Kitchen,2026-07-01,Monthly,94,82.92,0.98,Growing,82,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+239,2121,Bamboo Cutting Board Set,Kitchen,2026-05-01,Monthly,88,76.68,1.0,Growing,81,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+240,2121,Bamboo Cutting Board Set,Kitchen,2026-05-01,Weekly,20,77.18,1.0,Growing,81,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+241,2121,Bamboo Cutting Board Set,Kitchen,2026-05-08,Weekly,20,81.38,1.0,Growing,81,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+242,2121,Bamboo Cutting Board Set,Kitchen,2026-05-15,Weekly,20,72.32,1.0,Growing,81,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+243,2121,Bamboo Cutting Board Set,Kitchen,2026-05-22,Weekly,20,76.91,1.0,Growing,81,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+244,2121,Bamboo Cutting Board Set,Kitchen,2026-06-01,Monthly,90,76.68,0.99,Growing,81,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+245,2121,Bamboo Cutting Board Set,Kitchen,2026-07-01,Monthly,92,76.68,0.98,Growing,81,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+246,3011,Alpine Pro Racing Skis - 170cm,Ski,2026-05-01,Monthly,8,83.97,0.96,Growing,8,1.357,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+247,3011,Alpine Pro Racing Skis - 170cm,Ski,2026-05-01,Weekly,1,82.25,0.6,Growing,8,1.357,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+248,3011,Alpine Pro Racing Skis - 170cm,Ski,2026-05-08,Weekly,1,84.13,0.6,Growing,8,1.357,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+249,3011,Alpine Pro Racing Skis - 170cm,Ski,2026-05-15,Weekly,1,88.11,0.6,Growing,8,1.357,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+250,3011,Alpine Pro Racing Skis - 170cm,Ski,2026-05-22,Weekly,1,87.74,0.6,Growing,8,1.357,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+251,3011,Alpine Pro Racing Skis - 170cm,Ski,2026-06-01,Monthly,8,83.97,0.95,Growing,8,1.357,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+252,3011,Alpine Pro Racing Skis - 170cm,Ski,2026-07-01,Monthly,8,83.97,0.95,Growing,8,1.357,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+253,3012,Mountain Master All-Terrain Skis - 165cm,Ski,2026-05-01,Monthly,4,87.78,0.96,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+254,3012,Mountain Master All-Terrain Skis - 165cm,Ski,2026-05-01,Weekly,1,89.16,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+255,3012,Mountain Master All-Terrain Skis - 165cm,Ski,2026-05-08,Weekly,1,87.48,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+256,3012,Mountain Master All-Terrain Skis - 165cm,Ski,2026-05-15,Weekly,1,85.07,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+257,3012,Mountain Master All-Terrain Skis - 165cm,Ski,2026-05-22,Weekly,1,90.91,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+258,3012,Mountain Master All-Terrain Skis - 165cm,Ski,2026-06-01,Monthly,4,87.78,0.95,Growing,4,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+259,3012,Mountain Master All-Terrain Skis - 165cm,Ski,2026-07-01,Monthly,4,87.78,0.95,Growing,4,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+260,3013,Beginner's Choice Alpine Skis - 160cm,Ski,2026-05-01,Monthly,7,91.74,0.96,Growing,7,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+261,3013,Beginner's Choice Alpine Skis - 160cm,Ski,2026-05-01,Weekly,1,86.8,0.6,Growing,7,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+262,3013,Beginner's Choice Alpine Skis - 160cm,Ski,2026-05-08,Weekly,1,93.76,0.6,Growing,7,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+263,3013,Beginner's Choice Alpine Skis - 160cm,Ski,2026-05-15,Weekly,1,90.5,0.6,Growing,7,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+264,3013,Beginner's Choice Alpine Skis - 160cm,Ski,2026-05-22,Weekly,1,87.01,0.6,Growing,7,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+265,3013,Beginner's Choice Alpine Skis - 160cm,Ski,2026-06-01,Monthly,7,91.74,0.95,Growing,7,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+266,3013,Beginner's Choice Alpine Skis - 160cm,Ski,2026-07-01,Monthly,7,91.74,0.95,Growing,7,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+267,3021,Nordic Classic XC Skis - 185cm,Ski,2026-05-01,Monthly,3,75.27,0.96,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+268,3021,Nordic Classic XC Skis - 185cm,Ski,2026-05-01,Weekly,1,79.27,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+269,3021,Nordic Classic XC Skis - 185cm,Ski,2026-05-08,Weekly,1,72.68,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+270,3021,Nordic Classic XC Skis - 185cm,Ski,2026-05-15,Weekly,1,71.64,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+271,3021,Nordic Classic XC Skis - 185cm,Ski,2026-05-22,Weekly,1,74.08,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+272,3021,Nordic Classic XC Skis - 185cm,Ski,2026-06-01,Monthly,3,75.27,0.95,Growing,3,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+273,3021,Nordic Classic XC Skis - 185cm,Ski,2026-07-01,Monthly,3,75.27,0.95,Growing,3,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+274,3022,Backcountry Explorer XC Skis - 190cm,Ski,2026-05-01,Monthly,2,82.38,0.96,Growing,2,1.233,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+275,3022,Backcountry Explorer XC Skis - 190cm,Ski,2026-05-01,Weekly,1,78.75,0.6,Growing,2,1.233,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+276,3022,Backcountry Explorer XC Skis - 190cm,Ski,2026-05-08,Weekly,1,84.25,0.6,Growing,2,1.233,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+277,3022,Backcountry Explorer XC Skis - 190cm,Ski,2026-05-15,Weekly,1,81.33,0.6,Growing,2,1.233,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+278,3022,Backcountry Explorer XC Skis - 190cm,Ski,2026-05-22,Weekly,1,77.76,0.6,Growing,2,1.233,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+279,3022,Backcountry Explorer XC Skis - 190cm,Ski,2026-06-01,Monthly,2,82.38,0.95,Growing,2,1.233,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+280,3022,Backcountry Explorer XC Skis - 190cm,Ski,2026-07-01,Monthly,2,82.38,0.95,Growing,2,1.233,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+281,3031,Pro Flex Racing Ski Boots,Ski,2026-05-01,Monthly,6,75.64,0.96,Declining,7,0.941,1.038,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+282,3031,Pro Flex Racing Ski Boots,Ski,2026-05-01,Weekly,1,77.28,0.6,Declining,7,0.941,1.038,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+283,3031,Pro Flex Racing Ski Boots,Ski,2026-05-08,Weekly,1,79.81,0.6,Declining,7,0.941,1.038,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+284,3031,Pro Flex Racing Ski Boots,Ski,2026-05-15,Weekly,1,79.83,0.6,Declining,7,0.941,1.038,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+285,3031,Pro Flex Racing Ski Boots,Ski,2026-05-22,Weekly,1,78.55,0.6,Declining,7,0.941,1.038,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+286,3031,Pro Flex Racing Ski Boots,Ski,2026-06-01,Monthly,6,75.64,0.95,Declining,7,0.941,1.026,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+287,3031,Pro Flex Racing Ski Boots,Ski,2026-07-01,Monthly,6,75.64,0.95,Declining,7,0.941,1.015,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+288,3032,Comfort Fit Recreational Boots,Ski,2026-05-01,Monthly,5,90.12,0.96,Growing,5,1.234,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+289,3032,Comfort Fit Recreational Boots,Ski,2026-05-01,Weekly,1,92.11,0.6,Growing,5,1.234,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+290,3032,Comfort Fit Recreational Boots,Ski,2026-05-08,Weekly,1,90.86,0.6,Growing,5,1.234,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+291,3032,Comfort Fit Recreational Boots,Ski,2026-05-15,Weekly,1,88.1,0.6,Growing,5,1.234,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+292,3032,Comfort Fit Recreational Boots,Ski,2026-05-22,Weekly,1,94.26,0.6,Growing,5,1.234,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+293,3032,Comfort Fit Recreational Boots,Ski,2026-06-01,Monthly,5,90.12,0.95,Growing,5,1.234,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+294,3032,Comfort Fit Recreational Boots,Ski,2026-07-01,Monthly,5,90.12,0.95,Growing,5,1.234,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+295,3033,Women's Performance Ski Boots,Ski,2026-05-01,Monthly,6,75.01,0.96,Growing,6,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+296,3033,Women's Performance Ski Boots,Ski,2026-05-01,Weekly,1,72.81,0.6,Growing,6,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+297,3033,Women's Performance Ski Boots,Ski,2026-05-08,Weekly,1,79.56,0.6,Growing,6,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+298,3033,Women's Performance Ski Boots,Ski,2026-05-15,Weekly,1,73.29,0.6,Growing,6,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+299,3033,Women's Performance Ski Boots,Ski,2026-05-22,Weekly,1,77.13,0.6,Growing,6,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+300,3033,Women's Performance Ski Boots,Ski,2026-06-01,Monthly,6,75.01,0.95,Growing,6,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+301,3033,Women's Performance Ski Boots,Ski,2026-07-01,Monthly,6,75.01,0.95,Growing,6,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+302,3041,Carbon Fiber Racing Poles - 120cm,Ski,2026-05-01,Monthly,1,88.28,0.96,Declining,2,0.946,1.039,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+303,3041,Carbon Fiber Racing Poles - 120cm,Ski,2026-05-01,Weekly,1,88.79,0.6,Declining,2,0.946,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+304,3041,Carbon Fiber Racing Poles - 120cm,Ski,2026-05-08,Weekly,1,92.23,0.6,Declining,2,0.946,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+305,3041,Carbon Fiber Racing Poles - 120cm,Ski,2026-05-15,Weekly,1,88.73,0.6,Declining,2,0.946,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+306,3041,Carbon Fiber Racing Poles - 120cm,Ski,2026-05-22,Weekly,1,84.35,0.6,Declining,2,0.946,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:14
+307,3041,Carbon Fiber Racing Poles - 120cm,Ski,2026-06-01,Monthly,1,88.28,0.95,Declining,2,0.946,1.029,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:14
+308,3041,Carbon Fiber Racing Poles - 120cm,Ski,2026-07-01,Monthly,1,88.28,0.95,Declining,2,0.946,1.018,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+309,3042,Aluminum All-Mountain Poles - 115cm,Ski,2026-05-01,Monthly,1,78.93,0.96,Declining,1,0.944,1.039,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+310,3042,Aluminum All-Mountain Poles - 115cm,Ski,2026-05-01,Weekly,1,82.92,0.6,Declining,1,0.944,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+311,3042,Aluminum All-Mountain Poles - 115cm,Ski,2026-05-08,Weekly,1,82.5,0.6,Declining,1,0.944,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+312,3042,Aluminum All-Mountain Poles - 115cm,Ski,2026-05-15,Weekly,1,79.78,0.6,Declining,1,0.944,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+313,3042,Aluminum All-Mountain Poles - 115cm,Ski,2026-05-22,Weekly,1,75.52,0.6,Declining,1,0.944,1.039,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+314,3042,Aluminum All-Mountain Poles - 115cm,Ski,2026-06-01,Monthly,1,78.93,0.95,Declining,1,0.944,1.028,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+315,3042,Aluminum All-Mountain Poles - 115cm,Ski,2026-07-01,Monthly,1,78.93,0.95,Declining,1,0.944,1.017,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+316,3051,Insulated Ski Jacket - Men's,Ski,2026-05-01,Monthly,4,92.14,0.96,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+317,3051,Insulated Ski Jacket - Men's,Ski,2026-05-01,Weekly,1,93.68,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+318,3051,Insulated Ski Jacket - Men's,Ski,2026-05-08,Weekly,1,94.78,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+319,3051,Insulated Ski Jacket - Men's,Ski,2026-05-15,Weekly,1,94.58,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+320,3051,Insulated Ski Jacket - Men's,Ski,2026-05-22,Weekly,1,93.09,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+321,3051,Insulated Ski Jacket - Men's,Ski,2026-06-01,Monthly,4,92.14,0.95,Growing,4,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+322,3051,Insulated Ski Jacket - Men's,Ski,2026-07-01,Monthly,4,92.14,0.95,Growing,4,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+323,3052,Thermal Base Layer Set - Women's,Ski,2026-05-01,Monthly,4,78.73,0.96,Growing,4,1.396,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+324,3052,Thermal Base Layer Set - Women's,Ski,2026-05-01,Weekly,1,79.45,0.6,Growing,4,1.396,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+325,3052,Thermal Base Layer Set - Women's,Ski,2026-05-08,Weekly,1,77.45,0.6,Growing,4,1.396,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+326,3052,Thermal Base Layer Set - Women's,Ski,2026-05-15,Weekly,1,75.5,0.6,Growing,4,1.396,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+327,3052,Thermal Base Layer Set - Women's,Ski,2026-05-22,Weekly,1,79.21,0.6,Growing,4,1.396,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+328,3052,Thermal Base Layer Set - Women's,Ski,2026-06-01,Monthly,4,78.73,0.95,Growing,4,1.396,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+329,3052,Thermal Base Layer Set - Women's,Ski,2026-07-01,Monthly,4,78.73,0.95,Growing,4,1.396,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+330,3053,Waterproof Ski Pants,Ski,2026-05-01,Monthly,5,76.72,0.96,Growing,5,1.185,1.087,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+331,3053,Waterproof Ski Pants,Ski,2026-05-01,Weekly,1,77.23,0.6,Growing,5,1.185,1.087,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+332,3053,Waterproof Ski Pants,Ski,2026-05-08,Weekly,1,75.51,0.6,Growing,5,1.185,1.087,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+333,3053,Waterproof Ski Pants,Ski,2026-05-15,Weekly,1,73.96,0.6,Growing,5,1.185,1.087,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+334,3053,Waterproof Ski Pants,Ski,2026-05-22,Weekly,1,78.33,0.6,Growing,5,1.185,1.087,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+335,3053,Waterproof Ski Pants,Ski,2026-06-01,Monthly,5,76.72,0.95,Growing,5,1.185,1.124,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+336,3053,Waterproof Ski Pants,Ski,2026-07-01,Monthly,5,76.72,0.95,Growing,5,1.185,1.161,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+337,3061,Professional Ski Helmet,Ski,2026-05-01,Monthly,3,85.66,0.96,Growing,3,1.275,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+338,3061,Professional Ski Helmet,Ski,2026-05-01,Weekly,1,90.06,0.6,Growing,3,1.275,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+339,3061,Professional Ski Helmet,Ski,2026-05-08,Weekly,1,85.27,0.6,Growing,3,1.275,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+340,3061,Professional Ski Helmet,Ski,2026-05-15,Weekly,1,86.21,0.6,Growing,3,1.275,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+341,3061,Professional Ski Helmet,Ski,2026-05-22,Weekly,1,88.63,0.6,Growing,3,1.275,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+342,3061,Professional Ski Helmet,Ski,2026-06-01,Monthly,3,85.66,0.95,Growing,3,1.275,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+343,3061,Professional Ski Helmet,Ski,2026-07-01,Monthly,3,85.66,0.95,Growing,3,1.275,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+344,3062,Anti-Fog Ski Goggles,Ski,2026-05-01,Monthly,2,77.23,0.96,Growing,2,1.192,1.088,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+345,3062,Anti-Fog Ski Goggles,Ski,2026-05-01,Weekly,1,81.4,0.6,Growing,2,1.192,1.088,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+346,3062,Anti-Fog Ski Goggles,Ski,2026-05-08,Weekly,1,74.08,0.6,Growing,2,1.192,1.088,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+347,3062,Anti-Fog Ski Goggles,Ski,2026-05-15,Weekly,1,80.87,0.6,Growing,2,1.192,1.088,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+348,3062,Anti-Fog Ski Goggles,Ski,2026-05-22,Weekly,1,81.0,0.6,Growing,2,1.192,1.088,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+349,3062,Anti-Fog Ski Goggles,Ski,2026-06-01,Monthly,2,77.23,0.95,Growing,2,1.192,1.127,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+350,3062,Anti-Fog Ski Goggles,Ski,2026-07-01,Monthly,2,77.23,0.95,Growing,2,1.192,1.165,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+351,3071,Ski Boot Bag - Premium,Ski,2026-05-01,Monthly,1,87.45,0.96,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+352,3071,Ski Boot Bag - Premium,Ski,2026-05-01,Weekly,1,92.36,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+353,3071,Ski Boot Bag - Premium,Ski,2026-05-08,Weekly,1,90.65,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+354,3071,Ski Boot Bag - Premium,Ski,2026-05-15,Weekly,1,86.4,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+355,3071,Ski Boot Bag - Premium,Ski,2026-05-22,Weekly,1,90.24,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+356,3071,Ski Boot Bag - Premium,Ski,2026-06-01,Monthly,1,87.45,0.95,Growing,1,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+357,3071,Ski Boot Bag - Premium,Ski,2026-07-01,Monthly,1,87.45,0.95,Growing,1,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+358,3072,Hand Warmers - 10 Pack,Ski,2026-05-01,Monthly,1,77.53,0.96,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+359,3072,Hand Warmers - 10 Pack,Ski,2026-05-01,Weekly,1,73.27,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+360,3072,Hand Warmers - 10 Pack,Ski,2026-05-08,Weekly,1,81.07,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+361,3072,Hand Warmers - 10 Pack,Ski,2026-05-15,Weekly,1,75.3,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+362,3072,Hand Warmers - 10 Pack,Ski,2026-05-22,Weekly,1,81.85,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+363,3072,Hand Warmers - 10 Pack,Ski,2026-06-01,Monthly,1,77.53,0.95,Growing,1,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+364,3072,Hand Warmers - 10 Pack,Ski,2026-07-01,Monthly,1,77.53,0.95,Growing,1,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+365,3081,All-Temp Ski Wax Kit,Ski,2026-05-01,Monthly,3,83.54,0.96,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+366,3081,All-Temp Ski Wax Kit,Ski,2026-05-01,Weekly,1,82.41,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+367,3081,All-Temp Ski Wax Kit,Ski,2026-05-08,Weekly,1,84.58,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+368,3081,All-Temp Ski Wax Kit,Ski,2026-05-15,Weekly,1,83.24,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+369,3081,All-Temp Ski Wax Kit,Ski,2026-05-22,Weekly,1,80.56,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+370,3081,All-Temp Ski Wax Kit,Ski,2026-06-01,Monthly,3,83.54,0.95,Growing,3,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+371,3081,All-Temp Ski Wax Kit,Ski,2026-07-01,Monthly,3,83.54,0.95,Growing,3,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+372,3082,Edge Tuning Tool Set,Ski,2026-05-01,Monthly,4,86.01,0.96,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+373,3082,Edge Tuning Tool Set,Ski,2026-05-01,Weekly,1,86.54,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+374,3082,Edge Tuning Tool Set,Ski,2026-05-08,Weekly,1,83.59,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+375,3082,Edge Tuning Tool Set,Ski,2026-05-15,Weekly,1,88.31,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+376,3082,Edge Tuning Tool Set,Ski,2026-05-22,Weekly,1,84.52,0.6,Growing,4,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+377,3082,Edge Tuning Tool Set,Ski,2026-06-01,Monthly,4,86.01,0.95,Growing,4,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+378,3082,Edge Tuning Tool Set,Ski,2026-07-01,Monthly,4,86.01,0.95,Growing,4,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+379,3091,Freestyle Snowboard - 155cm,Ski,2026-05-01,Monthly,1,82.21,0.96,Declining,1,0.8,1.01,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+380,3091,Freestyle Snowboard - 155cm,Ski,2026-05-01,Weekly,1,80.91,0.6,Declining,1,0.8,1.01,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+381,3091,Freestyle Snowboard - 155cm,Ski,2026-05-08,Weekly,1,80.15,0.6,Declining,1,0.8,1.01,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+382,3091,Freestyle Snowboard - 155cm,Ski,2026-05-15,Weekly,1,84.47,0.6,Declining,1,0.8,1.01,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+383,3091,Freestyle Snowboard - 155cm,Ski,2026-05-22,Weekly,1,81.07,0.6,Declining,1,0.8,1.01,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+384,3091,Freestyle Snowboard - 155cm,Ski,2026-06-01,Monthly,1,82.21,0.95,Declining,1,0.8,0.97,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+385,3091,Freestyle Snowboard - 155cm,Ski,2026-07-01,Monthly,1,82.21,0.95,Declining,1,0.8,0.93,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+386,3092,All-Mountain Snowboard - 158cm,Ski,2026-05-01,Monthly,2,86.47,0.96,Growing,2,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+387,3092,All-Mountain Snowboard - 158cm,Ski,2026-05-01,Weekly,1,85.26,0.6,Growing,2,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+388,3092,All-Mountain Snowboard - 158cm,Ski,2026-05-08,Weekly,1,83.23,0.6,Growing,2,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+389,3092,All-Mountain Snowboard - 158cm,Ski,2026-05-15,Weekly,1,86.76,0.6,Growing,2,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+390,3092,All-Mountain Snowboard - 158cm,Ski,2026-05-22,Weekly,1,83.34,0.6,Growing,2,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+391,3092,All-Mountain Snowboard - 158cm,Ski,2026-06-01,Monthly,2,86.47,0.95,Growing,2,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+392,3092,All-Mountain Snowboard - 158cm,Ski,2026-07-01,Monthly,2,86.47,0.95,Growing,2,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+393,3101,Winter Boots - Insulated,Ski,2026-05-01,Monthly,1,84.66,0.96,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+394,3101,Winter Boots - Insulated,Ski,2026-05-01,Weekly,1,88.66,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+395,3101,Winter Boots - Insulated,Ski,2026-05-08,Weekly,1,87.21,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+396,3101,Winter Boots - Insulated,Ski,2026-05-15,Weekly,1,85.69,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+397,3101,Winter Boots - Insulated,Ski,2026-05-22,Weekly,1,87.53,0.6,Growing,1,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+398,3101,Winter Boots - Insulated,Ski,2026-06-01,Monthly,1,84.66,0.95,Growing,1,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+399,3101,Winter Boots - Insulated,Ski,2026-07-01,Monthly,1,84.66,0.95,Growing,1,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+400,3102,Winter Hiking Boots - Waterproof,Ski,2026-05-01,Monthly,2,75.43,0.96,Growing,2,1.4,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+401,3102,Winter Hiking Boots - Waterproof,Ski,2026-05-01,Weekly,1,75.41,0.6,Growing,2,1.4,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+402,3102,Winter Hiking Boots - Waterproof,Ski,2026-05-08,Weekly,1,78.69,0.6,Growing,2,1.4,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+403,3102,Winter Hiking Boots - Waterproof,Ski,2026-05-15,Weekly,1,73.4,0.6,Growing,2,1.4,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+404,3102,Winter Hiking Boots - Waterproof,Ski,2026-05-22,Weekly,1,73.41,0.6,Growing,2,1.4,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+405,3102,Winter Hiking Boots - Waterproof,Ski,2026-06-01,Monthly,2,75.43,0.95,Growing,2,1.4,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+406,3102,Winter Hiking Boots - Waterproof,Ski,2026-07-01,Monthly,2,75.43,0.95,Growing,2,1.4,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+407,3103,Snowboard Bindings - Pro,Ski,2026-05-01,Monthly,1,82.84,0.96,Stable,1,1.0,1.05,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+408,3103,Snowboard Bindings - Pro,Ski,2026-05-01,Weekly,1,80.73,0.6,Stable,1,1.0,1.05,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+409,3103,Snowboard Bindings - Pro,Ski,2026-05-08,Weekly,1,80.05,0.6,Stable,1,1.0,1.05,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+410,3103,Snowboard Bindings - Pro,Ski,2026-05-15,Weekly,1,85.67,0.6,Stable,1,1.0,1.05,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+411,3103,Snowboard Bindings - Pro,Ski,2026-05-22,Weekly,1,85.32,0.6,Stable,1,1.0,1.05,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+412,3103,Snowboard Bindings - Pro,Ski,2026-06-01,Monthly,1,82.84,0.95,Stable,1,1.0,1.05,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+413,3103,Snowboard Bindings - Pro,Ski,2026-07-01,Monthly,1,82.84,0.95,Stable,1,1.0,1.05,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+414,3104,Ski Tuning Bench - Portable,Ski,2026-05-01,Monthly,3,93.89,0.96,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+415,3104,Ski Tuning Bench - Portable,Ski,2026-05-01,Weekly,1,95.44,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+416,3104,Ski Tuning Bench - Portable,Ski,2026-05-08,Weekly,1,97.51,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+417,3104,Ski Tuning Bench - Portable,Ski,2026-05-15,Weekly,1,90.41,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+418,3104,Ski Tuning Bench - Portable,Ski,2026-05-22,Weekly,1,94.15,0.6,Growing,3,1.5,1.09,Recent Sales Trend Analysis + Seasonal,7,,,system,2026-03-13 12:55:15
+419,3104,Ski Tuning Bench - Portable,Ski,2026-06-01,Monthly,3,93.89,0.95,Growing,3,1.5,1.13,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
+420,3104,Ski Tuning Bench - Portable,Ski,2026-07-01,Monthly,3,93.89,0.95,Growing,3,1.5,1.17,Recent Sales Trend Analysis + Seasonal,30,,,system,2026-03-13 12:55:15
